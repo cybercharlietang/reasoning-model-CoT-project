@@ -52,7 +52,8 @@ class ExperimentConfig:
     top_p: float = 0.95
     
     # --- Model ---
-    model_name: str = "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B"
+    # Use local path if available, otherwise HuggingFace
+    model_name: str = str(PROJECT_ROOT / "DeepSeek-R1-Distill-Qwen-14B")
     use_quantization: bool = False  # Set True if OOM
     device_map: str = "auto"  # "auto" spreads across available GPUs
     torch_dtype: str = "float16"
