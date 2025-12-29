@@ -111,20 +111,21 @@ class SteeringManager:
         2. The sequence length is > 1 (first forward pass with full prefix)
         
         During autoregressive generation (seq_len == 1), no steering is applied.
+        
+        IMPORTANT: We use IN-PLACE modification because HuggingFace transformers
+        collects hidden states from the original tensor, not from the hook's return value.
         """
         def hook_fn(module, input, output):
             self.hook_call_count += 1
             
             if not self.is_active:
-                return output
+                return  # Don't return anything, let original tensor propagate
             
             # Output is typically a tuple: (hidden_states, ...) or just hidden_states
             if isinstance(output, tuple):
                 hidden_states = output[0]
-                rest = output[1:]
             else:
                 hidden_states = output
-                rest = None
             
             # hidden_states shape: (batch_size, seq_len, hidden_dim)
             seq_len = hidden_states.shape[1]
@@ -133,7 +134,7 @@ class SteeringManager:
             # During autoregressive generation, seq_len == 1
             if seq_len == 1:
                 # Autoregressive step - don't steer
-                return output
+                return
             
             # Determine which positions to steer
             # Clamp to valid range
@@ -142,10 +143,7 @@ class SteeringManager:
             
             if start > end:
                 # Invalid range, skip steering
-                return output
-            
-            # Clone hidden states to avoid in-place modification issues
-            hidden_states = hidden_states.clone()
+                return
             
             # Move steering vector to correct device and dtype
             steering_vec = self.steering_vector.to(
@@ -153,18 +151,15 @@ class SteeringManager:
                 dtype=hidden_states.dtype
             )
             
-            # Apply steering to all positions in range at once (more efficient)
+            # Apply steering IN-PLACE to all positions in range
+            # This is crucial - returning a new tensor doesn't propagate to hidden_states collection
             hidden_states[:, start:end+1, :] += self.alpha * steering_vec
             
             # Record for debugging
             self.last_steered_positions = list(range(start, end + 1))
             self.steering_applied = True
             
-            # Return modified output
-            if rest is not None:
-                return (hidden_states,) + rest
-            else:
-                return hidden_states
+            # Don't return anything - let the original (now modified) tensor propagate
         
         return hook_fn
     
