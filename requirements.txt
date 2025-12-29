@@ -1,8 +1,10 @@
 torch>=2.0.0
 transformers>=4.35.0
+huggingface_hub>=0.20.0
 sentence-transformers>=2.2.0
 datasets>=2.14.0
 accelerate>=0.24.0
+bitsandbytes>=0.41.0  # For 4-bit quantization if needed
 
 numpy>=1.24.0
 scipy>=1.10.0
