@@ -12,3 +12,35 @@ math-rollouts_test/
 .cursorindexingignore
 .specstory
 .venv
+cursor_implementation_context (1).md
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# Model files (very large, should not be committed)
+DeepSeek-R1-Distill-Qwen-14B/
+*.safetensors
+*.bin
+model.safetensors*
+
+# Steering experiment results (generated data)
+steering_experiment/results/
+steering_experiment/**/__pycache__/
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
