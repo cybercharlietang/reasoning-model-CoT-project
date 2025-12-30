@@ -1,0 +1,13 @@
+{
+  "position_idx": 0,
+  "chunk_text": "Okay, so I have this problem: I need to find the coefficient of \\(a^2b^2\\) in the expression \\((a + b)^4 \\left(c + \\dfrac{1}{c}\\right)^6\\).",
+  "function_tags": [
+    "problem_setup"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    62,
+    111
+  ]
+}

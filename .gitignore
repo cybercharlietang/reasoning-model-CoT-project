@@ -1,5 +1,4 @@
 *.pkl
-*.json
 *.zip
 *.png
 *.npy
@@ -7,6 +6,12 @@
 *.csv
 *.lock
 plots/*
+
+# JSON files (except experiment results)
+*.json
+!steering_experiment/results/experiments/**/*.json
+!steering_experiment/results/experiments/**/rollouts/**/*.json
+!selected_problems.json
 math-rollouts/
 math-rollouts_test/
 .cursorindexingignore

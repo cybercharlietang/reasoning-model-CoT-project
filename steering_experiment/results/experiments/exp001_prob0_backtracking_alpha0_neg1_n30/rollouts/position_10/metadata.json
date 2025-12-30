@@ -1,0 +1,13 @@
+{
+  "position_idx": 10,
+  "chunk_text": "That would correspond to \\(k = 2\\) in the expansion because \\(4 - k = 2\\) implies \\(k = 2\\).",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.05157511638876046,
+  "ci_accuracy": -0.05252525252525253,
+  "steer_range": [
+    322,
+    351
+  ]
+}

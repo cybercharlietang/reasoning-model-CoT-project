@@ -1,0 +1,13 @@
+{
+  "position_idx": 27,
+  "chunk_text": "1. The coefficient of \\(a^2b^2\\) in \\((a + b)^4\\), which I already found as 6.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    878,
+    909
+  ]
+}

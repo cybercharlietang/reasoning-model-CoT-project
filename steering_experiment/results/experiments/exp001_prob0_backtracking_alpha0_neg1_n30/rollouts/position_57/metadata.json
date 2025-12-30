@@ -1,0 +1,13 @@
+{
+  "position_idx": 57,
+  "chunk_text": "I think I got it.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1765,
+    1770
+  ]
+}

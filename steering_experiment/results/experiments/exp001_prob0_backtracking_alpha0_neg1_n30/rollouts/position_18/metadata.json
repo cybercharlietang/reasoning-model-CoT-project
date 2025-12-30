@@ -1,0 +1,13 @@
+{
+  "position_idx": 18,
+  "chunk_text": "Because \\(a^2b^2\\) doesn't involve \\(c\\).",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.16984831240395262,
+  "ci_accuracy": -0.2577777777777778,
+  "steer_range": [
+    506,
+    521
+  ]
+}

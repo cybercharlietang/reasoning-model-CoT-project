@@ -1,0 +1,13 @@
+{
+  "position_idx": 47,
+  "chunk_text": "I don't think so, because any other term from the second polynomial would have a \\(c\\) or \\(1/c\\) term, which would make the product have a \\(c\\) term, but since we're only interested in the coefficient of \\(a^2b^2\\), which doesn't involve \\(c\\), those terms would not contribute.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1528,
+    1599
+  ]
+}

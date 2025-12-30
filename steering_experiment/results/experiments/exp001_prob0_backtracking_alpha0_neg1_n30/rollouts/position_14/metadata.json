@@ -1,0 +1,13 @@
+{
+  "position_idx": 14,
+  "chunk_text": "Now, the expression also has \\(\\left(c + \\dfrac{1}{c}\\right)^6\\).",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.05517490959878857,
+  "ci_accuracy": -0.17511627906976746,
+  "steer_range": [
+    428,
+    451
+  ]
+}

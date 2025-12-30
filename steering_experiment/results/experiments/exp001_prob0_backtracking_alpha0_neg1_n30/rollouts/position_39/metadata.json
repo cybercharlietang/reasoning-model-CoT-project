@@ -1,0 +1,13 @@
+{
+  "position_idx": 39,
+  "chunk_text": "Now, going back to the original problem, the coefficient of \\(a^2b^2\\) in the entire expression is the product of the coefficients from each part.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1243,
+    1276
+  ]
+}

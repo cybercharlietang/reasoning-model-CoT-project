@@ -1,0 +1,13 @@
+{
+  "position_idx": 26,
+  "chunk_text": "So, I need to find two things:",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    869,
+    877
+  ]
+}

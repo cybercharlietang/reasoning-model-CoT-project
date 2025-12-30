@@ -1,0 +1,13 @@
+{
+  "position_idx": 58,
+  "chunk_text": "So, the coefficient is 120.",
+  "function_tags": [
+    "final_answer_emission"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1771,
+    1780
+  ]
+}

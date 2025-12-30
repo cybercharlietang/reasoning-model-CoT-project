@@ -1,0 +1,13 @@
+{
+  "position_idx": 29,
+  "chunk_text": "Once I have both coefficients, I can multiply them together to get the final coefficient for \\(a^2b^2\\) in the entire expression.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    940,
+    969
+  ]
+}
