@@ -38,6 +38,8 @@ from steering_experiment.config import (
     validate_config,
     STEERING_LAYERS,
     PROMPT_TEMPLATE,
+    EXPERIMENTS_DIR,
+    generate_experiment_name,
 )
 from steering_experiment.src.data_loading import (
     load_problem_by_index,
@@ -124,8 +126,13 @@ def parse_args() -> argparse.Namespace:
     
     # Output settings
     parser.add_argument(
+        "--experiment_id", type=int, default=None,
+        help="Experiment number (auto-incremented if not specified). "
+             "E.g., --experiment_id 5 creates exp005_..."
+    )
+    parser.add_argument(
         "--output_dir", type=str, default=None,
-        help="Output directory (auto-generated if not specified)"
+        help="Output directory (overrides auto-generated name if specified)"
     )
     parser.add_argument(
         "--no_save_cot", action="store_true",
@@ -147,6 +154,23 @@ def parse_args() -> argparse.Namespace:
 
 def create_config_from_args(args: argparse.Namespace) -> ExperimentConfig:
     """Create experiment config from command line arguments."""
+    
+    # Determine output directory
+    if args.output_dir:
+        # Manual override takes precedence
+        output_dir = args.output_dir
+    else:
+        # Generate experiment name (with optional manual ID)
+        exp_name = generate_experiment_name(
+            problem_idx=args.problem_idx,
+            behavior=args.behavior,
+            alpha_values=args.alpha,
+            n_rollouts=args.n_rollouts,
+            experiment_id=args.experiment_id,  # None = auto-increment
+        )
+        EXPERIMENTS_DIR.mkdir(parents=True, exist_ok=True)
+        output_dir = str(EXPERIMENTS_DIR / exp_name)
+    
     config = ExperimentConfig(
         problem_idx=args.problem_idx,
         steering_behavior=args.behavior,
@@ -158,10 +182,8 @@ def create_config_from_args(args: argparse.Namespace) -> ExperimentConfig:
         top_p=args.top_p,
         use_quantization=args.quantize,
         save_full_cot=not args.no_save_cot,
+        output_dir=output_dir,
     )
-    
-    if args.output_dir:
-        config.output_dir = args.output_dir
     
     return config
 

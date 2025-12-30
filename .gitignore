@@ -27,9 +27,13 @@ DeepSeek-R1-Distill-Qwen-14B/
 *.bin
 model.safetensors*
 
-# Steering experiment results (generated data)
-steering_experiment/results/
+# Steering experiment caches (regeneratable)
+steering_experiment/results/cache/
+steering_experiment/results/pilot/
 steering_experiment/**/__pycache__/
+
+# Keep experiment results (important data!)
+# steering_experiment/results/experiments/ is tracked
 
 # HuggingFace cache
 .cache/
@@ -44,3 +48,11 @@ huggingface/
 # OS
 .DS_Store
 Thumbs.db
+
+# Log files
+*.log
+overnight_run.log
+nohup.out
+
+# Logs
+logs/

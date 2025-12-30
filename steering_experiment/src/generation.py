@@ -116,6 +116,7 @@ def load_model_and_tokenizer(
     device_map: str = "auto",
     torch_dtype: str = "float16",
     use_quantization: bool = False,
+    use_flash_attention: bool = True,
 ) -> Tuple[nn.Module, AutoTokenizer]:
     """
     Load the model and tokenizer.
@@ -133,6 +134,7 @@ def load_model_and_tokenizer(
     print(f"  Device map: {device_map}")
     print(f"  Dtype: {torch_dtype}")
     print(f"  Quantization: {use_quantization}")
+    print(f"  Flash Attention 2: {use_flash_attention}")
     
     # Load tokenizer
     tokenizer = AutoTokenizer.from_pretrained(
@@ -170,11 +172,20 @@ def load_model_and_tokenizer(
             trust_remote_code=True,
         )
     else:
+        # Build kwargs for model loading
+        model_kwargs = {
+            "device_map": device_map,
+            "torch_dtype": dtype,
+            "trust_remote_code": True,
+        }
+        
+        # Add Flash Attention 2 if requested
+        if use_flash_attention:
+            model_kwargs["attn_implementation"] = "flash_attention_2"
+        
         model = AutoModelForCausalLM.from_pretrained(
             model_name,
-            device_map=device_map,
-            torch_dtype=dtype,
-            trust_remote_code=True,
+            **model_kwargs,
         )
     
     model.eval()

@@ -36,7 +36,7 @@ class ExperimentConfig:
     """Main experiment configuration."""
     
     # --- Problem Selection ---
-    problem_idx: int = 0  # Index into selected_problems.json (0-19)
+    problem_idx: int = 0  # Index into selected_problems.json (0-105)
     
     # --- Steering ---
     steering_behavior: str = "backtracking"  # Options: initializing, deduction, adding_knowledge, example_testing, uncertainty_estimation, backtracking
@@ -169,9 +169,9 @@ def validate_config(config: ExperimentConfig) -> List[str]:
     """
     issues = []
     
-    # Check problem index
-    if config.problem_idx < 0 or config.problem_idx >= 20:
-        issues.append(f"problem_idx {config.problem_idx} out of range [0, 19]")
+    # Check problem index (106 problems in selected_problems.json)
+    if config.problem_idx < 0 or config.problem_idx >= 106:
+        issues.append(f"problem_idx {config.problem_idx} out of range [0, 105]")
     
     # Check steering behavior
     if config.steering_behavior not in STEERING_LAYERS:
