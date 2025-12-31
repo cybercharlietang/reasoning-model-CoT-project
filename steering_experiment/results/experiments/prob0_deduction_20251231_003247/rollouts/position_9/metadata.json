@@ -1,0 +1,13 @@
+{
+  "position_idx": 9,
+  "chunk_text": "So, I need to find the term where the exponents of \\(a\\) and \\(b\\) are both 2.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.033185684327911365,
+  "ci_accuracy": 0.03689167974882257,
+  "steer_range": [
+    297,
+    321
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 43,
+  "chunk_text": "In \\(\\left(c + 1/c\\right)^6\\), the coefficient of \\(c^0\\) is 20.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1371,
+    1398
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 22,
+  "chunk_text": "But since the second polynomial is in terms of \\(c\\), and the first is in \\(a\\) and \\(b\\), the product will have terms that are products of terms from each polynomial.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.014326404724934683,
+  "ci_accuracy": 0.06826086956521737,
+  "steer_range": [
+    633,
+    672
+  ]
+}

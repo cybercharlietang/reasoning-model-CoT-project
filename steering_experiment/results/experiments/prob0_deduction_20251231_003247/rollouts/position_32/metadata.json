@@ -1,0 +1,13 @@
+{
+  "position_idx": 32,
+  "chunk_text": "The binomial expansion of \\(\\left(c + \\dfrac{1}{c}\\right)^6\\) is \\(\\sum_{m=0}^{6} \\dbinom{6}{m} c^{6 - m} \\left(\\dfrac{1}{c}\\right)^m\\).",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1018,
+    1081
+  ]
+}

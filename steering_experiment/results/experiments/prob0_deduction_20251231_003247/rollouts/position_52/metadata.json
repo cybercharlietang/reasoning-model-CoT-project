@@ -1,0 +1,13 @@
+{
+  "position_idx": 52,
+  "chunk_text": "/ (2! * 2!) = (24) / (2 * 2) = 24 / 4 = 6.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1657,
+    1687
+  ]
+}

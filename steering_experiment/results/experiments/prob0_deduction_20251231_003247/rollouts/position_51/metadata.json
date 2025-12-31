@@ -1,0 +1,13 @@
+{
+  "position_idx": 51,
+  "chunk_text": "First, \\(\\dbinom{4}{2}\\): that's 4!",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1639,
+    1656
+  ]
+}

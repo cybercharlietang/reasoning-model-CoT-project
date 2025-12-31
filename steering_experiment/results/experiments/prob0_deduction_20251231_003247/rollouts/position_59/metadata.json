@@ -1,0 +1,13 @@
+{
+  "position_idx": 59,
+  "chunk_text": "**Final Answer**\nThe coefficient of \\(a^2b^2\\) is \\boxed{120}.",
+  "function_tags": [
+    "final_answer_emission"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1781,
+    1803
+  ]
+}

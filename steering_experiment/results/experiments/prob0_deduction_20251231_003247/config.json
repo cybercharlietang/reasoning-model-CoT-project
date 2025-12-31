@@ -1,0 +1,17 @@
+{
+  "problem_idx": 0,
+  "steering_behavior": "deduction",
+  "alpha_values": [
+    0.0,
+    -1.0,
+    1.0
+  ],
+  "n_rollouts": 20,
+  "batch_size": 64,
+  "max_new_tokens": 8192,
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "position_strategy": "all",
+  "max_positions": null,
+  "timestamp": "2025-12-31T00:32:50.482073"
+}

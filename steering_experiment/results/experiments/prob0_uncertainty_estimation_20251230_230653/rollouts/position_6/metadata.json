@@ -1,0 +1,13 @@
+{
+  "position_idx": 6,
+  "chunk_text": "Let me expand that.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.27444460090339123,
+  "ci_accuracy": -0.043076923076923124,
+  "steer_range": [
+    227,
+    231
+  ]
+}

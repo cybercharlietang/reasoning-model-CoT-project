@@ -1,0 +1,13 @@
+{
+  "position_idx": 12,
+  "chunk_text": "Let me calculate that: \\(\\dbinom{4}{2} = \\dfrac{4!}{2!2!} = 6\\).",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.03127519249652355,
+  "ci_accuracy": 0.11428571428571432,
+  "steer_range": [
+    387,
+    419
+  ]
+}

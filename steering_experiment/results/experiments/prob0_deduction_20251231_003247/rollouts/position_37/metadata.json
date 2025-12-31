@@ -1,0 +1,13 @@
+{
+  "position_idx": 37,
+  "chunk_text": "Calculating that, \\(\\dbinom{6}{3} = \\dfrac{6!}{3!3!} = 20\\).",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1195,
+    1227
+  ]
+}

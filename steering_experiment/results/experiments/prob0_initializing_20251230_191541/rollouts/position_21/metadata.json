@@ -1,0 +1,13 @@
+{
+  "position_idx": 21,
+  "chunk_text": "Because when you multiply two polynomials, each term in the first polynomial multiplies each term in the second polynomial.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.014963346511306347,
+  "ci_accuracy": -0.06222222222222218,
+  "steer_range": [
+    610,
+    632
+  ]
+}

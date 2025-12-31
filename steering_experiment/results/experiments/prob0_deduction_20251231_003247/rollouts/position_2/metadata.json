@@ -1,0 +1,13 @@
+{
+  "position_idx": 2,
+  "chunk_text": "First, I know that when you have an expression like \\((a + b)^n\\), you can expand it using the binomial theorem.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.040389669779503555,
+  "ci_accuracy": -0.07021791767554486,
+  "steer_range": [
+    125,
+    154
+  ]
+}

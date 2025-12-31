@@ -1,0 +1,13 @@
+{
+  "position_idx": 30,
+  "chunk_text": "So, let's tackle the second part: finding the coefficient of \\(c^0\\) in \\(\\left(c + \\dfrac{1}{c}\\right)^6\\).",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    970,
+    1006
+  ]
+}

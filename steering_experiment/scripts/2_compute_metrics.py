@@ -20,10 +20,37 @@ import math
 from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple, Set
 
 import numpy as np
 from scipy import stats
+
+
+# =============================================================================
+# VECTOR → ANCHOR MAPPING
+# Based on Venhoff et al. (Steering Vectors) and Bogdan et al. (Thought Anchors)
+# =============================================================================
+
+VECTOR_TO_ANCHOR_MAPPING = {
+    # High correlation expected (target vectors → high-CI anchors)
+    "backtracking": ["uncertainty_management"],
+    "uncertainty_estimation": ["uncertainty_management"],
+    
+    # Low correlation expected (control vectors → low-CI anchors)  
+    "initializing": ["problem_setup", "plan_generation"],  # Venhoff: "rephrases task, initial thoughts"
+    "deduction": ["active_computation"],
+    "adding_knowledge": ["fact_retrieval"],
+    "example_testing": ["self_checking"],
+}
+
+# Which vectors are expected to show strong CI correlation?
+HIGH_CI_VECTORS = {"backtracking", "uncertainty_estimation"}
+LOW_CI_VECTORS = {"initializing", "deduction", "adding_knowledge", "example_testing"}
+
+
+def get_target_tags_for_vector(vector_name: str) -> List[str]:
+    """Get the thought anchor tags that correspond to a steering vector."""
+    return VECTOR_TO_ANCHOR_MAPPING.get(vector_name, ["uncertainty_management"])
 
 
 @dataclass
@@ -40,8 +67,9 @@ class PositionMetrics:
     # Computed metrics
     metrics_by_alpha: Dict[float, "AlphaMetrics"]
     
-    # Is this a target position?
-    is_uncertainty_management: bool
+    # Is this a target position (matches the steering vector's anchor)?
+    is_target: bool
+    target_tags: List[str]  # Which tags make this a target
 
 
 @dataclass  
@@ -240,12 +268,13 @@ def load_rollouts(results_dir: Path) -> List[dict]:
     return rollouts
 
 
-def compute_metrics_for_position(rollout_data: dict) -> PositionMetrics:
+def compute_metrics_for_position(rollout_data: dict, target_tags: List[str]) -> PositionMetrics:
     """
     Compute all metrics for a single position.
     
     Args:
         rollout_data: Dictionary containing rollout results for one position
+        target_tags: List of function tags that are targets for this steering vector
         
     Returns:
         PositionMetrics dataclass with computed metrics
@@ -256,7 +285,9 @@ def compute_metrics_for_position(rollout_data: dict) -> PositionMetrics:
     ci_kl = rollout_data.get("ci_kl", 0.0)
     ci_accuracy = rollout_data.get("ci_accuracy", 0.0)
     
-    is_uncertainty = "uncertainty_management" in function_tags
+    # Check if this position matches any target tag for this vector
+    matching_tags = [tag for tag in function_tags if tag in target_tags]
+    is_target = len(matching_tags) > 0
     
     # Get alpha values
     results_by_alpha = rollout_data["results_by_alpha"]
@@ -315,7 +346,8 @@ def compute_metrics_for_position(rollout_data: dict) -> PositionMetrics:
         ci_kl=ci_kl,
         ci_accuracy=ci_accuracy,
         metrics_by_alpha=metrics_by_alpha,
-        is_uncertainty_management=is_uncertainty,
+        is_target=is_target,
+        target_tags=matching_tags,
     )
 
 
@@ -335,7 +367,8 @@ def save_metrics(
             "chunk_text": m.chunk_text,
             "ci_kl": m.ci_kl,
             "ci_accuracy": m.ci_accuracy,
-            "is_uncertainty_management": m.is_uncertainty_management,
+            "is_target": m.is_target,
+            "target_tags": m.target_tags,
             "alpha_metrics": {},
         }
         
@@ -365,7 +398,7 @@ def save_metrics(
     print(f"Saved metrics to {metrics_file}")
 
 
-def print_summary(metrics: List[PositionMetrics]) -> None:
+def print_summary(metrics: List[PositionMetrics], vector_name: str, target_tags: List[str]) -> None:
     """Print summary statistics."""
     print()
     print("=" * 60)
@@ -373,13 +406,17 @@ def print_summary(metrics: List[PositionMetrics]) -> None:
     print("=" * 60)
     print()
     
-    # Group by uncertainty vs non-uncertainty
-    uncertainty_positions = [m for m in metrics if m.is_uncertainty_management]
-    other_positions = [m for m in metrics if not m.is_uncertainty_management]
+    # Group by target vs control (based on vector-anchor mapping)
+    target_positions = [m for m in metrics if m.is_target]
+    control_positions = [m for m in metrics if not m.is_target]
     
+    print(f"Steering vector: {vector_name}")
+    print(f"Target anchor tags: {target_tags}")
+    print(f"Expected correlation: {'HIGH' if vector_name in HIGH_CI_VECTORS else 'LOW'}")
+    print()
     print(f"Total positions: {len(metrics)}")
-    print(f"  Uncertainty management: {len(uncertainty_positions)}")
-    print(f"  Other: {len(other_positions)}")
+    print(f"  Target ({', '.join(target_tags)}): {len(target_positions)}")
+    print(f"  Control (other): {len(control_positions)}")
     print()
     
     # Get first alpha (assuming all positions have same alpha values)
@@ -394,46 +431,47 @@ def print_summary(metrics: List[PositionMetrics]) -> None:
     # KL divergence stats
     all_kl = [m.metrics_by_alpha[alpha].kl_divergence for m in metrics 
               if not math.isinf(m.metrics_by_alpha[alpha].kl_divergence)]
-    unc_kl = [m.metrics_by_alpha[alpha].kl_divergence for m in uncertainty_positions
-              if not math.isinf(m.metrics_by_alpha[alpha].kl_divergence)]
-    other_kl = [m.metrics_by_alpha[alpha].kl_divergence for m in other_positions
-                if not math.isinf(m.metrics_by_alpha[alpha].kl_divergence)]
+    target_kl = [m.metrics_by_alpha[alpha].kl_divergence for m in target_positions
+                 if not math.isinf(m.metrics_by_alpha[alpha].kl_divergence)]
+    control_kl = [m.metrics_by_alpha[alpha].kl_divergence for m in control_positions
+                  if not math.isinf(m.metrics_by_alpha[alpha].kl_divergence)]
     
+    target_label = ', '.join(target_tags)
     print("KL Divergence (steered || baseline):")
     if all_kl:
         print(f"  All positions: mean={np.mean(all_kl):.4f}, std={np.std(all_kl):.4f}")
-    if unc_kl:
-        print(f"  Uncertainty mgmt: mean={np.mean(unc_kl):.4f}, std={np.std(unc_kl):.4f}")
-    if other_kl:
-        print(f"  Other: mean={np.mean(other_kl):.4f}, std={np.std(other_kl):.4f}")
+    if target_kl:
+        print(f"  Target ({target_label}): mean={np.mean(target_kl):.4f}, std={np.std(target_kl):.4f}")
+    if control_kl:
+        print(f"  Control (other): mean={np.mean(control_kl):.4f}, std={np.std(control_kl):.4f}")
     print()
     
     # JS divergence stats
     all_js = [m.metrics_by_alpha[alpha].js_divergence for m in metrics]
-    unc_js = [m.metrics_by_alpha[alpha].js_divergence for m in uncertainty_positions]
-    other_js = [m.metrics_by_alpha[alpha].js_divergence for m in other_positions]
+    target_js = [m.metrics_by_alpha[alpha].js_divergence for m in target_positions]
+    control_js = [m.metrics_by_alpha[alpha].js_divergence for m in control_positions]
     
     print("JS Divergence:")
     if all_js:
         print(f"  All positions: mean={np.mean(all_js):.4f}, std={np.std(all_js):.4f}")
-    if unc_js:
-        print(f"  Uncertainty mgmt: mean={np.mean(unc_js):.4f}, std={np.std(unc_js):.4f}")
-    if other_js:
-        print(f"  Other: mean={np.mean(other_js):.4f}, std={np.std(other_js):.4f}")
+    if target_js:
+        print(f"  Target ({target_label}): mean={np.mean(target_js):.4f}, std={np.std(target_js):.4f}")
+    if control_js:
+        print(f"  Control (other): mean={np.mean(control_js):.4f}, std={np.std(control_js):.4f}")
     print()
     
     # Accuracy delta stats
     all_acc = [m.metrics_by_alpha[alpha].accuracy_delta for m in metrics]
-    unc_acc = [m.metrics_by_alpha[alpha].accuracy_delta for m in uncertainty_positions]
-    other_acc = [m.metrics_by_alpha[alpha].accuracy_delta for m in other_positions]
+    target_acc = [m.metrics_by_alpha[alpha].accuracy_delta for m in target_positions]
+    control_acc = [m.metrics_by_alpha[alpha].accuracy_delta for m in control_positions]
     
     print("Accuracy Delta:")
     if all_acc:
         print(f"  All positions: mean={np.mean(all_acc):.4f}, std={np.std(all_acc):.4f}")
-    if unc_acc:
-        print(f"  Uncertainty mgmt: mean={np.mean(unc_acc):.4f}, std={np.std(unc_acc):.4f}")
-    if other_acc:
-        print(f"  Other: mean={np.mean(other_acc):.4f}, std={np.std(other_acc):.4f}")
+    if target_acc:
+        print(f"  Target ({target_label}): mean={np.mean(target_acc):.4f}, std={np.std(target_acc):.4f}")
+    if control_acc:
+        print(f"  Control (other): mean={np.mean(control_acc):.4f}, std={np.std(control_acc):.4f}")
     print()
     
     # CI correlation analysis
@@ -496,6 +534,13 @@ def parse_args() -> argparse.Namespace:
         help="Output directory for metrics (default: same as results_dir)"
     )
     
+    parser.add_argument(
+        "--vector", type=str, default=None,
+        help="Steering vector name (e.g., 'backtracking', 'initializing'). "
+             "Used to determine which thought anchor tags are targets. "
+             "If not specified, will try to infer from config.json in results_dir."
+    )
+    
     return parser.parse_args()
 
 
@@ -511,6 +556,25 @@ def main():
     print("=" * 60)
     print()
     
+    # Determine vector name
+    vector_name = args.vector
+    if vector_name is None:
+        # Try to infer from config.json
+        config_file = results_dir / "config.json"
+        if config_file.exists():
+            with open(config_file) as f:
+                config = json.load(f)
+            vector_name = config.get("steering_behavior", "unknown")
+            print(f"Inferred vector from config: {vector_name}")
+        else:
+            vector_name = "unknown"
+            print("Warning: Could not determine steering vector, using default mapping")
+    
+    # Get target tags for this vector
+    target_tags = get_target_tags_for_vector(vector_name)
+    print(f"Vector '{vector_name}' maps to anchor tags: {target_tags}")
+    print()
+    
     # Load rollouts
     print(f"Loading rollouts from {results_dir}...")
     rollouts = load_rollouts(results_dir)
@@ -521,14 +585,14 @@ def main():
     print("Computing metrics...")
     metrics = []
     for rollout_data in rollouts:
-        position_metrics = compute_metrics_for_position(rollout_data)
+        position_metrics = compute_metrics_for_position(rollout_data, target_tags)
         metrics.append(position_metrics)
     
     # Save metrics
     save_metrics(metrics, output_dir)
     
     # Print summary
-    print_summary(metrics)
+    print_summary(metrics, vector_name, target_tags)
     
     print()
     print("Done!")

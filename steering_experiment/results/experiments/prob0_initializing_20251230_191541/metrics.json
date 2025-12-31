@@ -1,0 +1,3081 @@
+[
+  {
+    "position_idx": 0,
+    "function_tags": [
+      "problem_setup"
+    ],
+    "chunk_text": "Okay, so I have this problem: I need to find the coefficient of \\(a^2b^2\\) in the expression \\((a + b)^4 \\left(c + \\dfrac{1}{c}\\right)^6\\).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": true,
+    "target_tags": [
+      "problem_setup"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.014769477523485064,
+        "js_divergence": 0.003564810691998325,
+        "baseline_accuracy": 0.7872340425531915,
+        "steered_accuracy": 0.7142857142857143,
+        "accuracy_delta": -0.07294832826747721,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 0.94,
+        "steered_extraction_rate": 0.98,
+        "baseline_distribution": {
+          "120": 0.7872340425531915,
+          "384": 0.2127659574468085
+        },
+        "steered_distribution": {
+          "384": 0.2857142857142857,
+          "120": 0.7142857142857143
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0015232309631705958,
+        "js_divergence": 0.00038597188918381656,
+        "baseline_accuracy": 0.7872340425531915,
+        "steered_accuracy": 0.8095238095238095,
+        "accuracy_delta": 0.02228976697061802,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 0.94,
+        "steered_extraction_rate": 0.84,
+        "baseline_distribution": {
+          "120": 0.7872340425531915,
+          "384": 0.2127659574468085
+        },
+        "steered_distribution": {
+          "120": 0.8095238095238095,
+          "384": 0.19047619047619047
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 1,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Hmm, let me try to figure this out step by step.",
+    "ci_kl": 0.00010066566000362098,
+    "ci_accuracy": 0.002457002457002422,
+    "is_target": true,
+    "target_tags": [
+      "plan_generation"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.007275135029572263,
+        "js_divergence": 0.001863666728627606,
+        "baseline_accuracy": 0.74,
+        "steered_accuracy": 0.7916666666666666,
+        "accuracy_delta": 0.05166666666666664,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.96,
+        "baseline_distribution": {
+          "120": 0.74,
+          "384": 0.26
+        },
+        "steered_distribution": {
+          "120": 0.7916666666666666,
+          "384": 0.20833333333333334
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 1.9636121688144546e-06,
+        "js_divergence": 4.907259495048996e-07,
+        "baseline_accuracy": 0.74,
+        "steered_accuracy": 0.7391304347826086,
+        "accuracy_delta": -0.0008695652173913437,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.92,
+        "baseline_distribution": {
+          "120": 0.74,
+          "384": 0.26
+        },
+        "steered_distribution": {
+          "384": 0.2608695652173913,
+          "120": 0.7391304347826086
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 10,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "That would correspond to \\(k = 2\\) in the expansion because \\(4 - k = 2\\) implies \\(k = 2\\).",
+    "ci_kl": 0.05157511638876046,
+    "ci_accuracy": -0.05252525252525253,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.3822765584902462,
+        "js_divergence": 0.013862943611198907,
+        "baseline_accuracy": 0.72,
+        "steered_accuracy": 0.72,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 0.72,
+          "384": 0.26,
+          "6 \\left(c + \\dfrac{1}{c}\\right)^6": 0.02
+        },
+        "steered_distribution": {
+          "120": 0.72,
+          "384": 0.26,
+          "6": 0.02
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.8018495704501019,
+        "js_divergence": 0.024379132392657467,
+        "baseline_accuracy": 0.72,
+        "steered_accuracy": 0.6326530612244898,
+        "accuracy_delta": -0.08734693877551014,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.98,
+        "baseline_distribution": {
+          "120": 0.72,
+          "384": 0.26,
+          "6 \\left(c + \\dfrac{1}{c}\\right)^6": 0.02
+        },
+        "steered_distribution": {
+          "120": 0.6326530612244898,
+          "384": 0.32653061224489793,
+          "6": 0.04081632653061224
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 11,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So, the coefficient for \\(a^2b^2\\) in \\((a + b)^4\\) would be \\(\\dbinom{4}{2}\\).",
+    "ci_kl": 0.45506204587689375,
+    "ci_accuracy": 0.38,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.3721290017617846,
+        "js_divergence": 0.0075934099478788784,
+        "baseline_accuracy": 0.68,
+        "steered_accuracy": 0.6938775510204082,
+        "accuracy_delta": 0.013877551020408108,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.98,
+        "baseline_distribution": {
+          "120": 0.68,
+          "384": 0.32
+        },
+        "steered_distribution": {
+          "120": 0.6938775510204082,
+          "384": 0.2857142857142857,
+          "6\\left(c + \\dfrac{1}{c}\\right)^6": 0.02040816326530612
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.028441085943214636,
+        "js_divergence": 0.007394070784708821,
+        "baseline_accuracy": 0.68,
+        "steered_accuracy": 0.7872340425531915,
+        "accuracy_delta": 0.10723404255319147,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.94,
+        "baseline_distribution": {
+          "120": 0.68,
+          "384": 0.32
+        },
+        "steered_distribution": {
+          "120": 0.7872340425531915,
+          "384": 0.2127659574468085
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 12,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Let me calculate that: \\(\\dbinom{4}{2} = \\dfrac{4!}{2!2!} = 6\\).",
+    "ci_kl": 0.03127519249652355,
+    "ci_accuracy": 0.11428571428571432,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0038623242286822262,
+        "js_divergence": 0.0009529145449431072,
+        "baseline_accuracy": 0.72,
+        "steered_accuracy": 0.68,
+        "accuracy_delta": -0.039999999999999925,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "384": 0.28,
+          "120": 0.72
+        },
+        "steered_distribution": {
+          "120": 0.68,
+          "384": 0.32
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.03781553860640122,
+        "js_divergence": 0.009137561956229195,
+        "baseline_accuracy": 0.72,
+        "steered_accuracy": 0.5918367346938775,
+        "accuracy_delta": -0.12816326530612243,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.98,
+        "baseline_distribution": {
+          "384": 0.28,
+          "120": 0.72
+        },
+        "steered_distribution": {
+          "120": 0.5918367346938775,
+          "384": 0.40816326530612246
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 13,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "So, that part is 6.",
+    "ci_kl": 0.03274407574211484,
+    "ci_accuracy": 0.04702127659574473,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.03012089586191996,
+        "js_divergence": 0.007664497651708381,
+        "baseline_accuracy": 0.56,
+        "steered_accuracy": 0.68,
+        "accuracy_delta": 0.12,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "384": 0.44,
+          "120": 0.56
+        },
+        "steered_distribution": {
+          "384": 0.32,
+          "120": 0.68
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.003271650970440944,
+        "js_divergence": 0.0008212665613386936,
+        "baseline_accuracy": 0.56,
+        "steered_accuracy": 0.6,
+        "accuracy_delta": 0.039999999999999925,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "384": 0.44,
+          "120": 0.56
+        },
+        "steered_distribution": {
+          "120": 0.6,
+          "384": 0.4
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 14,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "Now, the expression also has \\(\\left(c + \\dfrac{1}{c}\\right)^6\\).",
+    "ci_kl": 0.05517490959878857,
+    "ci_accuracy": -0.17511627906976746,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 1.1552558031595543,
+        "js_divergence": 0.021432227990248232,
+        "baseline_accuracy": 0.62,
+        "steered_accuracy": 0.6,
+        "accuracy_delta": -0.020000000000000018,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 0.62,
+          "384": 0.38
+        },
+        "steered_distribution": {
+          "120": 0.6,
+          "384": 0.34,
+          "6": 0.06
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.014035966483718021,
+        "js_divergence": 0.003571263571654989,
+        "baseline_accuracy": 0.62,
+        "steered_accuracy": 0.7,
+        "accuracy_delta": 0.07999999999999996,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 0.62,
+          "384": 0.38
+        },
+        "steered_distribution": {
+          "120": 0.7,
+          "384": 0.3
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 15,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "I'm supposed to multiply this by \\((a + b)^4\\).",
+    "ci_kl": 0.2414809714429814,
+    "ci_accuracy": 0.11428571428571432,
+    "is_target": true,
+    "target_tags": [
+      "plan_generation"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.008032044044594615,
+        "js_divergence": 0.002037387287908119,
+        "baseline_accuracy": 0.64,
+        "steered_accuracy": 0.7,
+        "accuracy_delta": 0.05999999999999994,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 0.64,
+          "384": 0.36
+        },
+        "steered_distribution": {
+          "384": 0.3,
+          "120": 0.7
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.02101085082565851,
+        "js_divergence": 0.005177570108899909,
+        "baseline_accuracy": 0.64,
+        "steered_accuracy": 0.54,
+        "accuracy_delta": -0.09999999999999998,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 0.64,
+          "384": 0.36
+        },
+        "steered_distribution": {
+          "384": 0.46,
+          "120": 0.54
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 16,
+    "function_tags": [
+      "problem_setup"
+    ],
+    "chunk_text": "But wait, the problem is only asking for the coefficient of \\(a^2b^2\\).",
+    "ci_kl": 0.03691871813687046,
+    "ci_accuracy": -0.1262626262626263,
+    "is_target": true,
+    "target_tags": [
+      "problem_setup"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0025428080125102087,
+        "js_divergence": 0.0006261172558654016,
+        "baseline_accuracy": 0.78,
+        "steered_accuracy": 0.75,
+        "accuracy_delta": -0.030000000000000027,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.96,
+        "baseline_distribution": {
+          "120": 0.78,
+          "384": 0.22
+        },
+        "steered_distribution": {
+          "120": 0.75,
+          "384": 0.25
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.04673031786200245,
+        "js_divergence": 0.011071524892204091,
+        "baseline_accuracy": 0.78,
+        "steered_accuracy": 0.6458333333333334,
+        "accuracy_delta": -0.13416666666666666,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.96,
+        "baseline_distribution": {
+          "120": 0.78,
+          "384": 0.22
+        },
+        "steered_distribution": {
+          "120": 0.6458333333333334,
+          "384": 0.3541666666666667
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 17,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "So, I don't need to worry about the \\(c\\) terms, right?",
+    "ci_kl": 0.02556576043048979,
+    "ci_accuracy": -0.12655172413793103,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.025179568196579148,
+        "js_divergence": 0.008228745744181155,
+        "baseline_accuracy": 0.64,
+        "steered_accuracy": 0.7,
+        "accuracy_delta": 0.05999999999999994,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 0.64,
+          "6\\left(c + \\dfrac{1}{c}\\right)^6": 0.02,
+          "384": 0.34
+        },
+        "steered_distribution": {
+          "120": 0.7,
+          "384": 0.3
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.02258154838684549,
+        "js_divergence": 0.007566681906568351,
+        "baseline_accuracy": 0.64,
+        "steered_accuracy": 0.62,
+        "accuracy_delta": -0.020000000000000018,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 0.64,
+          "6\\left(c + \\dfrac{1}{c}\\right)^6": 0.02,
+          "384": 0.34
+        },
+        "steered_distribution": {
+          "384": 0.38,
+          "120": 0.62
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 18,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "Because \\(a^2b^2\\) doesn't involve \\(c\\).",
+    "ci_kl": 0.16984831240395262,
+    "ci_accuracy": -0.2577777777777778,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.001732694458463909,
+        "js_divergence": 0.00044246812027973984,
+        "baseline_accuracy": 0.86,
+        "steered_accuracy": 0.88,
+        "accuracy_delta": 0.020000000000000018,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 0.86,
+          "384": 0.14
+        },
+        "steered_distribution": {
+          "120": 0.88,
+          "384": 0.12
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.04974136392910797,
+        "js_divergence": 0.011392222440508373,
+        "baseline_accuracy": 0.86,
+        "steered_accuracy": 0.74,
+        "accuracy_delta": -0.12,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 0.86,
+          "384": 0.14
+        },
+        "steered_distribution": {
+          "120": 0.74,
+          "384": 0.26
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 19,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "So, maybe I just need to consider the coefficient from \\((a + b)^4\\) and then multiply it by the entire expansion of \\(\\left(c + \\dfrac{1}{c}\\right)^6\\), but since we're only interested in \\(a^2b^2\\), perhaps the \\(c\\) part can be treated as a constant in this context?",
+    "ci_kl": 0.0066041051225230255,
+    "ci_accuracy": 0.1133333333333334,
+    "is_target": true,
+    "target_tags": [
+      "plan_generation"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.032504870094209215,
+        "js_divergence": 0.010028939966547565,
+        "baseline_accuracy": 0.75,
+        "steered_accuracy": 0.7,
+        "accuracy_delta": -0.050000000000000044,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 0.96,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "384": 0.22916666666666666,
+          "120": 0.75,
+          "6 \\left(c + \\dfrac{1}{c}\\right)^6": 0.020833333333333332
+        },
+        "steered_distribution": {
+          "120": 0.7,
+          "384": 0.3
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.03466515879725092,
+        "js_divergence": 0.010541272334580111,
+        "baseline_accuracy": 0.75,
+        "steered_accuracy": 0.6938775510204082,
+        "accuracy_delta": -0.056122448979591844,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 0.96,
+        "steered_extraction_rate": 0.98,
+        "baseline_distribution": {
+          "384": 0.22916666666666666,
+          "120": 0.75,
+          "6 \\left(c + \\dfrac{1}{c}\\right)^6": 0.020833333333333332
+        },
+        "steered_distribution": {
+          "384": 0.30612244897959184,
+          "120": 0.6938775510204082
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 2,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "First, I know that when you have an expression like \\((a + b)^n\\), you can expand it using the binomial theorem.",
+    "ci_kl": 0.040389669779503555,
+    "ci_accuracy": -0.07021791767554486,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0052052959161843215,
+        "js_divergence": 0.0012817970129277243,
+        "baseline_accuracy": 0.72,
+        "steered_accuracy": 0.673469387755102,
+        "accuracy_delta": -0.04653061224489796,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.98,
+        "baseline_distribution": {
+          "384": 0.28,
+          "120": 0.72
+        },
+        "steered_distribution": {
+          "120": 0.673469387755102,
+          "384": 0.32653061224489793
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 2.8814174329237514e-05,
+        "js_divergence": 7.212543690721281e-06,
+        "baseline_accuracy": 0.72,
+        "steered_accuracy": 0.723404255319149,
+        "accuracy_delta": 0.0034042553191490077,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.94,
+        "baseline_distribution": {
+          "384": 0.28,
+          "120": 0.72
+        },
+        "steered_distribution": {
+          "384": 0.2765957446808511,
+          "120": 0.723404255319149
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 20,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "Wait, no, that doesn't make sense.",
+    "ci_kl": 0.0006506744107414274,
+    "ci_accuracy": 0.019101123595505642,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 4.523500658511637e-05,
+        "js_divergence": 1.1338285065720113e-05,
+        "baseline_accuracy": 0.8163265306122449,
+        "steered_accuracy": 0.82,
+        "accuracy_delta": 0.003673469387755035,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 0.98,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 0.8163265306122449,
+          "384": 0.1836734693877551
+        },
+        "steered_distribution": {
+          "120": 0.82,
+          "384": 0.18
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.08651840484296655,
+        "js_divergence": 0.019908919451101223,
+        "baseline_accuracy": 0.8163265306122449,
+        "steered_accuracy": 0.64,
+        "accuracy_delta": -0.1763265306122449,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 0.98,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 0.8163265306122449,
+          "384": 0.1836734693877551
+        },
+        "steered_distribution": {
+          "120": 0.64,
+          "384": 0.36
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 21,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "Because when you multiply two polynomials, each term in the first polynomial multiplies each term in the second polynomial.",
+    "ci_kl": 0.014963346511306347,
+    "ci_accuracy": -0.06222222222222218,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 0.7346938775510204,
+        "steered_accuracy": 0.7346938775510204,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 0.98,
+        "steered_extraction_rate": 0.98,
+        "baseline_distribution": {
+          "120": 0.7346938775510204,
+          "384": 0.2653061224489796
+        },
+        "steered_distribution": {
+          "120": 0.7346938775510204,
+          "384": 0.2653061224489796
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.36354289637663306,
+        "js_divergence": 0.007253214963970939,
+        "baseline_accuracy": 0.7346938775510204,
+        "steered_accuracy": 0.74,
+        "accuracy_delta": 0.0053061224489795444,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 0.98,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 0.7346938775510204,
+          "384": 0.2653061224489796
+        },
+        "steered_distribution": {
+          "384": 0.24,
+          "120": 0.74,
+          "6 \\left(c + \\dfrac{1}{c}\\right)^6": 0.02
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 22,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "But since the second polynomial is in terms of \\(c\\), and the first is in \\(a\\) and \\(b\\), the product will have terms that are products of terms from each polynomial.",
+    "ci_kl": 0.014326404724934683,
+    "ci_accuracy": 0.06826086956521737,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0008831674356590859,
+        "js_divergence": 0.0002198026972037529,
+        "baseline_accuracy": 0.66,
+        "steered_accuracy": 0.64,
+        "accuracy_delta": -0.020000000000000018,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "384": 0.34,
+          "120": 0.66
+        },
+        "steered_distribution": {
+          "384": 0.36,
+          "120": 0.64
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0212945983860489,
+        "js_divergence": 0.0054820580409633834,
+        "baseline_accuracy": 0.66,
+        "steered_accuracy": 0.7551020408163265,
+        "accuracy_delta": 0.09510204081632645,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.98,
+        "baseline_distribution": {
+          "384": 0.34,
+          "120": 0.66
+        },
+        "steered_distribution": {
+          "384": 0.24489795918367346,
+          "120": 0.7551020408163265
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 23,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "However, the term \\(a^2b^2\\) would only come from the product of the \\(a^2b^2\\) term in \\((a + b)^4\\) and the constant term (the term with \\(c^0\\)) in \\(\\left(c + \\dfrac{1}{c}\\right)^6\\).",
+    "ci_kl": 0.7518305924365294,
+    "ci_accuracy": -0.38909090909090904,
+    "is_target": true,
+    "target_tags": [
+      "plan_generation"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.36247790531907714,
+        "js_divergence": 0.006981977714981405,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.98,
+        "accuracy_delta": -0.020000000000000018,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 0.98,
+          "384": 0.02
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 24,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "Because if you take any other term from the second polynomial, it would have a \\(c\\) or \\(1/c\\) term, which would make the entire product have a \\(c\\) term, but we're only interested in the coefficient of \\(a^2b^2\\), which doesn't involve \\(c\\).",
+    "ci_kl": 0.012345835262251944,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 25,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "So, that means the coefficient we're looking for is the coefficient of \\(a^2b^2\\) in \\((a + b)^4\\) multiplied by the coefficient of \\(c^0\\) in \\(\\left(c + \\dfrac{1}{c}\\right)^6\\).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": true,
+    "target_tags": [
+      "plan_generation"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 26,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "So, I need to find two things:",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": true,
+    "target_tags": [
+      "plan_generation"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 27,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "1. The coefficient of \\(a^2b^2\\) in \\((a + b)^4\\), which I already found as 6.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 28,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "2. The coefficient of \\(c^0\\) in \\(\\left(c + \\dfrac{1}{c}\\right)^6\\).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 29,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Once I have both coefficients, I can multiply them together to get the final coefficient for \\(a^2b^2\\) in the entire expression.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": true,
+    "target_tags": [
+      "plan_generation"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 3,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "The binomial theorem says that \\((a + b)^n = \\sum_{k=0}^{n} \\dbinom{n}{k} a^{n - k}b^k\\).",
+    "ci_kl": 0.22136790025207784,
+    "ci_accuracy": 0.02826086956521745,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.04849586441821349,
+        "js_divergence": 0.012606963170580278,
+        "baseline_accuracy": 0.62,
+        "steered_accuracy": 0.7659574468085106,
+        "accuracy_delta": 0.14595744680851064,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.94,
+        "baseline_distribution": {
+          "120": 0.62,
+          "384": 0.38
+        },
+        "steered_distribution": {
+          "384": 0.23404255319148937,
+          "120": 0.7659574468085106
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.007821775472559411,
+        "js_divergence": 0.0019798469663653336,
+        "baseline_accuracy": 0.62,
+        "steered_accuracy": 0.68,
+        "accuracy_delta": 0.06000000000000005,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 0.62,
+          "384": 0.38
+        },
+        "steered_distribution": {
+          "120": 0.68,
+          "384": 0.32
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 30,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "So, let's tackle the second part: finding the coefficient of \\(c^0\\) in \\(\\left(c + \\dfrac{1}{c}\\right)^6\\).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": true,
+    "target_tags": [
+      "plan_generation"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 31,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "Again, I can use the binomial theorem here.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 32,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "The binomial expansion of \\(\\left(c + \\dfrac{1}{c}\\right)^6\\) is \\(\\sum_{m=0}^{6} \\dbinom{6}{m} c^{6 - m} \\left(\\dfrac{1}{c}\\right)^m\\).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 33,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Simplifying the exponents, that becomes \\(\\sum_{m=0}^{6} \\dbinom{6}{m} c^{6 - 2m}\\).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 34,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "We need the term where the exponent of \\(c\\) is 0, so we set \\(6 - 2m = 0\\).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 35,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Solving for \\(m\\), we get \\(2m = 6\\), so \\(m = 3\\).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 36,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Therefore, the coefficient of \\(c^0\\) is \\(\\dbinom{6}{3}\\).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 37,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Calculating that, \\(\\dbinom{6}{3} = \\dfrac{6!}{3!3!} = 20\\).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 38,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "So, the coefficient of \\(c^0\\) is 20.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 39,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Now, going back to the original problem, the coefficient of \\(a^2b^2\\) in the entire expression is the product of the coefficients from each part.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": true,
+    "target_tags": [
+      "plan_generation"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 4,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "So, maybe I can apply that here.",
+    "ci_kl": 0.07341323531914627,
+    "ci_accuracy": 0.15656565656565657,
+    "is_target": true,
+    "target_tags": [
+      "plan_generation"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.013998536273695697,
+        "js_divergence": 0.0033671057457819835,
+        "baseline_accuracy": 0.8085106382978723,
+        "steered_accuracy": 0.74,
+        "accuracy_delta": -0.0685106382978723,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 0.94,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 0.8085106382978723,
+          "384": 0.19148936170212766
+        },
+        "steered_distribution": {
+          "120": 0.74,
+          "384": 0.26
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0029355945682775254,
+        "js_divergence": 0.0007201436739556841,
+        "baseline_accuracy": 0.8085106382978723,
+        "steered_accuracy": 0.7777777777777778,
+        "accuracy_delta": -0.030732860520094496,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 0.94,
+        "steered_extraction_rate": 0.9,
+        "baseline_distribution": {
+          "120": 0.8085106382978723,
+          "384": 0.19148936170212766
+        },
+        "steered_distribution": {
+          "120": 0.7777777777777778,
+          "384": 0.2222222222222222
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 40,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So, that's 6 (from \\((a + b)^4\\)) multiplied by 20 (from \\(\\left(c + \\dfrac{1}{c}\\right)^6\\)), which gives \\(6 \\times 20 = 120\\).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.98,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 41,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Wait, let me double-check that.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 42,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "So, in \\((a + b)^4\\), the coefficient of \\(a^2b^2\\) is indeed 6.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 43,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "In \\(\\left(c + 1/c\\right)^6\\), the coefficient of \\(c^0\\) is 20.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 44,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "So, when you multiply these two expressions, each term in \\((a + b)^4\\) is multiplied by each term in \\(\\left(c + 1/c\\right)^6\\).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 45,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Therefore, the term \\(a^2b^2\\) from the first part will be multiplied by the constant term (c^0) from the second part, resulting in \\(a^2b^2 \\times 1\\), with a coefficient of \\(6 \\times 20 = 120\\).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 46,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "Is there any other term that could contribute to \\(a^2b^2\\) without involving \\(c\\)?",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 47,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "I don't think so, because any other term from the second polynomial would have a \\(c\\) or \\(1/c\\) term, which would make the product have a \\(c\\) term, but since we're only interested in the coefficient of \\(a^2b^2\\), which doesn't involve \\(c\\), those terms would not contribute.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 48,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "So, yes, 120 should be the correct coefficient.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 49,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "Wait, just to make sure I didn't make any mistakes in the calculations.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 5,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "In this case, the first part of the expression is \\((a + b)^4\\).",
+    "ci_kl": 0.006894428932031873,
+    "ci_accuracy": 0.05666666666666664,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.02853748462088744,
+        "js_divergence": 0.007399261023780978,
+        "baseline_accuracy": 0.6666666666666666,
+        "steered_accuracy": 0.7755102040816326,
+        "accuracy_delta": 0.108843537414966,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 0.96,
+        "steered_extraction_rate": 0.98,
+        "baseline_distribution": {
+          "120": 0.6666666666666666,
+          "384": 0.3333333333333333
+        },
+        "steered_distribution": {
+          "384": 0.22448979591836735,
+          "120": 0.7755102040816326
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0025449602212545483,
+        "js_divergence": 0.0006420713965977331,
+        "baseline_accuracy": 0.6666666666666666,
+        "steered_accuracy": 0.7,
+        "accuracy_delta": 0.033333333333333326,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 0.96,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 0.6666666666666666,
+          "384": 0.3333333333333333
+        },
+        "steered_distribution": {
+          "120": 0.7,
+          "384": 0.3
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 50,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Let me recalculate the binomial coefficients.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 51,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "First, \\(\\dbinom{4}{2}\\): that's 4!",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 52,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "/ (2! * 2!) = (24) / (2 * 2) = 24 / 4 = 6.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 53,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Correct. Next, \\(\\dbinom{6}{3}\\): that's 6!",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 54,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "/ (3! * 3!) = (720) / (6 * 6) = 720 / 36 = 20.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 55,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Correct. So, 6 * 20 = 120.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 56,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Yep, that's right.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 57,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "I think I got it.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 58,
+    "function_tags": [
+      "final_answer_emission"
+    ],
+    "chunk_text": "So, the coefficient is 120.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 59,
+    "function_tags": [
+      "final_answer_emission"
+    ],
+    "chunk_text": "**Final Answer**\nThe coefficient of \\(a^2b^2\\) is \\boxed{120}.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 1.0
+        },
+        "steered_distribution": {
+          "120": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 6,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Let me expand that.",
+    "ci_kl": 0.27444460090339123,
+    "ci_accuracy": -0.043076923076923124,
+    "is_target": true,
+    "target_tags": [
+      "plan_generation"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0017127768789448779,
+        "js_divergence": 0.0004253174169416814,
+        "baseline_accuracy": 0.673469387755102,
+        "steered_accuracy": 0.6458333333333334,
+        "accuracy_delta": -0.02763605442176864,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 0.98,
+        "steered_extraction_rate": 0.96,
+        "baseline_distribution": {
+          "120": 0.673469387755102,
+          "384": 0.32653061224489793
+        },
+        "steered_distribution": {
+          "120": 0.6458333333333334,
+          "384": 0.3541666666666667
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.01460675129314322,
+        "js_divergence": 0.0035898332916011882,
+        "baseline_accuracy": 0.673469387755102,
+        "steered_accuracy": 0.5918367346938775,
+        "accuracy_delta": -0.08163265306122447,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 0.98,
+        "steered_extraction_rate": 0.98,
+        "baseline_distribution": {
+          "120": 0.673469387755102,
+          "384": 0.32653061224489793
+        },
+        "steered_distribution": {
+          "384": 0.40816326530612246,
+          "120": 0.5918367346938775
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 7,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So, applying the binomial theorem, \\((a + b)^4 = \\sum_{k=0}^{4} \\dbinom{4}{k} a^{4 - k}b^k\\).",
+    "ci_kl": 0.01820175318228008,
+    "ci_accuracy": -0.06509433962264155,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.002765181814373287,
+        "js_divergence": 0.0006984136647181125,
+        "baseline_accuracy": 0.66,
+        "steered_accuracy": 0.6938775510204082,
+        "accuracy_delta": 0.033877551020408125,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.98,
+        "baseline_distribution": {
+          "120": 0.66,
+          "384": 0.32,
+          "6": 0.02
+        },
+        "steered_distribution": {
+          "120": 0.6938775510204082,
+          "384": 0.2857142857142857,
+          "6": 0.02040816326530612
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.029041438531998955,
+        "js_divergence": 0.009211604221187495,
+        "baseline_accuracy": 0.66,
+        "steered_accuracy": 0.7346938775510204,
+        "accuracy_delta": 0.07469387755102042,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.98,
+        "baseline_distribution": {
+          "120": 0.66,
+          "384": 0.32,
+          "6": 0.02
+        },
+        "steered_distribution": {
+          "120": 0.7346938775510204,
+          "384": 0.2653061224489796
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 8,
+    "function_tags": [
+      "problem_setup"
+    ],
+    "chunk_text": "Wait, the problem is asking for the coefficient of \\(a^2b^2\\).",
+    "ci_kl": 0.02333318638842298,
+    "ci_accuracy": 0.034225352112675966,
+    "is_target": true,
+    "target_tags": [
+      "problem_setup"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.3716923425754479,
+        "js_divergence": 0.007480919508594503,
+        "baseline_accuracy": 0.62,
+        "steered_accuracy": 0.6326530612244898,
+        "accuracy_delta": 0.012653061224489837,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.98,
+        "baseline_distribution": {
+          "120": 0.62,
+          "384": 0.38
+        },
+        "steered_distribution": {
+          "384": 0.3469387755102041,
+          "6": 0.02040816326530612,
+          "120": 0.6326530612244898
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0008549672640320756,
+        "js_divergence": 0.00021452000415777932,
+        "baseline_accuracy": 0.62,
+        "steered_accuracy": 0.64,
+        "accuracy_delta": 0.020000000000000018,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "120": 0.62,
+          "384": 0.38
+        },
+        "steered_distribution": {
+          "120": 0.64,
+          "384": 0.36
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 9,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "So, I need to find the term where the exponents of \\(a\\) and \\(b\\) are both 2.",
+    "ci_kl": 0.033185684327911365,
+    "ci_accuracy": 0.03689167974882257,
+    "is_target": true,
+    "target_tags": [
+      "plan_generation"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 9.967161739029944e-05,
+        "js_divergence": 2.4877164412861552e-05,
+        "baseline_accuracy": 0.6666666666666666,
+        "steered_accuracy": 0.66,
+        "accuracy_delta": -0.006666666666666599,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 0.96,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "384": 0.3333333333333333,
+          "120": 0.6666666666666666
+        },
+        "steered_distribution": {
+          "384": 0.34,
+          "120": 0.66
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.7569258423637548,
+        "js_divergence": 0.015056833325140288,
+        "baseline_accuracy": 0.6666666666666666,
+        "steered_accuracy": 0.68,
+        "accuracy_delta": 0.01333333333333342,
+        "n_baseline": 50,
+        "n_steered": 50,
+        "baseline_extraction_rate": 0.96,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "384": 0.3333333333333333,
+          "120": 0.6666666666666666
+        },
+        "steered_distribution": {
+          "120": 0.68,
+          "384": 0.28,
+          "6": 0.04
+        }
+      }
+    }
+  }
+]

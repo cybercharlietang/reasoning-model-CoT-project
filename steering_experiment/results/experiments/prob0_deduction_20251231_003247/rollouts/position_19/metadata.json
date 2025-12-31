@@ -1,0 +1,13 @@
+{
+  "position_idx": 19,
+  "chunk_text": "So, maybe I just need to consider the coefficient from \\((a + b)^4\\) and then multiply it by the entire expansion of \\(\\left(c + \\dfrac{1}{c}\\right)^6\\), but since we're only interested in \\(a^2b^2\\), perhaps the \\(c\\) part can be treated as a constant in this context?",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.0066041051225230255,
+  "ci_accuracy": 0.1133333333333334,
+  "steer_range": [
+    522,
+    599
+  ]
+}

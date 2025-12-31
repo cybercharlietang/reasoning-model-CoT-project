@@ -1,0 +1,13 @@
+{
+  "position_idx": 16,
+  "chunk_text": "But wait, the problem is only asking for the coefficient of \\(a^2b^2\\).",
+  "function_tags": [
+    "problem_setup"
+  ],
+  "ci_kl": 0.03691871813687046,
+  "ci_accuracy": -0.1262626262626263,
+  "steer_range": [
+    468,
+    488
+  ]
+}

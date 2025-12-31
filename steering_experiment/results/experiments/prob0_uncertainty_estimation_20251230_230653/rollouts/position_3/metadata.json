@@ -1,0 +1,13 @@
+{
+  "position_idx": 3,
+  "chunk_text": "The binomial theorem says that \\((a + b)^n = \\sum_{k=0}^{n} \\dbinom{n}{k} a^{n - k}b^k\\).",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.22136790025207784,
+  "ci_accuracy": 0.02826086956521745,
+  "steer_range": [
+    155,
+    197
+  ]
+}

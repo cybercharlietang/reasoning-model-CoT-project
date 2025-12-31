@@ -1,0 +1,13 @@
+{
+  "position_idx": 13,
+  "chunk_text": "So, that part is 6.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.03274407574211484,
+  "ci_accuracy": 0.04702127659574473,
+  "steer_range": [
+    420,
+    427
+  ]
+}

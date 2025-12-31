@@ -1,0 +1,13 @@
+{
+  "position_idx": 46,
+  "chunk_text": "Is there any other term that could contribute to \\(a^2b^2\\) without involving \\(c\\)?",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1505,
+    1527
+  ]
+}

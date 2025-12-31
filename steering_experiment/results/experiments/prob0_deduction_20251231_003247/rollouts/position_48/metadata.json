@@ -1,0 +1,13 @@
+{
+  "position_idx": 48,
+  "chunk_text": "So, yes, 120 should be the correct coefficient.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1600,
+    1613
+  ]
+}

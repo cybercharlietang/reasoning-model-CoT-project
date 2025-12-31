@@ -1,0 +1,13 @@
+{
+  "position_idx": 23,
+  "chunk_text": "However, the term \\(a^2b^2\\) would only come from the product of the \\(a^2b^2\\) term in \\((a + b)^4\\) and the constant term (the term with \\(c^0\\)) in \\(\\left(c + \\dfrac{1}{c}\\right)^6\\).",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.7518305924365294,
+  "ci_accuracy": -0.38909090909090904,
+  "steer_range": [
+    673,
+    743
+  ]
+}

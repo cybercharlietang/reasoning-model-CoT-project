@@ -1,0 +1,13 @@
+{
+  "position_idx": 54,
+  "chunk_text": "/ (3! * 3!) = (720) / (6 * 6) = 720 / 36 = 20.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1708,
+    1742
+  ]
+}

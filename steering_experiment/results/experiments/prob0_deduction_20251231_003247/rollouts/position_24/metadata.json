@@ -1,0 +1,13 @@
+{
+  "position_idx": 24,
+  "chunk_text": "Because if you take any other term from the second polynomial, it would have a \\(c\\) or \\(1/c\\) term, which would make the entire product have a \\(c\\) term, but we're only interested in the coefficient of \\(a^2b^2\\), which doesn't involve \\(c\\).",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.012345835262251944,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    744,
+    808
+  ]
+}

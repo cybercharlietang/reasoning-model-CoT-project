@@ -1,0 +1,13 @@
+{
+  "position_idx": 20,
+  "chunk_text": "Wait, no, that doesn't make sense.",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.0006506744107414274,
+  "ci_accuracy": 0.019101123595505642,
+  "steer_range": [
+    600,
+    609
+  ]
+}

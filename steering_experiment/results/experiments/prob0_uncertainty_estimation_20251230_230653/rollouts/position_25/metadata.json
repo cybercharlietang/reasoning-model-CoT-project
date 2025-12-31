@@ -1,0 +1,13 @@
+{
+  "position_idx": 25,
+  "chunk_text": "So, that means the coefficient we're looking for is the coefficient of \\(a^2b^2\\) in \\((a + b)^4\\) multiplied by the coefficient of \\(c^0\\) in \\(\\left(c + \\dfrac{1}{c}\\right)^6\\).",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    809,
+    868
+  ]
+}

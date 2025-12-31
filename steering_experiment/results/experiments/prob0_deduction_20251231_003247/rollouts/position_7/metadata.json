@@ -1,0 +1,13 @@
+{
+  "position_idx": 7,
+  "chunk_text": "So, applying the binomial theorem, \\((a + b)^4 = \\sum_{k=0}^{4} \\dbinom{4}{k} a^{4 - k}b^k\\).",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.01820175318228008,
+  "ci_accuracy": -0.06509433962264155,
+  "steer_range": [
+    232,
+    277
+  ]
+}

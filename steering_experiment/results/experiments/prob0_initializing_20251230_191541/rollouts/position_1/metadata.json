@@ -1,0 +1,13 @@
+{
+  "position_idx": 1,
+  "chunk_text": "Hmm, let me try to figure this out step by step.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.00010066566000362098,
+  "ci_accuracy": 0.002457002457002422,
+  "steer_range": [
+    112,
+    124
+  ]
+}

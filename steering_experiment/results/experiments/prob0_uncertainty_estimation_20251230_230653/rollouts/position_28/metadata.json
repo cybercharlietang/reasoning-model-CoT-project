@@ -1,0 +1,13 @@
+{
+  "position_idx": 28,
+  "chunk_text": "2. The coefficient of \\(c^0\\) in \\(\\left(c + \\dfrac{1}{c}\\right)^6\\).",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    910,
+    939
+  ]
+}

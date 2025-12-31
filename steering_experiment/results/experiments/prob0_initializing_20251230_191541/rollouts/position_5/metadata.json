@@ -1,0 +1,13 @@
+{
+  "position_idx": 5,
+  "chunk_text": "In this case, the first part of the expression is \\((a + b)^4\\).",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.006894428932031873,
+  "ci_accuracy": 0.05666666666666664,
+  "steer_range": [
+    207,
+    226
+  ]
+}

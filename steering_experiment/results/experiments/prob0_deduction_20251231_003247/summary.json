@@ -1,0 +1,31 @@
+{
+  "problem": {
+    "idx": "problem_2238",
+    "type": "Counting & Probability",
+    "gt_answer": "120",
+    "num_chunks": 60
+  },
+  "positions_tested": 60,
+  "target_positions": [
+    17,
+    49
+  ],
+  "control_positions": [
+    1,
+    9,
+    25,
+    33,
+    41,
+    57
+  ],
+  "generation_stats": {
+    "total_generations": 3600,
+    "hit_max_tokens": 160,
+    "extraction_failures": 9,
+    "steering_warnings": 0
+  },
+  "elapsed_time_seconds": 2963.270362138748,
+  "timestamp": "2025-12-31T01:22:25.511531",
+  "merged_from_gpus": 8,
+  "merge_timestamp": "2025-12-31T01:23:27.169085"
+}

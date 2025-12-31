@@ -1,0 +1,19 @@
+{
+  "completed_positions": [
+    6,
+    14,
+    22,
+    30,
+    38,
+    46,
+    54
+  ],
+  "last_updated": "2025-12-30T23:47:38.478555",
+  "stats": {
+    "total_generations": 420,
+    "hit_max_tokens": 40,
+    "extraction_failures": 2,
+    "steering_warnings": 0
+  },
+  "gpu_id": 6
+}

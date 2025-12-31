@@ -1,0 +1,13 @@
+{
+  "position_idx": 4,
+  "chunk_text": "So, maybe I can apply that here.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.07341323531914627,
+  "ci_accuracy": 0.15656565656565657,
+  "steer_range": [
+    198,
+    206
+  ]
+}

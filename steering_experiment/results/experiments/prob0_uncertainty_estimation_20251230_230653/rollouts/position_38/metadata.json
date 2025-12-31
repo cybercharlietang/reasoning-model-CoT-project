@@ -1,0 +1,13 @@
+{
+  "position_idx": 38,
+  "chunk_text": "So, the coefficient of \\(c^0\\) is 20.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1228,
+    1242
+  ]
+}

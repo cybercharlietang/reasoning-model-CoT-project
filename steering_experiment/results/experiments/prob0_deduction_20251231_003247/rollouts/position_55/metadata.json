@@ -1,0 +1,13 @@
+{
+  "position_idx": 55,
+  "chunk_text": "Correct. So, 6 * 20 = 120.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1743,
+    1758
+  ]
+}

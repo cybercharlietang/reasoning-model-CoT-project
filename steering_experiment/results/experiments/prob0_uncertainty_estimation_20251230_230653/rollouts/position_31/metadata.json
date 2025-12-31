@@ -1,0 +1,13 @@
+{
+  "position_idx": 31,
+  "chunk_text": "Again, I can use the binomial theorem here.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1007,
+    1017
+  ]
+}

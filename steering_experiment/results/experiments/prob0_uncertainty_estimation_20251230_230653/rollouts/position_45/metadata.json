@@ -1,0 +1,13 @@
+{
+  "position_idx": 45,
+  "chunk_text": "Therefore, the term \\(a^2b^2\\) from the first part will be multiplied by the constant term (c^0) from the second part, resulting in \\(a^2b^2 \\times 1\\), with a coefficient of \\(6 \\times 20 = 120\\).",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1439,
+    1504
+  ]
+}

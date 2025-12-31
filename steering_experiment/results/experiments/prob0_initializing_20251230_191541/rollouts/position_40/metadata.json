@@ -1,0 +1,13 @@
+{
+  "position_idx": 40,
+  "chunk_text": "So, that's 6 (from \\((a + b)^4\\)) multiplied by 20 (from \\(\\left(c + \\dfrac{1}{c}\\right)^6\\)), which gives \\(6 \\times 20 = 120\\).",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1277,
+    1334
+  ]
+}

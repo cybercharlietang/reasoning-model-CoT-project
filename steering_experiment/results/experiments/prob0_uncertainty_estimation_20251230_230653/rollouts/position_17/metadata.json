@@ -1,0 +1,13 @@
+{
+  "position_idx": 17,
+  "chunk_text": "So, I don't need to worry about the \\(c\\) terms, right?",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.02556576043048979,
+  "ci_accuracy": -0.12655172413793103,
+  "steer_range": [
+    489,
+    505
+  ]
+}

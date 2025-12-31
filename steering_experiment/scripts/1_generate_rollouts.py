@@ -126,9 +126,9 @@ def parse_args() -> argparse.Namespace:
     
     # Output settings
     parser.add_argument(
-        "--experiment_id", type=int, default=None,
-        help="Experiment number (auto-incremented if not specified). "
-             "E.g., --experiment_id 5 creates exp005_..."
+        "--experiment_id", type=str, default=None,
+        help="Experiment ID (auto-incremented if not specified). "
+             "Can be a number (e.g., 5 creates exp005_...) or a full name."
     )
     parser.add_argument(
         "--output_dir", type=str, default=None,
@@ -149,6 +149,16 @@ def parse_args() -> argparse.Namespace:
         help="Skip steering hook verification (faster startup)"
     )
     
+    # Multi-GPU parallelism
+    parser.add_argument(
+        "--gpu_id", type=int, default=None,
+        help="GPU ID for this worker (0-7). If set, positions are sharded across GPUs."
+    )
+    parser.add_argument(
+        "--n_gpus", type=int, default=1,
+        help="Total number of GPUs for position sharding"
+    )
+    
     return parser.parse_args()
 
 
@@ -159,17 +169,28 @@ def create_config_from_args(args: argparse.Namespace) -> ExperimentConfig:
     if args.output_dir:
         # Manual override takes precedence
         output_dir = args.output_dir
+    elif args.experiment_id and not args.experiment_id.isdigit():
+        # Full experiment ID provided (e.g., from multi-GPU script)
+        EXPERIMENTS_DIR.mkdir(parents=True, exist_ok=True)
+        output_dir = str(EXPERIMENTS_DIR / args.experiment_id)
     else:
         # Generate experiment name (with optional manual ID)
+        exp_id = int(args.experiment_id) if args.experiment_id else None
         exp_name = generate_experiment_name(
             problem_idx=args.problem_idx,
             behavior=args.behavior,
             alpha_values=args.alpha,
             n_rollouts=args.n_rollouts,
-            experiment_id=args.experiment_id,  # None = auto-increment
+            experiment_id=exp_id,  # None = auto-increment
         )
         EXPERIMENTS_DIR.mkdir(parents=True, exist_ok=True)
         output_dir = str(EXPERIMENTS_DIR / exp_name)
+    
+    # Determine device map - use specific GPU if running in multi-GPU mode
+    if args.gpu_id is not None:
+        device_map = f"cuda:0"  # CUDA_VISIBLE_DEVICES handles the actual GPU
+    else:
+        device_map = "auto"  # Spread across available GPUs
     
     config = ExperimentConfig(
         problem_idx=args.problem_idx,
@@ -183,6 +204,7 @@ def create_config_from_args(args: argparse.Namespace) -> ExperimentConfig:
         use_quantization=args.quantize,
         save_full_cot=not args.no_save_cot,
         output_dir=output_dir,
+        device_map=device_map,
     )
     
     return config
@@ -198,13 +220,19 @@ def load_checkpoint(output_dir: Path) -> set:
     return set()
 
 
-def save_checkpoint(output_dir: Path, completed_positions: set, stats: dict) -> None:
+def save_checkpoint(output_dir: Path, completed_positions: set, stats: dict, gpu_id: int = None) -> None:
     """Save checkpoint with completed positions."""
-    checkpoint_file = output_dir / "checkpoint.json"
+    # Use GPU-specific checkpoint file if running in multi-GPU mode
+    if gpu_id is not None:
+        checkpoint_file = output_dir / f"checkpoint_gpu{gpu_id}.json"
+    else:
+        checkpoint_file = output_dir / "checkpoint.json"
+    
     checkpoint = {
         "completed_positions": sorted(list(completed_positions)),
         "last_updated": datetime.now().isoformat(),
         "stats": stats,
+        "gpu_id": gpu_id,
     }
     with open(checkpoint_file, "w") as f:
         json.dump(checkpoint, f, indent=2)
@@ -298,6 +326,14 @@ def main():
         target_tag="uncertainty_management",
     )
     all_positions = sorted(set(target_positions + control_positions))
+    
+    # Multi-GPU position sharding
+    if args.gpu_id is not None and args.n_gpus > 1:
+        # Shard positions across GPUs: GPU 0 gets [0, 8, 16...], GPU 1 gets [1, 9, 17...], etc.
+        all_positions = [p for i, p in enumerate(all_positions) if i % args.n_gpus == args.gpu_id]
+        target_positions = [p for p in target_positions if p in all_positions]
+        control_positions = [p for p in control_positions if p in all_positions]
+        print(f"GPU {args.gpu_id}/{args.n_gpus}: Processing {len(all_positions)} positions (sharded)")
     
     print(f"Positions to test: {len(all_positions)}")
     print(f"  Target (uncertainty_management): {len(target_positions)}")
@@ -419,7 +455,7 @@ def main():
             
             # Save checkpoint
             completed_positions.add(position_idx)
-            save_checkpoint(output_dir, completed_positions, generation_stats)
+            save_checkpoint(output_dir, completed_positions, generation_stats, gpu_id=args.gpu_id)
             
             # Save this position's rollouts
             save_rollouts(

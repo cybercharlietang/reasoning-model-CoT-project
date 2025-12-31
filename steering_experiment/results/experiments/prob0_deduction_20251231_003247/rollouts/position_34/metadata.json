@@ -1,0 +1,13 @@
+{
+  "position_idx": 34,
+  "chunk_text": "We need the term where the exponent of \\(c\\) is 0, so we set \\(6 - 2m = 0\\).",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1119,
+    1147
+  ]
+}

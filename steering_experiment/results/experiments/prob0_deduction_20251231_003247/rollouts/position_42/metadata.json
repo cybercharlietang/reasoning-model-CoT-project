@@ -1,0 +1,13 @@
+{
+  "position_idx": 42,
+  "chunk_text": "So, in \\((a + b)^4\\), the coefficient of \\(a^2b^2\\) is indeed 6.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1343,
+    1370
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 44,
+  "chunk_text": "So, when you multiply these two expressions, each term in \\((a + b)^4\\) is multiplied by each term in \\(\\left(c + 1/c\\right)^6\\).",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1399,
+    1438
+  ]
+}

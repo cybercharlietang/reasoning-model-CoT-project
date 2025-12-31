@@ -19,6 +19,7 @@ PROJECT_ROOT = Path(__file__).parent.parent  # reasoning-model-CoT-project/
 STEERING_VECTORS_PATH = PROJECT_ROOT / "steering vectors" / "venhoff_steering_vectors_14b.pt"
 SELECTED_PROBLEMS_PATH = PROJECT_ROOT / "selected_problems.json"
 RESULTS_DIR = Path(__file__).parent / "results"
+EXPERIMENTS_DIR = RESULTS_DIR / "experiments"
 
 # HuggingFace dataset
 HF_DATASET_REPO = "uzaymacar/math-rollouts"
@@ -135,6 +136,57 @@ ANCHOR_TYPES = [
 
 
 # =============================================================================
+# EXPERIMENT NAMING
+# =============================================================================
+
+def generate_experiment_name(
+    problem_idx: int,
+    behavior: str,
+    alpha_values: List[float],
+    n_rollouts: int,
+    experiment_id: Optional[int] = None,
+) -> str:
+    """
+    Generate a standardized experiment directory name.
+    
+    Format: exp{NNN}_prob{idx}_{behavior}_n{rollouts}
+    
+    Args:
+        problem_idx: Problem index
+        behavior: Steering behavior name
+        alpha_values: List of alpha values
+        n_rollouts: Number of rollouts per condition
+        experiment_id: Optional manual experiment ID (auto-increments if None)
+    
+    Returns:
+        Experiment directory name
+    """
+    # Auto-increment experiment ID if not provided
+    if experiment_id is None:
+        EXPERIMENTS_DIR.mkdir(parents=True, exist_ok=True)
+        existing = list(EXPERIMENTS_DIR.glob("exp*"))
+        if existing:
+            # Extract numbers from existing experiment directories
+            nums = []
+            for d in existing:
+                name = d.name
+                if name.startswith("exp") and "_" in name:
+                    try:
+                        num = int(name[3:name.index("_")])
+                        nums.append(num)
+                    except ValueError:
+                        pass
+            experiment_id = max(nums, default=0) + 1
+        else:
+            experiment_id = 1
+    
+    # Format alpha values for name
+    alpha_str = "a" + "_".join([str(a).replace("-", "neg").replace(".", "p") for a in alpha_values])
+    
+    return f"exp{experiment_id:03d}_prob{problem_idx}_{behavior}_{alpha_str}_n{n_rollouts}"
+
+
+# =============================================================================
 # DEFAULT CONFIGURATION INSTANCE
 # =============================================================================
 
@@ -182,8 +234,8 @@ def validate_config(config: ExperimentConfig) -> List[str]:
         issues.append("Warning: alpha_values should include 0.0 for baseline comparison")
     
     # Check batch size
-    if config.batch_size < 1 or config.batch_size > 32:
-        issues.append(f"batch_size {config.batch_size} may be suboptimal (recommended: 4-16)")
+    if config.batch_size < 1 or config.batch_size > 64:
+        issues.append(f"batch_size {config.batch_size} may be suboptimal (recommended: 8-32)")
     
     # Check paths
     if not STEERING_VECTORS_PATH.exists():
