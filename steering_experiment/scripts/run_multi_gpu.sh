@@ -7,10 +7,10 @@
 # Each GPU loads its own model and processes a subset of positions.
 #
 # Usage:
-#   ./run_multi_gpu.sh <problem_idx> <behavior> [n_gpus]
+#   ./run_multi_gpu.sh <problem_idx> <behavior> [n_gpus] [n_rollouts]
 #
 # Example:
-#   ./run_multi_gpu.sh 0 backtracking 8
+#   ./run_multi_gpu.sh 0 backtracking 8 40
 #
 # =============================================================================
 
@@ -23,9 +23,7 @@ set -e
 PROBLEM_IDX="${1:-0}"
 BEHAVIOR="${2:-backtracking}"
 N_GPUS="${3:-8}"
-
-# Generation settings (per GPU)
-N_ROLLOUTS=20
+N_ROLLOUTS="${4:-20}"  # Can override via 4th argument
 BATCH_SIZE=64                        # B200 with 183GB can handle larger batches with Flash Attention 2
 MAX_NEW_TOKENS=8192
 ALPHA_VALUES="0.0 -1.0 1.0"
