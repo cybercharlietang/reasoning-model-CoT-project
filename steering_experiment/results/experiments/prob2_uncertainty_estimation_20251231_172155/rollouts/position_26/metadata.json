@@ -1,0 +1,13 @@
+{
+  "position_idx": 26,
+  "chunk_text": "Wait, but 440-449 is within 488, so that's fine.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.24183912797089213,
+  "ci_accuracy": -0.012048192771084376,
+  "steer_range": [
+    745,
+    767
+  ]
+}

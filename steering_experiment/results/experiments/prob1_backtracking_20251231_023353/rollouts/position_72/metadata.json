@@ -1,0 +1,13 @@
+{
+  "position_idx": 72,
+  "chunk_text": "Wait, but let me check the endpoints.",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.3259270364696918,
+  "ci_accuracy": 0.3737373737373737,
+  "steer_range": [
+    1549,
+    1557
+  ]
+}

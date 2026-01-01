@@ -1,0 +1,13 @@
+{
+  "position_idx": 60,
+  "chunk_text": "Suppose I have n from 2 to 5 inclusive.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.025202241649638808,
+  "ci_accuracy": -0.07777777777777783,
+  "steer_range": [
+    1353,
+    1364
+  ]
+}

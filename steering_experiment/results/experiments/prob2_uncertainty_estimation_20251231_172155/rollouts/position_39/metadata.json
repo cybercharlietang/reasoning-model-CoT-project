@@ -1,0 +1,13 @@
+{
+  "position_idx": 39,
+  "chunk_text": "Again, I'll check each digit position.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 6.085246366537098e-05,
+  "ci_accuracy": 0.011132075471698144,
+  "steer_range": [
+    1008,
+    1016
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 4,
+  "chunk_text": "Wow, that's a lot of parentheses and threes.",
+  "function_tags": [
+    "problem_setup"
+  ],
+  "ci_kl": 0.867856054855002,
+  "ci_accuracy": 0.07070707070707072,
+  "steer_range": [
+    160,
+    171
+  ]
+}

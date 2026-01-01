@@ -1,0 +1,13 @@
+{
+  "position_idx": 14,
+  "chunk_text": "To find how many numbers there are, I can divide 484 by 10, which gives 48.4.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0452841845987275,
+  "ci_accuracy": 0.13419354838709674,
+  "steer_range": [
+    385,
+    412
+  ]
+}

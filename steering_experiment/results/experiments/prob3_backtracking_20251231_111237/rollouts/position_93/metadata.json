@@ -1,0 +1,13 @@
+{
+  "position_idx": 93,
+  "chunk_text": "Alternatively, let's see if there's a formula for such a nested expression.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1792,
+    1807
+  ]
+}

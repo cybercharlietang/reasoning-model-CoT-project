@@ -1,0 +1,13 @@
+{
+  "position_idx": 72,
+  "chunk_text": "29524\nx    3\n------\nCompute 4*3=12, write 2, carry 1.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1366,
+    1395
+  ]
+}

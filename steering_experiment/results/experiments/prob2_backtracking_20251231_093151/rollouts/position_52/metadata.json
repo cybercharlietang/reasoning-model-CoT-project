@@ -1,0 +1,13 @@
+{
+  "position_idx": 52,
+  "chunk_text": "So, 0 eights here.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.007168489137651711,
+  "ci_accuracy": 0.010000000000000009,
+  "steer_range": [
+    1402,
+    1409
+  ]
+}

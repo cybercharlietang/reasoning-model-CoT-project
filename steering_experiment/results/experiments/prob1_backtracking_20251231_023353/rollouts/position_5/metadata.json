@@ -1,0 +1,13 @@
+{
+  "position_idx": 5,
+  "chunk_text": "Applying that to the function here, sin(1/x) = 0 when 1/x = n\u03c0.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.03826320725464199,
+  "ci_accuracy": 0.1090956544434295,
+  "steer_range": [
+    212,
+    234
+  ]
+}

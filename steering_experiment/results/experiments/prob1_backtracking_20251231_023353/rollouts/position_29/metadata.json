@@ -1,0 +1,13 @@
+{
+  "position_idx": 29,
+  "chunk_text": "But n has to be an integer, so n ranges from the smallest integer greater than 318.309 to the largest integer less than 3183.098.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.1364510898911547,
+  "ci_accuracy": 0.13,
+  "steer_range": [
+    666,
+    706
+  ]
+}

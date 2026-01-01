@@ -1,0 +1,13 @@
+{
+  "position_idx": 33,
+  "chunk_text": "So, there are 188 fours in total.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.03534648514369822,
+  "ci_accuracy": -0.025454545454545396,
+  "steer_range": [
+    928,
+    939
+  ]
+}

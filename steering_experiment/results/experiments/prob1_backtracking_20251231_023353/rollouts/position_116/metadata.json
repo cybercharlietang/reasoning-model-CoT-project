@@ -1,0 +1,13 @@
+{
+  "position_idx": 116,
+  "chunk_text": "Therefore, the count from n=319 to n=3183 inclusive is correct.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    3167,
+    3187
+  ]
+}

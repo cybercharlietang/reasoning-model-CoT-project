@@ -1,0 +1,13 @@
+{
+  "position_idx": 18,
+  "chunk_text": "Wait, actually, the expression starts with 3 times something.",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    445,
+    457
+  ]
+}

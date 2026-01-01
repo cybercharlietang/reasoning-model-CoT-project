@@ -1,0 +1,4538 @@
+[
+  {
+    "position_idx": 0,
+    "function_tags": [
+      "problem_setup"
+    ],
+    "chunk_text": "Okay, so I have this problem where I need to figure out how many more 4's are printed in the page numbers of a 488-page book compared to the number of 8's.",
+    "ci_kl": 0.10874272020562578,
+    "ci_accuracy": -0.11857142857142855,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.5035042715156541,
+        "js_divergence": 0.01799164631947585,
+        "baseline_accuracy": 0.7,
+        "steered_accuracy": 0.7692307692307693,
+        "accuracy_delta": 0.06923076923076932,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "91": 0.175,
+          "90": 0.7,
+          "89": 0.125
+        },
+        "steered_distribution": {
+          "90": 0.7692307692307693,
+          "89": 0.05128205128205128,
+          "91": 0.15384615384615385,
+          "191": 0.02564102564102564
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0412765167393114,
+        "js_divergence": 0.010901739066800264,
+        "baseline_accuracy": 0.7,
+        "steered_accuracy": 0.825,
+        "accuracy_delta": 0.125,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "91": 0.175,
+          "90": 0.7,
+          "89": 0.125
+        },
+        "steered_distribution": {
+          "90": 0.825,
+          "91": 0.1,
+          "89": 0.075
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 1,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Hmm, let me break this down step by step.",
+    "ci_kl": 0.044851625040486426,
+    "ci_accuracy": -0.017142857142857126,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.042673803989539225,
+        "js_divergence": 0.009761424044706365,
+        "baseline_accuracy": 0.75,
+        "steered_accuracy": 0.6666666666666666,
+        "accuracy_delta": -0.08333333333333337,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "90": 0.75,
+          "91": 0.125,
+          "89": 0.125
+        },
+        "steered_distribution": {
+          "91": 0.23076923076923078,
+          "90": 0.6666666666666666,
+          "89": 0.10256410256410256
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.05795689164212771,
+        "js_divergence": 0.013101806103154524,
+        "baseline_accuracy": 0.75,
+        "steered_accuracy": 0.65,
+        "accuracy_delta": -0.09999999999999998,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.75,
+          "91": 0.125,
+          "89": 0.125
+        },
+        "steered_distribution": {
+          "91": 0.25,
+          "89": 0.1,
+          "90": 0.65
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 10,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "1. **Units place (ones place):** The 4 can appear in the units place every 10 numbers.",
+    "ci_kl": 1.2885046800579807,
+    "ci_accuracy": 0.0030864197530864335,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.4915368142448353,
+        "js_divergence": 0.019562072222203394,
+        "baseline_accuracy": 0.7,
+        "steered_accuracy": 0.725,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.7,
+          "99": 0.05,
+          "89": 0.225,
+          "80": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.725,
+          "89": 0.225,
+          "91": 0.025,
+          "99": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.07473025109907831,
+        "js_divergence": 0.023668439715805772,
+        "baseline_accuracy": 0.7,
+        "steered_accuracy": 0.825,
+        "accuracy_delta": 0.125,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.7,
+          "99": 0.05,
+          "89": 0.225,
+          "80": 0.025
+        },
+        "steered_distribution": {
+          "89": 0.15,
+          "90": 0.825,
+          "80": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 11,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "For example, 4, 14, 24, ..., up to 484.",
+    "ci_kl": 0.3866014504003662,
+    "ci_accuracy": 0.0832786885245902,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.5202075761952657,
+        "js_divergence": 0.02560547596634271,
+        "baseline_accuracy": 0.725,
+        "steered_accuracy": 0.85,
+        "accuracy_delta": 0.125,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "89": 0.225,
+          "90": 0.725,
+          "99": 0.05
+        },
+        "steered_distribution": {
+          "90": 0.85,
+          "89": 0.1,
+          "99": 0.025,
+          "98": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.04455028058474428,
+        "js_divergence": 0.010825312012778528,
+        "baseline_accuracy": 0.725,
+        "steered_accuracy": 0.625,
+        "accuracy_delta": -0.09999999999999998,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "89": 0.225,
+          "90": 0.725,
+          "99": 0.05
+        },
+        "steered_distribution": {
+          "90": 0.625,
+          "89": 0.35,
+          "99": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 12,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "How many such numbers are there?",
+    "ci_kl": 0.03485520090528852,
+    "ci_accuracy": 0.11468085106382975,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.5181963201971065,
+        "js_divergence": 0.028482117162491317,
+        "baseline_accuracy": 0.725,
+        "steered_accuracy": 0.8,
+        "accuracy_delta": 0.07500000000000007,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "89": 0.225,
+          "90": 0.725,
+          "99": 0.05
+        },
+        "steered_distribution": {
+          "90": 0.8,
+          "89": 0.175,
+          "98": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.9314549713318625,
+        "js_divergence": 0.021210025580649418,
+        "baseline_accuracy": 0.725,
+        "steered_accuracy": 0.75,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "89": 0.225,
+          "90": 0.725,
+          "99": 0.05
+        },
+        "steered_distribution": {
+          "98": 0.025,
+          "89": 0.15,
+          "90": 0.75,
+          "99": 0.05,
+          "80": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 13,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "The first occurrence is at 4, and the last occurrence in the units place is at 484.",
+    "ci_kl": 0.2535552361875733,
+    "ci_accuracy": -0.14234042553191495,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.009426407942415109,
+        "js_divergence": 0.0024607872680673954,
+        "baseline_accuracy": 0.825,
+        "steered_accuracy": 0.875,
+        "accuracy_delta": 0.050000000000000044,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.825,
+          "89": 0.175
+        },
+        "steered_distribution": {
+          "89": 0.125,
+          "90": 0.875
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.9735803587718834,
+        "js_divergence": 0.030852937599892265,
+        "baseline_accuracy": 0.825,
+        "steered_accuracy": 0.65,
+        "accuracy_delta": -0.17499999999999993,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.825,
+          "89": 0.175
+        },
+        "steered_distribution": {
+          "90": 0.65,
+          "89": 0.3,
+          "99": 0.025,
+          "91": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 14,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "To find how many numbers there are, I can divide 484 by 10, which gives 48.4.",
+    "ci_kl": 0.0452841845987275,
+    "ci_accuracy": 0.13419354838709674,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.9810717541293936,
+        "js_divergence": 0.03325184583655872,
+        "baseline_accuracy": 0.7,
+        "steered_accuracy": 0.5,
+        "accuracy_delta": -0.19999999999999996,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.7,
+          "89": 0.3
+        },
+        "steered_distribution": {
+          "90": 0.5,
+          "89": 0.45,
+          "80": 0.025,
+          "99": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.9492822715227501,
+        "js_divergence": 0.025423218757047214,
+        "baseline_accuracy": 0.7,
+        "steered_accuracy": 0.55,
+        "accuracy_delta": -0.1499999999999999,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.7,
+          "89": 0.3
+        },
+        "steered_distribution": {
+          "90": 0.55,
+          "89": 0.4,
+          "80": 0.025,
+          "99": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 15,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Since we can't have a fraction of a number, we take the integer part, which is 48.",
+    "ci_kl": 0.07524065798056095,
+    "ci_accuracy": -0.032371569317382054,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.043689999190640184,
+        "js_divergence": 0.011433352026902772,
+        "baseline_accuracy": 0.625,
+        "steered_accuracy": 0.725,
+        "accuracy_delta": 0.09999999999999998,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.625,
+          "89": 0.3,
+          "99": 0.05,
+          "98": 0.025
+        },
+        "steered_distribution": {
+          "89": 0.175,
+          "90": 0.725,
+          "99": 0.075,
+          "98": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.056921365197227534,
+        "js_divergence": 0.016810236830076954,
+        "baseline_accuracy": 0.625,
+        "steered_accuracy": 0.725,
+        "accuracy_delta": 0.09999999999999998,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.625,
+          "89": 0.3,
+          "99": 0.05,
+          "98": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.725,
+          "89": 0.2,
+          "99": 0.075
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 16,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "But wait, does 484 count as the 49th occurrence?",
+    "ci_kl": 0.6965100899855827,
+    "ci_accuracy": -0.18555555555555558,
+    "is_target": true,
+    "target_tags": [
+      "uncertainty_management"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0931021163484668,
+        "js_divergence": 0.022585376351642178,
+        "baseline_accuracy": 0.875,
+        "steered_accuracy": 0.8,
+        "accuracy_delta": -0.07499999999999996,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.875,
+          "89": 0.05,
+          "130": 0.025,
+          "99": 0.05
+        },
+        "steered_distribution": {
+          "90": 0.8,
+          "89": 0.15,
+          "99": 0.05
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.5041955924327375,
+        "js_divergence": 0.021943855516688014,
+        "baseline_accuracy": 0.875,
+        "steered_accuracy": 0.825,
+        "accuracy_delta": -0.050000000000000044,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.875,
+          "89": 0.05,
+          "130": 0.025,
+          "99": 0.05
+        },
+        "steered_distribution": {
+          "90": 0.825,
+          "89": 0.1,
+          "99": 0.05,
+          "98": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 17,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Let me check: 4, 14, 24, ..., 484.",
+    "ci_kl": 0.08085702221855746,
+    "ci_accuracy": -0.09516129032258058,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.03465735902799726,
+        "js_divergence": 0.01078807771694178,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.95,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.95,
+          "89": 0.025,
+          "99": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.95,
+          "99": 0.05
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.23010177294802445,
+        "js_divergence": 0.0427077458322236,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.75,
+        "accuracy_delta": -0.19999999999999996,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.95,
+          "89": 0.025,
+          "99": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.75,
+          "99": 0.1,
+          "89": 0.15
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 18,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "That's 49 numbers because from 0 to 484, every 10 numbers have a 4 in the units place.",
+    "ci_kl": 0.033475094466570196,
+    "ci_accuracy": 0.05918367346938769,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 1.4363455679510302,
+        "js_divergence": 0.03501455049187843,
+        "baseline_accuracy": 0.9,
+        "steered_accuracy": 0.85,
+        "accuracy_delta": -0.050000000000000044,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.9,
+          "89": 0.075,
+          "98": 0.025
+        },
+        "steered_distribution": {
+          "99": 0.05,
+          "90": 0.85,
+          "89": 0.075,
+          "169": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 1.5022955567827394,
+        "js_divergence": 0.039287190769596525,
+        "baseline_accuracy": 0.9,
+        "steered_accuracy": 0.8,
+        "accuracy_delta": -0.09999999999999998,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.9,
+          "89": 0.075,
+          "98": 0.025
+        },
+        "steered_distribution": {
+          "99": 0.075,
+          "90": 0.8,
+          "89": 0.125
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 19,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "So, 484 is the 49th occurrence.",
+    "ci_kl": 0.026300918037857685,
+    "ci_accuracy": 0.06857142857142862,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.14222028877006404,
+        "js_divergence": 0.03864628738501662,
+        "baseline_accuracy": 0.9,
+        "steered_accuracy": 0.8974358974358975,
+        "accuracy_delta": -0.002564102564102555,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "90": 0.9,
+          "99": 0.025,
+          "89": 0.05,
+          "130": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.8974358974358975,
+          "99": 0.10256410256410256
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.040417724790250284,
+        "js_divergence": 0.012134578393511846,
+        "baseline_accuracy": 0.9,
+        "steered_accuracy": 0.875,
+        "accuracy_delta": -0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.9,
+          "99": 0.025,
+          "89": 0.05,
+          "130": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.875,
+          "89": 0.075,
+          "99": 0.05
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 2,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "First, I think I should consider how page numbers are structured.",
+    "ci_kl": 0.5739488098443316,
+    "ci_accuracy": 0.002545500827287772,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.5296524983401015,
+        "js_divergence": 0.026570895594369343,
+        "baseline_accuracy": 0.6923076923076923,
+        "steered_accuracy": 0.717948717948718,
+        "accuracy_delta": 0.02564102564102566,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "90": 0.6923076923076923,
+          "89": 0.15384615384615385,
+          "91": 0.1282051282051282,
+          "190": 0.02564102564102564
+        },
+        "steered_distribution": {
+          "90": 0.717948717948718,
+          "89": 0.07692307692307693,
+          "91": 0.1794871794871795,
+          "1": 0.02564102564102564
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.5798945911116246,
+        "js_divergence": 0.0463344680794888,
+        "baseline_accuracy": 0.6923076923076923,
+        "steered_accuracy": 0.775,
+        "accuracy_delta": 0.08269230769230773,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.6923076923076923,
+          "89": 0.15384615384615385,
+          "91": 0.1282051282051282,
+          "190": 0.02564102564102564
+        },
+        "steered_distribution": {
+          "90": 0.775,
+          "91": 0.175,
+          "89": 0.025,
+          "1": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 20,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "So, units place has 49 fours.",
+    "ci_kl": 0.42328308832910105,
+    "ci_accuracy": -0.019240506329113893,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.023862332931583595,
+        "js_divergence": 0.006869587143146906,
+        "baseline_accuracy": 0.925,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": 0.04999999999999993,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.925,
+          "99": 0.075
+        },
+        "steered_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.48129381440701346,
+        "js_divergence": 0.015288277356700842,
+        "baseline_accuracy": 0.925,
+        "steered_accuracy": 0.95,
+        "accuracy_delta": 0.02499999999999991,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.925,
+          "99": 0.075
+        },
+        "steered_distribution": {
+          "90": 0.95,
+          "99": 0.025,
+          "89": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 21,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "2. **Tens place:** Now, the tens place can have 4 in numbers like 40-49, 140-149, 240-249, 340-349, and 440-449.",
+    "ci_kl": 1.6239785977818422,
+    "ci_accuracy": -0.11428571428571432,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.4651736708605272,
+        "js_divergence": 0.010260688333292448,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.9,
+        "accuracy_delta": -0.04999999999999993,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.95,
+          "99": 0.05
+        },
+        "steered_distribution": {
+          "90": 0.9,
+          "99": 0.075,
+          "169": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 1.844410132111303,
+        "js_divergence": 0.037551861972634645,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.875,
+        "accuracy_delta": -0.07499999999999996,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.95,
+          "99": 0.05
+        },
+        "steered_distribution": {
+          "90": 0.875,
+          "99": 0.025,
+          "100": 0.025,
+          "89": 0.025,
+          "160": 0.025,
+          "80": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 22,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "Wait, but the book only goes up to 488, so the last set would be 440-449, right?",
+    "ci_kl": 0.08243653207617363,
+    "ci_accuracy": -0.07714285714285707,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.918119944123153,
+        "js_divergence": 0.01764922746459481,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.95,
+        "accuracy_delta": -0.050000000000000044,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 0.95,
+          "89": 0.025,
+          "80": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 23,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Let's count how many times 4 appears in the tens place.",
+    "ci_kl": 0.7013134609875248,
+    "ci_accuracy": -0.033333333333333326,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 1.4015774072129736,
+        "js_divergence": 0.034986344374087326,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 0.925,
+        "accuracy_delta": -0.04999999999999993,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.925,
+          "100": 0.025,
+          "80": 0.025,
+          "130": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.9421718617082284,
+        "js_divergence": 0.02607419038401053,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 0.95,
+        "accuracy_delta": -0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        },
+        "steered_distribution": {
+          "89": 0.025,
+          "90": 0.95,
+          "160": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 24,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "Each block of 100 numbers (e.g., 1-100, 101-200, etc.) has 10 numbers where the tens digit is 4.",
+    "ci_kl": 0.025446614923592903,
+    "ci_accuracy": 0.050000000000000044,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 1.4476292427856332,
+        "js_divergence": 0.037551861972634645,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.875,
+        "accuracy_delta": -0.07499999999999996,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.95,
+          "99": 0.025,
+          "100": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.875,
+          "130": 0.05,
+          "100": 0.05,
+          "80": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.025326099243179218,
+        "js_divergence": 0.008745510870011897,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.95,
+          "99": 0.025,
+          "100": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.975,
+          "100": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 25,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So, from 40-49: 10 numbers, 140-149: 10, 240-249:10, 340-349:10, and 440-449:10.",
+    "ci_kl": 0.6102430521373539,
+    "ci_accuracy": -0.040000000000000036,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 26,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Wait, but 440-449 is within 488, so that's fine.",
+    "ci_kl": 0.24183912797089213,
+    "ci_accuracy": -0.012048192771084376,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.02531780798429,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.02531780798429,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 27,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "So that's 5 sets of 10, which is 50 fours in the tens place.",
+    "ci_kl": 0.012422519452578563,
+    "ci_accuracy": 0.020000000000000018,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.02531780798429,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.02531780798429,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 28,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "3. **Hundreds place:** The hundreds digit is 4 in numbers from 400-488.",
+    "ci_kl": 0.02090668442836662,
+    "ci_accuracy": 0.010000000000000009,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.4587394241109804,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": -0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 0.975,
+          "100": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.4587394241109804,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": -0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 29,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "So, how many numbers is that?",
+    "ci_kl": 0.015190147955160108,
+    "ci_accuracy": 0.020000000000000018,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.9768292207362258,
+        "js_divergence": 0.02607419038401053,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 0.95,
+        "accuracy_delta": -0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.975,
+          "160": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.95,
+          "99": 0.05
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.483424286895663,
+        "js_divergence": 0.01732867951399863,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.975,
+          "160": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 3,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "Each page number can be a one-digit, two-digit, or three-digit number.",
+    "ci_kl": 0.2998455344127869,
+    "ci_accuracy": 0.27,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.5433793328486772,
+        "js_divergence": 0.029539977380975052,
+        "baseline_accuracy": 0.7,
+        "steered_accuracy": 0.7435897435897436,
+        "accuracy_delta": 0.04358974358974366,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "90": 0.7,
+          "89": 0.175,
+          "91": 0.125
+        },
+        "steered_distribution": {
+          "90": 0.7435897435897436,
+          "91": 0.1794871794871795,
+          "89": 0.05128205128205128,
+          "159": 0.02564102564102564
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.9869954652721437,
+        "js_divergence": 0.030037108703951265,
+        "baseline_accuracy": 0.7,
+        "steered_accuracy": 0.6923076923076923,
+        "accuracy_delta": -0.007692307692307665,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "90": 0.7,
+          "89": 0.175,
+          "91": 0.125
+        },
+        "steered_distribution": {
+          "90": 0.6923076923076923,
+          "91": 0.1794871794871795,
+          "189": 0.02564102564102564,
+          "70": 0.02564102564102564,
+          "89": 0.07692307692307693
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 30,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "From 400 to 488 inclusive, that's 89 numbers (since 488 - 400 + 1 = 89).",
+    "ci_kl": 0.03617965007547006,
+    "ci_accuracy": 0.050000000000000044,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.02531780798429,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 31,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "Each of these has a 4 in the hundreds place, so that's 89 fours.",
+    "ci_kl": 0.013436845169973441,
+    "ci_accuracy": -0.043953043953044,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 32,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "Now, adding up all the fours: units (49) + tens (50) + hundreds (89) = 49 + 50 = 99, plus 89 is 188.",
+    "ci_kl": 0.015831462763723037,
+    "ci_accuracy": 0.020000000000000018,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.4587394241109804,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": -0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.9527773031511504,
+        "js_divergence": 0.01764922746459481,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.95,
+        "accuracy_delta": -0.050000000000000044,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 0.95,
+          "99": 0.05
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 33,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "So, there are 188 fours in total.",
+    "ci_kl": 0.03534648514369822,
+    "ci_accuracy": -0.025454545454545396,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 34,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Wait, let me double-check that.",
+    "ci_kl": 0.21378815443784707,
+    "ci_accuracy": 0.020404040404040424,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.03370046817609294,
+        "js_divergence": 0.006869587143146906,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 0.925,
+        "accuracy_delta": -0.04999999999999993,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.925,
+          "99": 0.075
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 35,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Units place: 49, tens:50, hundreds:89.",
+    "ci_kl": 0.039441730867683183,
+    "ci_accuracy": 0.030000000000000027,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.9527773031511504,
+        "js_divergence": 0.01764922746459481,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.95,
+        "accuracy_delta": -0.050000000000000044,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 0.95,
+          "99": 0.05
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 36,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "49+50=99, 99+89=188.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.4587394241109804,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": -0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 0.975,
+          "89": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 37,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Yep, that seems right.",
+    "ci_kl": 0.01010107885826891,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.4587394241109804,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": -0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.4587394241109804,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": -0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 38,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Now, let's count the number of 8's in the page numbers.",
+    "ci_kl": 0.009661910695708079,
+    "ci_accuracy": 0.010000000000000009,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.9527773031511504,
+        "js_divergence": 0.01764922746459481,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.95,
+        "accuracy_delta": -0.050000000000000044,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 0.95,
+          "99": 0.05
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 39,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Again, I'll check each digit position.",
+    "ci_kl": 6.085246366537098e-05,
+    "ci_accuracy": 0.011132075471698144,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.005741754557113225,
+        "js_divergence": 0.0013418053995627368,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.925,
+        "accuracy_delta": -0.02499999999999991,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.95,
+          "99": 0.05
+        },
+        "steered_distribution": {
+          "90": 0.925,
+          "99": 0.075
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.007997419729180586,
+        "js_divergence": 0.002204909072955048,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.95,
+          "99": 0.05
+        },
+        "steered_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 4,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "Since the book has 488 pages, the page numbers go from 1 to 488.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.963194011036874,
+        "js_divergence": 0.03127515147113673,
+        "baseline_accuracy": 0.825,
+        "steered_accuracy": 0.825,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.825,
+          "91": 0.125,
+          "89": 0.025,
+          "190": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.825,
+          "160": 0.025,
+          "91": 0.075,
+          "89": 0.05,
+          "99": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.14781070700373763,
+        "js_divergence": 0.03542133738456305,
+        "baseline_accuracy": 0.825,
+        "steered_accuracy": 0.6486486486486487,
+        "accuracy_delta": -0.17635135135135127,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.925,
+        "baseline_distribution": {
+          "90": 0.825,
+          "91": 0.125,
+          "89": 0.025,
+          "190": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.6486486486486487,
+          "91": 0.2702702702702703,
+          "89": 0.08108108108108109
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 40,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "1. **Units place (ones place):** The 8 appears every 10 numbers, like 8, 18, 28, ..., up to 488.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 41,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Let's see how many times that is.",
+    "ci_kl": 0.006584414949025537,
+    "ci_accuracy": 0.019010989010989077,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.9527773031511504,
+        "js_divergence": 0.01764922746459481,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.95,
+        "accuracy_delta": -0.050000000000000044,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 0.95,
+          "99": 0.05
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 42,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "The first occurrence is 8, and the last is 488.",
+    "ci_kl": 0.05918886976549061,
+    "ci_accuracy": 0.06999999999999995,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.95,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.95,
+          "99": 0.05
+        },
+        "steered_distribution": {
+          "90": 0.95,
+          "99": 0.05
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.05129329438755048,
+        "js_divergence": 0.01764922746459481,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.050000000000000044,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.95,
+          "99": 0.05
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 43,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "So, from 8 to 488, stepping by 10.",
+    "ci_kl": 0.5362658133826254,
+    "ci_accuracy": -0.07035876001393249,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 44,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "The number of terms is (488 - 8)/10 + 1 = (480)/10 +1 = 48 +1 =49.",
+    "ci_kl": 0.028560874213514397,
+    "ci_accuracy": -0.022258064516128995,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.02531780798429,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 45,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "So, 49 eights in the units place.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.02531780798429,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.975,
+          "99": 0.025
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 46,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "2. **Tens place:** The tens digit is 8 in numbers like 80-89, 180-189, 280-289, 380-389, and 480-489.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 47,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "But since the book ends at 488, the last set is 480-488.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 48,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Let's count each set.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 49,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "- 80-89: 10 numbers\n   - 180-189:10\n   - 280-289:10\n   - 380-389:10\n   - 480-488:9 numbers (since 488 is the last page)",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 5,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "So, the first few pages are single-digit (1-9), then two-digit (10-99), and then three-digit (100-488).",
+    "ci_kl": 0.4734460148181592,
+    "ci_accuracy": -0.002873563218390829,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.10404065592789062,
+        "js_divergence": 0.024739174445050704,
+        "baseline_accuracy": 0.8,
+        "steered_accuracy": 0.7105263157894737,
+        "accuracy_delta": -0.08947368421052637,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "90": 0.8,
+          "89": 0.05,
+          "80": 0.025,
+          "91": 0.125
+        },
+        "steered_distribution": {
+          "91": 0.13157894736842105,
+          "90": 0.7105263157894737,
+          "89": 0.15789473684210525
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.09581123479684339,
+        "js_divergence": 0.024691726831417862,
+        "baseline_accuracy": 0.8,
+        "steered_accuracy": 0.6666666666666666,
+        "accuracy_delta": -0.13333333333333341,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "90": 0.8,
+          "89": 0.05,
+          "80": 0.025,
+          "91": 0.125
+        },
+        "steered_distribution": {
+          "91": 0.2564102564102564,
+          "90": 0.6666666666666666,
+          "89": 0.07692307692307693
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 50,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "So, adding these up: 10 +10 +10 +10 +9 = 49 eights in the tens place.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 51,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "3. **Hundreds place:** The hundreds digit is 8 only in numbers from 800-899, but our book only goes up to 488, so there are no numbers with 8 in the hundreds place.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 52,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "So, 0 eights here.",
+    "ci_kl": 0.007168489137651711,
+    "ci_accuracy": 0.010000000000000009,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 53,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "Adding up all the eights: units (49) + tens (49) + hundreds (0) = 98.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 54,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Wait, let me check that again.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 55,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Units:49, tens:49, so 49+49=98.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 56,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Yes, that's correct.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 57,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Now, the problem asks how many more 4's are printed than 8's.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 58,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So, subtract the number of 8's from the number of 4's: 188 - 98 = 90.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 59,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "Wait, that seems a bit high.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": true,
+    "target_tags": [
+      "uncertainty_management"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 6,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "I need to count how many times the digit 4 appears in all these page numbers and how many times the digit 8 appears.",
+    "ci_kl": 0.061617632409328243,
+    "ci_accuracy": 0.07608695652173914,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 1.0587483147479972,
+        "js_divergence": 0.049872628704444935,
+        "baseline_accuracy": 0.7948717948717948,
+        "steered_accuracy": 0.725,
+        "accuracy_delta": -0.06987179487179485,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.7948717948717948,
+          "89": 0.15384615384615385,
+          "91": 0.05128205128205128
+        },
+        "steered_distribution": {
+          "90": 0.725,
+          "91": 0.175,
+          "89": 0.05,
+          "98": 0.025,
+          "109": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.06608380311545342,
+        "js_divergence": 0.018641647846507098,
+        "baseline_accuracy": 0.7948717948717948,
+        "steered_accuracy": 0.925,
+        "accuracy_delta": 0.13012820512820522,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.7948717948717948,
+          "89": 0.15384615384615385,
+          "91": 0.05128205128205128
+        },
+        "steered_distribution": {
+          "90": 0.925,
+          "89": 0.05,
+          "91": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 60,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Let me make sure I didn't make a mistake in counting.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 61,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Let me recount the 4's:",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 62,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "- Units place: 4,14,...,484.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 63,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "So, from 0 to 484, every 10 numbers, so 484 /10 =48.4, but since we include 4, it's 49 times.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 64,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Correct. - Tens place: 40-49 (10), 140-149 (10), 240-249 (10), 340-349 (10), 440-449 (10).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 65,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "That's 5 sets, each with 10, so 50.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 66,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Correct. - Hundreds place: 400-488.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 67,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "488 - 400 +1 = 89.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 68,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Correct. Total 4's: 49 +50 +89=188.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 69,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Correct. Now, 8's:",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 7,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Then, I'll subtract the number of 8's from the number of 4's to find the difference.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 2.5250352911469442,
+        "js_divergence": 0.05372179068022902,
+        "baseline_accuracy": 0.875,
+        "steered_accuracy": 0.8,
+        "accuracy_delta": -0.07499999999999996,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.875,
+          "89": 0.1,
+          "98": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.8,
+          "91": 0.125,
+          "89": 0.075
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 1.0184163052737676,
+        "js_divergence": 0.03027623119480381,
+        "baseline_accuracy": 0.875,
+        "steered_accuracy": 0.7948717948717948,
+        "accuracy_delta": -0.08012820512820518,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "90": 0.875,
+          "89": 0.1,
+          "98": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.7948717948717948,
+          "89": 0.15384615384615385,
+          "91": 0.05128205128205128
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 70,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "- Units place: 8,18,...,488.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 71,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "488-8=480, 480/10=48, plus 1 is 49.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 72,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Correct. - Tens place: 80-89 (10), 180-189 (10), 280-289 (10), 380-389 (10), 480-488 (9).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 73,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "So, 10+10+10+10+9=49.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 74,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Correct. - Hundreds place: 0, since 800+ is beyond 488.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 75,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Total 8's:49+49=98.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 76,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So, 188-98=90.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 77,
+    "function_tags": [
+      "final_answer_emission"
+    ],
+    "chunk_text": "So, there are 90 more 4's than 8's.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 78,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "Wait, but I'm a bit confused because I remember in some problems, the hundreds place for 4 might not go all the way to 488, but in this case, it does because the book is 488 pages.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": true,
+    "target_tags": [
+      "uncertainty_management"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 79,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "So, from 400 to 488 inclusive, that's 89 numbers, each contributing a 4 in the hundreds place.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 8,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Let me start by counting the number of 4's.",
+    "ci_kl": 0.9104348649902125,
+    "ci_accuracy": -0.1767676767676768,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 1.4408126524604419,
+        "js_divergence": 0.03635466212083542,
+        "baseline_accuracy": 0.918918918918919,
+        "steered_accuracy": 0.8717948717948718,
+        "accuracy_delta": -0.047124047124047164,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.925,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "90": 0.918918918918919,
+          "89": 0.05405405405405406,
+          "85": 0.02702702702702703
+        },
+        "steered_distribution": {
+          "90": 0.8717948717948718,
+          "91": 0.02564102564102564,
+          "100": 0.02564102564102564,
+          "70": 0.02564102564102564,
+          "89": 0.05128205128205128
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.5023791416987974,
+        "js_divergence": 0.019320266485981123,
+        "baseline_accuracy": 0.918918918918919,
+        "steered_accuracy": 0.8974358974358975,
+        "accuracy_delta": -0.021483021483021503,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.925,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "90": 0.918918918918919,
+          "89": 0.05405405405405406,
+          "85": 0.02702702702702703
+        },
+        "steered_distribution": {
+          "90": 0.8974358974358975,
+          "99": 0.02564102564102564,
+          "89": 0.07692307692307693
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 80,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "So, that seems correct.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 81,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Another way to check is to consider that in the hundreds place, the 4's appear 89 times, which is a significant number, contributing a lot to the total count of 4's.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 82,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "Wait, but let me think again about the tens place for 8's.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": true,
+    "target_tags": [
+      "uncertainty_management"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 83,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "From 480-488, that's 9 numbers: 480,481,...,488.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 84,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "So, 9 eights in the tens place for that set.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 85,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "So, 10+10+10+10+9=49.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 86,
+    "function_tags": [
+      "final_answer_emission"
+    ],
+    "chunk_text": "Correct. So, I think my calculations are correct, and the difference is 90.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 1.0
+        },
+        "steered_distribution": {
+          "90": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 9,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "I'll go through each digit position separately: units, tens, and hundreds.",
+    "ci_kl": 0.12220458928926067,
+    "ci_accuracy": 0.15444444444444438,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.5136993616397185,
+        "js_divergence": 0.025022099492628,
+        "baseline_accuracy": 0.775,
+        "steered_accuracy": 0.825,
+        "accuracy_delta": 0.04999999999999993,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.775,
+          "160": 0.025,
+          "89": 0.175,
+          "91": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.825,
+          "89": 0.1,
+          "91": 0.05,
+          "81": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.05022917108519166,
+        "js_divergence": 0.015359413602316735,
+        "baseline_accuracy": 0.775,
+        "steered_accuracy": 0.875,
+        "accuracy_delta": 0.09999999999999998,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "90": 0.775,
+          "160": 0.025,
+          "89": 0.175,
+          "91": 0.025
+        },
+        "steered_distribution": {
+          "90": 0.875,
+          "89": 0.1,
+          "91": 0.025
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "position_idx": 60,
+  "chunk_text": "Let me make sure I didn't make a mistake in counting.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1529,
+    1541
+  ]
+}

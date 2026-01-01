@@ -1,0 +1,13 @@
+{
+  "position_idx": 50,
+  "chunk_text": "So, adding these up: 10 +10 +10 +10 +9 = 49 eights in the tens place.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1320,
+    1350
+  ]
+}

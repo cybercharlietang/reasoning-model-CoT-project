@@ -1,0 +1,13 @@
+{
+  "position_idx": 121,
+  "chunk_text": "Alternatively, I can think of it as the number of integers from 319 to 3183 is equal to (3183 - 319) +1.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    3259,
+    3298
+  ]
+}

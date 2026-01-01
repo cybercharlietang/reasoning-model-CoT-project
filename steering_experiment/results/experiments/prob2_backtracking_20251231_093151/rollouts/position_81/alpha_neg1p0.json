@@ -1,0 +1,322 @@
+[
+  {
+    "rollout_idx": 0,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, 188 fours and 98 eights, difference is 90. I think that's correct.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) separately.\n\n**Counting the number of 4's:**\n1. **Units place:** 4 appears in 4, 14, 24, ..., 484. There are 49 occurrences.\n2. **Tens place:** 4 appears in 40-49, 140-149, 240-249, 340-349, 440-449. Each set contributes 10, totaling 50.\n3. **Hundreds place:** 4 appears in 400-488, contributing 89 occurrences.\n\nTotal 4's = 49 + 50 + 89 = 188.\n\n**Counting the number of 8's:**\n1. **Units place:** 8 appears in 8, 18, 28, ..., 488. There are 49 occurrences.\n2. **Tens place:** 8 appears in 80-89, 180-189, 280-289, 380-389, 480-488. Totaling 49.\n3. **Hundreds place:** No 8's as the book ends at 488.\n\nTotal 8's = 49 + 49 = 98.\n\n**Difference:** 188 (4's) - 98 (8's) = 90.\n\n$\\boxed{90}$"
+  },
+  {
+    "rollout_idx": 1,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " Therefore, the difference is 90.\n</think>\n\nThe number of 4's printed is 188, and the number of 8's is 98. The difference is 90.\n\n$\\boxed{90}$"
+  },
+  {
+    "rollout_idx": 2,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " Therefore, the difference is indeed 90.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) for both digits.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):**\n   - 4 appears in 4, 14, 24, ..., 484.\n   - Number of occurrences: (484 - 4) / 10 + 1 = 49.\n\n2. **Tens place:**\n   - 4 appears in 40-49, 140-149, 240-249, 340-349, 440-449.\n   - Each block contributes 10 occurrences, totaling 50.\n\n3. **Hundreds place:**\n   - 4 appears in 400-488.\n   - Number of occurrences: 488 - 400 + 1 = 89.\n\n**Total number of 4's:** 49 (units) + 50 (tens) + 89 (hundreds) = 188.\n\n**Counting the number of 8's:**\n\n1. **Units place (ones place):**\n   - 8 appears in 8, 18, 28, ..., 488.\n   - Number of occurrences: (488 - 8) / 10 + 1 = 49.\n\n2. **Tens place:**\n   - 8 appears in 80-89, 180-189, 280-289, 380-389, 480-488.\n   - Each block contributes 10 occurrences except the last, which contributes 9.\n   - Total: 10 + 10 + 10 + 10 + 9 = 49.\n\n3. **Hundreds place:**\n   - No occurrences since the book ends at 488.\n\n**Total number of 8's:** 49 (units) + 49 (tens) = 98.\n\n**Difference:** 188 (number of 4's) - 98 (number of 8's) = 90.\n\n**Answer:** The number of 4's printed exceeds the number of 8's by \\boxed{90}."
+  },
+  {
+    "rollout_idx": 3,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " Thus, the difference should indeed be 90. I think that's the correct answer.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) separately.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):** The digit 4 appears in the units place every 10 numbers. Starting from 4, the sequence is 4, 14, 24, ..., 484. This gives us 49 occurrences (since 484 is the 49th term).\n\n2. **Tens place:** The digit 4 appears in the tens place in numbers like 40-49, 140-149, 240-249, 340-349, and 440-449. Each set contributes 10 occurrences, totaling 50.\n\n3. **Hundreds place:** The digit 4 appears in the hundreds place for all numbers from 400 to 488, which is 89 occurrences.\n\n**Total number of 4's:** 49 (units) + 50 (tens) + 89 (hundreds) = 188.\n\n**Counting the number of 8's:**\n\n1. **Units place:** The digit 8 appears in the units place every 10 numbers, from 8 to 488. This gives 49 occurrences.\n\n2. **Tens place:** The digit 8 appears in the tens place in numbers like 80-89, 180-189, 280-289, 380-389, and 480-488. The first four sets each contribute 10 occurrences, and the last set contributes 9, totaling 49.\n\n3. **Hundreds place:** The digit 8 does not appear in the hundreds place since the book ends at page 488.\n\n**Total number of 8's:** 49 (units) + 49 (tens) = 98.\n\n**Difference:** 188 (number of 4's) - 98 (number of 8's) = 90.\n\n**Final Answer:** \\boxed{90}"
+  },
+  {
+    "rollout_idx": 4,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " Therefore, I think the calculation is correct, and the answer is 90.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) separately.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):**\n   - 4 appears in 4, 14, 24, ..., 484.\n   - Number of terms: (484 - 4)/10 + 1 = 49.\n\n2. **Tens place:**\n   - 4 appears in 40-49, 140-149, 240-249, 340-349, 440-449.\n   - Each set contributes 10, so 5 sets \u00d7 10 = 50.\n\n3. **Hundreds place:**\n   - 4 appears in 400-488.\n   - Number of terms: 488 - 400 + 1 = 89.\n\n**Total number of 4's:** 49 (units) + 50 (tens) + 89 (hundreds) = 188.\n\n**Counting the number of 8's:**\n\n1. **Units place (ones place):**\n   - 8 appears in 8, 18, 28, ..., 488.\n   - Number of terms: (488 - 8)/10 + 1 = 49.\n\n2. **Tens place:**\n   - 8 appears in 80-89, 180-189, 280-289, 380-389, 480-488.\n   - Each set contributes 10, except the last set which contributes 9.\n   - Total: 10 + 10 + 10 + 10 + 9 = 49.\n\n3. **Hundreds place:**\n   - 8 does not appear in the hundreds place since the book ends at 488.\n\n**Total number of 8's:** 49 (units) + 49 (tens) = 98.\n\n**Difference:**\n188 (number of 4's) - 98 (number of 8's) = 90.\n\n**Answer:** \\boxed{90}"
+  },
+  {
+    "rollout_idx": 5,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " Therefore, the difference is indeed 90.\n</think>\n\nThe number of 4's printed is 188, and the number of 8's printed is 98. The difference is 188 - 98 = 90.\n\n**Answer:** \\boxed{90}"
+  },
+  {
+    "rollout_idx": 6,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, I think my calculations are correct.\n</think>\n\nThe number of 4's printed is 188, and the number of 8's is 98. The difference is 188 - 98 = 90.\n\n$\\boxed{90}$"
+  },
+  {
+    "rollout_idx": 7,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " Therefore, the difference is indeed 90. So, I think that's the correct answer.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze the occurrence of each digit in the units, tens, and hundreds places.\n\n**Counting the number of 4's:**\n1. **Units place:** 4 appears in 4, 14, 24, ..., 484. This is 49 times.\n2. **Tens place:** 4 appears in 40-49, 140-149, 240-249, 340-349, 440-449. This is 50 times.\n3. **Hundreds place:** 4 appears in 400-488. This is 89 times.\n**Total 4's:** 49 + 50 + 89 = 188.\n\n**Counting the number of 8's:**\n1. **Units place:** 8 appears in 8, 18, 28, ..., 488. This is 49 times.\n2. **Tens place:** 8 appears in 80-89, 180-189, 280-289, 380-389, 480-488. This is 49 times.\n3. **Hundreds place:** 8 does not appear since the book ends at 488.\n**Total 8's:** 49 + 49 = 98.\n\n**Difference:** 188 (number of 4's) - 98 (number of 8's) = 90.\n\n**Answer:** \\boxed{90}"
+  },
+  {
+    "rollout_idx": 8,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, yes, 90 seems to be the correct answer.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) for both digits.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):** 4 appears in 4, 14, 24, ..., 484. This is every 10th number, totaling 49 times.\n2. **Tens place:** 4 appears in 40-49, 140-149, 240-249, 340-349, 440-449. Each block contributes 10 occurrences, totaling 50 times.\n3. **Hundreds place:** 4 appears in 400-488, contributing 89 times.\n\nTotal 4's = 49 + 50 + 89 = 188.\n\n**Counting the number of 8's:**\n\n1. **Units place (ones place):** 8 appears in 8, 18, 28, ..., 488. This is every 10th number, totaling 49 times.\n2. **Tens place:** 8 appears in 80-89, 180-189, 280-289, 380-389, 480-488. The last block contributes 9 times, totaling 49 times.\n3. **Hundreds place:** No occurrences since the book ends at 488.\n\nTotal 8's = 49 + 49 = 98.\n\n**Difference:** 188 (4's) - 98 (8's) = 90.\n\n$\\boxed{90}$"
+  },
+  {
+    "rollout_idx": 9,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " Therefore, the difference is 90.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) separately.\n\n**Counting the number of 4's:**\n1. **Units place:** 4 appears in 4,14,24,...,484. This is 49 times.\n2. **Tens place:** 4 appears in 40-49,140-149,240-249,340-349,440-449. Each set contributes 10, totaling 50.\n3. **Hundreds place:** 4 appears in 400-488, contributing 89 times.\n**Total 4's:** 49 + 50 + 89 = 188.\n\n**Counting the number of 8's:**\n1. **Units place:** 8 appears in 8,18,28,...,488. This is 49 times.\n2. **Tens place:** 8 appears in 80-89,180-189,280-289,380-389,480-488. This is 49 times.\n3. **Hundreds place:** 8 does not appear as the book ends at 488.\n**Total 8's:** 49 + 49 = 98.\n\n**Difference:** 188 (4's) - 98 (8's) = 90.\n\n**Answer:** \\boxed{90}"
+  },
+  {
+    "rollout_idx": 10,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " Thus, I think my calculation is correct, and the answer is 90 more 4's than 8's.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) for both digits.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):**  \n   4 appears in page numbers like 4, 14, 24, ..., 484.  \n   - Number of occurrences:  \n     \\(\\frac{484 - 4}{10} + 1 = 49\\) times.\n\n2. **Tens place:**  \n   4 appears in ranges like 40-49, 140-149, 240-249, 340-349, 440-449.  \n   - Each range contributes 10 occurrences.  \n   - Number of ranges: 5.  \n   - Total occurrences: \\(5 \\times 10 = 50\\) times.\n\n3. **Hundreds place:**  \n   4 appears in page numbers 400-488.  \n   - Number of occurrences:  \n     \\(488 - 400 + 1 = 89\\) times.\n\n**Total number of 4's:**  \n\\(49 + 50 + 89 = 188\\) times.\n\n**Counting the number of 8's:**\n\n1. **Units place (ones place):**  \n   8 appears in page numbers like 8, 18, 28, ..., 488.  \n   - Number of occurrences:  \n     \\(\\frac{488 - 8}{10} + 1 = 49\\) times.\n\n2. **Tens place:**  \n   8 appears in ranges like 80-89, 180-189, 280-289, 380-389, 480-488.  \n   - First four ranges contribute 10 each.  \n   - Last range (480-488) contributes 9.  \n   - Total occurrences: \\(4 \\times 10 + 9 = 49\\) times.\n\n3. **Hundreds place:**  \n   8 does not appear in any page number since the book ends at 488.  \n   - Occurrences: 0.\n\n**Total number of 8's:**  \n\\(49 + 49 + 0 = 98\\) times.\n\n**Difference:**  \nNumber of 4's - Number of 8's = \\(188 - 98 = 90\\).\n\n**Answer:**  \n\\boxed{90}"
+  },
+  {
+    "rollout_idx": 11,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, the difference being 90 seems plausible.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) separately for both digits.\n\n**Counting the number of 4's:**\n1. **Units place (ones place):** 4 appears in 4, 14, 24, ..., 484. This is 49 occurrences.\n2. **Tens place:** 4 appears in 40-49, 140-149, 240-249, 340-349, 440-449. Each block contributes 10, totaling 50.\n3. **Hundreds place:** 4 appears in 400-488, which is 89 occurrences.\n\nTotal 4's = 49 + 50 + 89 = **188**.\n\n**Counting the number of 8's:**\n1. **Units place (ones place):** 8 appears in 8, 18, 28, ..., 488. This is 49 occurrences.\n2. **Tens place:** 8 appears in 80-89, 180-189, 280-289, 380-389, 480-488. This is 49 occurrences.\n3. **Hundreds place:** 8 does not appear in the hundreds place as the book ends at 488.\n\nTotal 8's = 49 + 49 = **98**.\n\n**Difference:** 188 (number of 4's) - 98 (number of 8's) = **90**.\n\nThus, there are 90 more 4's printed than 8's.\n\n\\boxed{90}"
+  },
+  {
+    "rollout_idx": 12,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, yeah, I think 90 is the correct answer.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) for both digits.\n\n**Counting the number of 4's:**\n1. **Units place (ones place):** 4 appears in 4, 14, 24, ..., 484. There are 49 occurrences.\n2. **Tens place:** 4 appears in 40-49, 140-149, 240-249, 340-349, 440-449. Each set contributes 10, totaling 50.\n3. **Hundreds place:** 4 appears in 400-488, contributing 89 occurrences.\n\nTotal 4's = 49 + 50 + 89 = **188**.\n\n**Counting the number of 8's:**\n1. **Units place:** 8 appears in 8, 18, 28, ..., 488. There are 49 occurrences.\n2. **Tens place:** 8 appears in 80-89, 180-189, 280-289, 380-389, 480-488. Totaling 49.\n3. **Hundreds place:** 8 does not appear since the book ends at 488.\n\nTotal 8's = 49 + 49 = **98**.\n\n**Difference:** 188 (4's) - 98 (8's) = **90**.\n\n**Answer:** \\boxed{90}"
+  },
+  {
+    "rollout_idx": 13,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, yeah, 90 seems correct.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) separately for both digits.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):**\n   - 4 appears every 10 numbers: 4, 14, 24, ..., 484.\n   - Total occurrences: 49.\n\n2. **Tens place:**\n   - 4 appears in the tens place in blocks like 40-49, 140-149, etc.\n   - Each block contributes 10 occurrences, and there are 5 such blocks (40-49, 140-149, 240-249, 340-349, 440-449).\n   - Total occurrences: 5 \u00d7 10 = 50.\n\n3. **Hundreds place:**\n   - 4 appears in the hundreds place for all page numbers from 400 to 488.\n   - Total occurrences: 488 - 400 + 1 = 89.\n\n**Total number of 4's:**\n49 (units) + 50 (tens) + 89 (hundreds) = 188.\n\n**Counting the number of 8's:**\n\n1. **Units place (ones place):**\n   - 8 appears every 10 numbers: 8, 18, 28, ..., 488.\n   - Total occurrences: 49.\n\n2. **Tens place:**\n   - 8 appears in the tens place in blocks like 80-89, 180-189, etc.\n   - Each block contributes 10 occurrences, and there are 4 full blocks (80-89, 180-189, 280-289, 380-389) plus the partial block 480-488, which contributes 9 occurrences.\n   - Total occurrences: 4 \u00d7 10 + 9 = 49.\n\n3. **Hundreds place:**\n   - 8 does not appear in the hundreds place since the book ends at 488.\n   - Total occurrences: 0.\n\n**Total number of 8's:**\n49 (units) + 49 (tens) + 0 (hundreds) = 98.\n\n**Difference:**\nNumber of 4's - Number of 8's = 188 - 98 = 90.\n\n**Answer:** \\boxed{90}"
+  },
+  {
+    "rollout_idx": 14,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, I think my calculation is correct. Therefore, the answer should be 90 more 4's than 8's.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) separately.\n\n**Counting the number of 4's:**\n1. **Units place:** 4 appears every 10 numbers (e.g., 4, 14, ..., 484). This gives 49 occurrences.\n2. **Tens place:** 4 appears in blocks like 40-49, 140-149, etc., totaling 50 occurrences.\n3. **Hundreds place:** 4 appears in numbers 400-488, which is 89 occurrences.\n**Total 4's:** 49 + 50 + 89 = 188.\n\n**Counting the number of 8's:**\n1. **Units place:** 8 appears every 10 numbers (e.g., 8, 18, ..., 488). This gives 49 occurrences.\n2. **Tens place:** 8 appears in blocks like 80-89, 180-189, etc., with the last block being 480-488 (9 occurrences). This gives 49 occurrences.\n3. **Hundreds place:** No occurrences since the book ends at 488.\n**Total 8's:** 49 + 49 = 98.\n\n**Difference:** 188 (4's) - 98 (8's) = 90.\n\n**Answer:** \\boxed{90}"
+  },
+  {
+    "rollout_idx": 15,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " Therefore, I think the calculation is correct. So, the answer should be 90 more 4's than 8's.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) for both digits.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):**  \n   The digit 4 appears in the units place every 10 numbers (e.g., 4, 14, 24, ..., 484).  \n   - Number of occurrences:  \n     \\( \\frac{484}{10} + 1 = 49 \\)\n\n2. **Tens place:**  \n   The digit 4 appears in the tens place in blocks like 40-49, 140-149, etc.  \n   - Number of blocks: 5 (40-49, 140-149, 240-249, 340-349, 440-449)  \n   - Each block contributes 10 occurrences:  \n     \\( 5 \\times 10 = 50 \\)\n\n3. **Hundreds place:**  \n   The digit 4 appears in the hundreds place for all numbers from 400 to 488.  \n   - Number of occurrences:  \n     \\( 488 - 400 + 1 = 89 \\)\n\n**Total number of 4's:**  \n\\( 49 + 50 + 89 = 188 \\)\n\n**Counting the number of 8's:**\n\n1. **Units place (ones place):**  \n   The digit 8 appears in the units place every 10 numbers (e.g., 8, 18, 28, ..., 488).  \n   - Number of occurrences:  \n     \\( \\frac{488}{10} + 1 = 49 \\)\n\n2. **Tens place:**  \n   The digit 8 appears in the tens place in blocks like 80-89, 180-189, etc.  \n   - Number of blocks: 5 (80-89, 180-189, 280-289, 380-389, 480-488)  \n   - Each block contributes 10 occurrences, except the last block which contributes 9:  \n     \\( 4 \\times 10 + 9 = 49 \\)\n\n3. **Hundreds place:**  \n   The digit 8 does not appear in the hundreds place since the book ends at 488.  \n   - Number of occurrences: 0\n\n**Total number of 8's:**  \n\\( 49 + 49 + 0 = 98 \\)\n\n**Difference:**  \n\\( 188 - 98 = 90 \\)\n\n\\boxed{90}"
+  },
+  {
+    "rollout_idx": 16,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, I think my calculation is correct. Therefore, the answer is 90.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) separately for both digits.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):** 4 appears in 4, 14, 24, ..., 484. This is every 10th number, totaling 49 occurrences.\n2. **Tens place:** 4 appears in 40-49, 140-149, 240-249, 340-349, and 440-449. Each set contributes 10, totaling 50 occurrences.\n3. **Hundreds place:** 4 appears in 400-488, contributing 89 occurrences.\n\nTotal 4's = 49 (units) + 50 (tens) + 89 (hundreds) = 188.\n\n**Counting the number of 8's:**\n\n1. **Units place:** 8 appears in 8, 18, 28, ..., 488. This is every 10th number, totaling 49 occurrences.\n2. **Tens place:** 8 appears in 80-89, 180-189, 280-289, 380-389, and 480-488. The first four sets contribute 10 each, and the last set contributes 9, totaling 49 occurrences.\n3. **Hundreds place:** No occurrences since the book ends at 488.\n\nTotal 8's = 49 (units) + 49 (tens) = 98.\n\n**Difference:**\n188 (number of 4's) - 98 (number of 8's) = 90.\n\n**Answer:** \\boxed{90}"
+  },
+  {
+    "rollout_idx": 17,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, yeah, I think the answer is 90 more 4's than 8's.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) separately.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):**  \n   4 appears in the units place every 10 numbers (e.g., 4, 14, 24, ..., 484).  \n   - Number of occurrences:  \n     (484 - 4) / 10 + 1 = 48.4 \u2192 49 times.\n\n2. **Tens place:**  \n   4 appears in the tens place in ranges like 40-49, 140-149, ..., 440-449.  \n   - Number of occurrences:  \n     5 ranges \u00d7 10 numbers each = 50 times.\n\n3. **Hundreds place:**  \n   4 appears in the hundreds place for pages 400-488.  \n   - Number of occurrences:  \n     488 - 400 + 1 = 89 times.\n\n**Total 4's:**  \n49 (units) + 50 (tens) + 89 (hundreds) = 188.\n\n**Counting the number of 8's:**\n\n1. **Units place (ones place):**  \n   8 appears in the units place every 10 numbers (e.g., 8, 18, 28, ..., 488).  \n   - Number of occurrences:  \n     (488 - 8) / 10 + 1 = 48 + 1 = 49 times.\n\n2. **Tens place:**  \n   8 appears in the tens place in ranges like 80-89, 180-189, ..., 480-488.  \n   - Number of occurrences:  \n     4 full ranges (80-89, 180-189, 280-289, 380-389) \u00d7 10 each = 40, plus 9 in 480-488.  \n     Total = 40 + 9 = 49 times.\n\n3. **Hundreds place:**  \n   8 does not appear in the hundreds place since the book ends at 488.  \n   - Number of occurrences: 0.\n\n**Total 8's:**  \n49 (units) + 49 (tens) + 0 (hundreds) = 98.\n\n**Difference:**  \n188 (number of 4's) - 98 (number of 8's) = 90.\n\n$\\boxed{90}$"
+  },
+  {
+    "rollout_idx": 18,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, yeah, I think the answer is 90 more 4's than 8's.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) for both digits.\n\n**Counting the number of 4's:**\n1. **Units place:** 4, 14, 24, ..., 484 \u2192 49 occurrences.\n2. **Tens place:** 40-49, 140-149, 240-249, 340-349, 440-449 \u2192 50 occurrences.\n3. **Hundreds place:** 400-488 \u2192 89 occurrences.\n**Total 4's:** 49 + 50 + 89 = 188.\n\n**Counting the number of 8's:**\n1. **Units place:** 8, 18, 28, ..., 488 \u2192 49 occurrences.\n2. **Tens place:** 80-89, 180-189, 280-289, 380-389, 480-488 \u2192 49 occurrences.\n3. **Hundreds place:** None, as pages go up to 488 \u2192 0 occurrences.\n**Total 8's:** 49 + 49 + 0 = 98.\n\n**Difference:** 188 (4's) - 98 (8's) = 90.\n\n**Answer:** \\boxed{90}"
+  },
+  {
+    "rollout_idx": 19,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, 188 fours and 98 eights, so 90 more fours. I think that's the correct answer.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) for both digits.\n\n**Counting 4's:**\n1. **Units Place (1s):** 4 appears every 10 numbers (e.g., 4, 14, ..., 484). There are 49 occurrences.\n2. **Tens Place:** 4 appears in blocks like 40-49, 140-149, etc., totaling 50 occurrences.\n3. **Hundreds Place:** 4 appears in 400-488, contributing 89 occurrences.\n   \nTotal 4's = 49 + 50 + 89 = 188.\n\n**Counting 8's:**\n1. **Units Place:** 8 appears every 10 numbers (e.g., 8, 18, ..., 488). There are 49 occurrences.\n2. **Tens Place:** 8 appears in blocks like 80-89, 180-189, etc., totaling 49 occurrences.\n3. **Hundreds Place:** No occurrences since the book ends at 488.\n\nTotal 8's = 49 + 49 = 98.\n\n**Difference:** 188 (4's) - 98 (8's) = 90.\n\n**Answer:** \\boxed{90}"
+  },
+  {
+    "rollout_idx": 20,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, 188 fours and 98 eights, so 90 more fours. I think that's the correct answer.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) for both digits.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):**\n   - 4 appears in 4, 14, 24, ..., 484.\n   - Number of occurrences: (484 - 4) / 10 + 1 = 49.\n\n2. **Tens place:**\n   - 4 appears in 40-49, 140-149, 240-249, 340-349, 440-449.\n   - Each block contributes 10 occurrences, totaling 5 blocks \u00d7 10 = 50.\n\n3. **Hundreds place:**\n   - 4 appears in 400-488.\n   - Number of occurrences: 488 - 400 + 1 = 89.\n\nTotal 4's = 49 (units) + 50 (tens) + 89 (hundreds) = **188**.\n\n**Counting the number of 8's:**\n\n1. **Units place (ones place):**\n   - 8 appears in 8, 18, 28, ..., 488.\n   - Number of occurrences: (488 - 8) / 10 + 1 = 49.\n\n2. **Tens place:**\n   - 8 appears in 80-89, 180-189, 280-289, 380-389, 480-488.\n   - Each block contributes 10 occurrences, except 480-488, which contributes 9.\n   - Total: 10 + 10 + 10 + 10 + 9 = 49.\n\n3. **Hundreds place:**\n   - 8 does not appear in the hundreds place as the book ends at 488.\n   - Occurrences: 0.\n\nTotal 8's = 49 (units) + 49 (tens) + 0 (hundreds) = **98**.\n\n**Difference:**\n188 (number of 4's) - 98 (number of 8's) = **90**.\n\nSo, there are 90 more 4's printed than 8's.\n\n\\boxed{90}"
+  },
+  {
+    "rollout_idx": 21,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, I think my calculations are correct, and the answer should be 90 more 4's than 8's.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) separately for both digits.\n\n**Counting the number of 4's:**\n\n1. **Units place:** 4 appears in 4, 14, 24, ..., 484. There are 49 occurrences.\n2. **Tens place:** 4 appears in 40-49, 140-149, 240-249, 340-349, 440-449. Each block contributes 10, totaling 50.\n3. **Hundreds place:** 4 appears in 400-488, contributing 89 occurrences.\n\nTotal 4's = 49 + 50 + 89 = 188.\n\n**Counting the number of 8's:**\n\n1. **Units place:** 8 appears in 8, 18, 28, ..., 488. There are 49 occurrences.\n2. **Tens place:** 8 appears in 80-89, 180-189, 280-289, 380-389, 480-488. The first four blocks contribute 10 each, and the last contributes 9, totaling 49.\n3. **Hundreds place:** No occurrences since the book ends at 488.\n\nTotal 8's = 49 + 49 = 98.\n\n**Difference:** 188 (4's) - 98 (8's) = 90.\n\n$\\boxed{90}$"
+  },
+  {
+    "rollout_idx": 22,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " Therefore, I think the calculation is correct, and the answer is 90 more 4's than 8's.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) separately.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):** 4 appears in 4, 14, 24, ..., 484. There are 49 occurrences.\n2. **Tens place:** 4 appears in 40-49, 140-149, 240-249, 340-349, 440-449. Each set contributes 10, totaling 50.\n3. **Hundreds place:** 4 appears in 400-488, contributing 89 occurrences.\n\nTotal 4's = 49 + 50 + 89 = 188.\n\n**Counting the number of 8's:**\n\n1. **Units place:** 8 appears in 8, 18, 28, ..., 488. There are 49 occurrences.\n2. **Tens place:** 8 appears in 80-89, 180-189, 280-289, 380-389, 480-488. This totals 49 occurrences.\n3. **Hundreds place:** No 8's since page numbers don't reach 800.\n\nTotal 8's = 49 + 49 = 98.\n\n**Difference:**\n188 (number of 4's) - 98 (number of 8's) = 90.\n\n**Answer:** The number of 4's printed exceeds the number of 8's by 90.\n\n\\boxed{90}"
+  },
+  {
+    "rollout_idx": 23,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, I think the calculation is correct. Therefore, the answer should be 90.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) for both digits.\n\n**Counting the number of 4's:**\n1. **Units place:** 4, 14, 24, ..., 484. There are 49 occurrences.\n2. **Tens place:** 40-49, 140-149, 240-249, 340-349, 440-449. Each block contributes 10, totaling 50.\n3. **Hundreds place:** 400-488. This contributes 89 occurrences.\n   \nTotal 4's = 49 + 50 + 89 = 188.\n\n**Counting the number of 8's:**\n1. **Units place:** 8, 18, 28, ..., 488. There are 49 occurrences.\n2. **Tens place:** 80-89, 180-189, 280-289, 380-389, 480-488. This totals 49 occurrences.\n3. **Hundreds place:** No occurrences since the book ends at 488.\n\nTotal 8's = 49 + 49 = 98.\n\n**Difference:** 188 (4's) - 98 (8's) = 90.\n\n\\boxed{90}"
+  },
+  {
+    "rollout_idx": 24,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, yes, 90 more 4's than 8's.\n</think>\n\nThe problem requires determining how many more 4's appear in the page numbers of a 488-page book compared to 8's. \n\n**Step-by-Step Explanation:**\n\n1. **Counting the number of 4's:**\n   - **Units Place (1s digit):** 4 appears every 10 numbers (e.g., 4, 14, 24, ..., 484). There are 49 such occurrences.\n   - **Tens Place (10s digit):** 4 appears in the tens place in blocks like 40-49, 140-149, etc. There are 50 occurrences.\n   - **Hundreds Place (100s digit):** 4 appears in numbers 400-488, contributing 89 occurrences.\n   - **Total 4's:** 49 + 50 + 89 = 188.\n\n2. **Counting the number of 8's:**\n   - **Units Place:** 8 appears every 10 numbers (e.g., 8, 18, ..., 488). There are 49 occurrences.\n   - **Tens Place:** 8 appears in blocks like 80-89, 180-189, etc. The last block is 480-488, contributing 9 occurrences. Total: 49.\n   - **Hundreds Place:** No occurrences since the book ends at 488.\n   - **Total 8's:** 49 + 49 = 98.\n\n3. **Calculating the difference:** 188 (number of 4's) - 98 (number of 8's) = 90.\n\n**Answer:** \\boxed{90}"
+  },
+  {
+    "rollout_idx": 25,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " Therefore, I think my calculation is correct, and the answer is 90.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) separately for both digits.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):**  \n   The digit 4 appears in the units place for every 10 numbers (e.g., 4, 14, 24, ..., 484).  \n   - Number of occurrences:  \n     \\[\n     \\left\\lfloor \\frac{488}{10} \\right\\rfloor = 48 \\quad \\text{plus the final 484, totaling } 49 \\text{ times}.\n     \\]\n\n2. **Tens place:**  \n   The digit 4 appears in the tens place for numbers 40-49, 140-149, 240-249, 340-349, and 440-449.  \n   - Each block contributes 10 occurrences, and there are 5 such blocks:  \n     \\[\n     5 \\times 10 = 50 \\text{ times}.\n     \\]\n\n3. **Hundreds place:**  \n   The digit 4 appears in the hundreds place for numbers 400-488.  \n   - Number of occurrences:  \n     \\[\n     488 - 400 + 1 = 89 \\text{ times}.\n     \\]\n\n**Total number of 4's:**  \n\\[\n49 \\, (\\text{units}) + 50 \\, (\\text{tens}) + 89 \\, (\\text{hundreds}) = 188 \\text{ times}.\n\\]\n\n**Counting the number of 8's:**\n\n1. **Units place (ones place):**  \n   The digit 8 appears in the units place for every 10 numbers (e.g., 8, 18, 28, ..., 488).  \n   - Number of occurrences:  \n     \\[\n     \\left\\lfloor \\frac{488}{10} \\right\\rfloor = 48 \\quad \\text{plus the final 488, totaling } 49 \\text{ times}.\n     \\]\n\n2. **Tens place:**  \n   The digit 8 appears in the tens place for numbers 80-89, 180-189, 280-289, 380-389, and 480-488.  \n   - Each block (80-89, 180-189, 280-289, 380-389) contributes 10 occurrences, and the last block (480-488) contributes 9 occurrences:  \n     \\[\n     4 \\times 10 + 9 = 49 \\text{ times}.\n     \\]\n\n3. **Hundreds place:**  \n   The digit 8 does not appear in the hundreds place since the book ends at page 488.  \n   - Number of occurrences:  \n     \\[\n     0 \\text{ times}.\n     \\]\n\n**Total number of 8's:**  \n\\[\n49 \\, (\\text{units}) + 49 \\, (\\text{tens}) + 0 \\, (\\text{hundreds}) = 98 \\text{ times}.\n\\]\n\n**Difference between the number of 4's and 8's:**  \n\\[\n188 \\, (\\text{number of 4's}) - 98 \\, (\\text{number of 8's}) = 90.\n\\]\n\n**Final Answer:**  \n\\boxed{90}"
+  },
+  {
+    "rollout_idx": 26,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, I think my calculations are correct. Therefore, the answer should be 90.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) separately.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):** 4 appears in 4, 14, 24, ..., 484. This is 49 occurrences.\n2. **Tens place:** 4 appears in 40-49, 140-149, 240-249, 340-349, 440-449. Each block contributes 10, totaling 50.\n3. **Hundreds place:** 4 appears in 400-488, contributing 89 occurrences.\n\nTotal 4's = 49 + 50 + 89 = 188.\n\n**Counting the number of 8's:**\n\n1. **Units place (ones place):** 8 appears in 8, 18, 28, ..., 488. This is 49 occurrences.\n2. **Tens place:** 8 appears in 80-89, 180-189, 280-289, 380-389, 480-488. This totals 49 occurrences.\n3. **Hundreds place:** No 8's appear here since the book ends at 488.\n\nTotal 8's = 49 + 49 = 98.\n\n**Difference:** 188 (4's) - 98 (8's) = 90.\n\n$\\boxed{90}$"
+  },
+  {
+    "rollout_idx": 27,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " Therefore, I think my calculations are correct, and the answer is 90 more 4's than 8's.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we count the occurrences of each digit in the units, tens, and hundreds places.\n\n**Counting 4's:**\n- **Units place:** 4, 14, 24, ..., 484 \u2192 49 times.\n- **Tens place:** 40-49, 140-149, 240-249, 340-349, 440-449 \u2192 50 times.\n- **Hundreds place:** 400-488 \u2192 89 times.\n- **Total 4's:** 49 + 50 + 89 = 188.\n\n**Counting 8's:**\n- **Units place:** 8, 18, 28, ..., 488 \u2192 49 times.\n- **Tens place:** 80-89, 180-189, 280-289, 380-389, 480-488 \u2192 49 times.\n- **Hundreds place:** 0 times (since pages go up to 488).\n- **Total 8's:** 49 + 49 = 98.\n\n**Difference:** 188 (4's) - 98 (8's) = 90.\n\n$\\boxed{90}$"
+  },
+  {
+    "rollout_idx": 28,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, yeah, 188 fours and 98 eights, so 90 more fours.\n</think>\n\nThe problem requires counting the occurrences of the digits 4 and 8 in the page numbers of a 488-page book. \n\n1. **Counting 4's:**\n   - **Units place:** 49 occurrences (4, 14, ..., 484)\n   - **Tens place:** 50 occurrences (40-49, 140-149, ..., 440-449)\n   - **Hundreds place:** 89 occurrences (400-488)\n   - **Total 4's:** 49 + 50 + 89 = 188\n\n2. **Counting 8's:**\n   - **Units place:** 49 occurrences (8, 18, ..., 488)\n   - **Tens place:** 49 occurrences (80-89, 180-189, ..., 480-488)\n   - **Hundreds place:** 0 occurrences (no pages beyond 488)\n   - **Total 8's:** 49 + 49 = 98\n\n3. **Difference:** 188 (4's) - 98 (8's) = 90\n\n**Answer:** \\boxed{90}"
+  },
+  {
+    "rollout_idx": 29,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " Therefore, the difference is indeed 90.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze the occurrence of each digit in the units, tens, and hundreds places.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):** The digit 4 appears in numbers 4, 14, 24, ..., 484. This is every 10 numbers, starting from 4 up to 484. The number of such occurrences is calculated as:\n   \\[\n   \\left\\lfloor \\frac{484}{10} \\right\\rfloor + 1 = 48 + 1 = 49\n   \\]\n   So, there are 49 fours in the units place.\n\n2. **Tens place:** The digit 4 appears in the tens place for numbers like 40-49, 140-149, 240-249, 340-349, and 440-449. Each block of 100 numbers contributes 10 fours in the tens place. Since there are 5 such blocks (40-49, 140-149, 240-249, 340-349, 440-449), the total is:\n   \\[\n   5 \\times 10 = 50\n   \\]\n   So, there are 50 fours in the tens place.\n\n3. **Hundreds place:** The digit 4 appears in the hundreds place for numbers 400-488. The count is:\n   \\[\n   488 - 400 + 1 = 89\n   \\]\n   So, there are 89 fours in the hundreds place.\n\nAdding them up:\n\\[\n49 \\text{ (units)} + 50 \\text{ (tens)} + 89 \\text{ (hundreds)} = 188 \\text{ fours}\n\\]\n\n**Counting the number of 8's:**\n\n1. **Units place (ones place):** The digit 8 appears in numbers 8, 18, 28, ..., 488. Similar to the 4's in the units place, this is:\n   \\[\n   \\left\\lfloor \\frac{488}{10} \\right\\rfloor + 1 = 48 + 1 = 49\n   \\]\n   So, there are 49 eights in the units place.\n\n2. **Tens place:** The digit 8 appears in the tens place for numbers like 80-89, 180-189, 280-289, 380-389, and 480-488. Each block of 100 numbers contributes 10 eights in the tens place, except the last block which ends at 488, contributing 9 eights:\n   \\[\n   4 \\times 10 + 9 = 40 + 9 = 49\n   \\]\n   So, there are 49 eights in the tens place.\n\n3. **Hundreds place:** There are no page numbers with 8 in the hundreds place since the book only goes up to 488.\n\nAdding them up:\n\\[\n49 \\text{ (units)} + 49 \\text{ (tens)} + 0 \\text{ (hundreds)} = 98 \\text{ eights}\n\\]\n\n**Calculating the difference:**\n\\[\n188 \\text{ fours} - 98 \\text{ eights} = 90\n\\]\n\n**Final Answer:**\n\\boxed{90}"
+  },
+  {
+    "rollout_idx": 30,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, I think my calculations are correct. Therefore, the answer should be 90 more 4's than 8's.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) for both digits.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):**\n   - 4 appears in 4, 14, 24, ..., 484.\n   - Total occurrences: 49.\n\n2. **Tens place:**\n   - 4 appears in 40-49, 140-149, 240-249, 340-349, 440-449.\n   - Each set contributes 10 occurrences, totaling 50.\n\n3. **Hundreds place:**\n   - 4 appears in 400-488.\n   - Total occurrences: 89.\n\n**Total 4's:** 49 (units) + 50 (tens) + 89 (hundreds) = 188.\n\n**Counting the number of 8's:**\n\n1. **Units place (ones place):**\n   - 8 appears in 8, 18, 28, ..., 488.\n   - Total occurrences: 49.\n\n2. **Tens place:**\n   - 8 appears in 80-89, 180-189, 280-289, 380-389, 480-488.\n   - Total occurrences: 49.\n\n3. **Hundreds place:**\n   - No occurrences since the book ends at 488.\n\n**Total 8's:** 49 (units) + 49 (tens) = 98.\n\n**Difference:**\n188 (number of 4's) - 98 (number of 8's) = 90.\n\n$\\boxed{90}$"
+  },
+  {
+    "rollout_idx": 31,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, I think my calculation is correct, and the answer is 90.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) for both digits.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):**\n   - 4 appears in 4, 14, 24, ..., 484.\n   - Number of occurrences: (484 - 4)/10 + 1 = 49.\n\n2. **Tens place:**\n   - 4 appears in 40-49, 140-149, 240-249, 340-349, 440-449.\n   - Each block contributes 10 occurrences, totaling 5 \u00d7 10 = 50.\n\n3. **Hundreds place:**\n   - 4 appears in 400-488.\n   - Number of occurrences: 488 - 400 + 1 = 89.\n\n**Total 4's:** 49 (units) + 50 (tens) + 89 (hundreds) = 188.\n\n**Counting the number of 8's:**\n\n1. **Units place (ones place):**\n   - 8 appears in 8, 18, 28, ..., 488.\n   - Number of occurrences: (488 - 8)/10 + 1 = 49.\n\n2. **Tens place:**\n   - 8 appears in 80-89, 180-189, 280-289, 380-389, 480-488.\n   - Each block contributes 10 occurrences except the last, which contributes 9.\n   - Total: 4 \u00d7 10 + 9 = 49.\n\n3. **Hundreds place:**\n   - No occurrences since the book ends at 488.\n\n**Total 8's:** 49 (units) + 49 (tens) = 98.\n\n**Difference:**\n188 (number of 4's) - 98 (number of 8's) = 90.\n\n**Answer:** \\boxed{90}"
+  },
+  {
+    "rollout_idx": 32,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, I think my calculations are correct. Therefore, the answer should be 90 more 4's than 8's.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) separately for both digits.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):**\n   - The digit 4 appears in the units place for every 10 numbers: 4, 14, 24, ..., 484.\n   - Number of occurrences: (484 - 4) / 10 + 1 = 48.4 \u2192 49 times.\n\n2. **Tens place:**\n   - The digit 4 appears in the tens place in the ranges 40-49, 140-149, 240-249, 340-349, and 440-449.\n   - Each range contributes 10 occurrences, totaling 5 ranges \u00d7 10 = 50 times.\n\n3. **Hundreds place:**\n   - The digit 4 appears in the hundreds place for all numbers from 400 to 488.\n   - Number of occurrences: 488 - 400 + 1 = 89 times.\n\n**Total number of 4's:** 49 (units) + 50 (tens) + 89 (hundreds) = **188**.\n\n**Counting the number of 8's:**\n\n1. **Units place (ones place):**\n   - The digit 8 appears in the units place for every 10 numbers: 8, 18, 28, ..., 488.\n   - Number of occurrences: (488 - 8) / 10 + 1 = 48 + 1 = 49 times.\n\n2. **Tens place:**\n   - The digit 8 appears in the tens place in the ranges 80-89, 180-189, 280-289, 380-389, and 480-488.\n   - The first four ranges contribute 10 each, and the last range contributes 9 (since 488 is the last page).\n   - Total occurrences: 10 + 10 + 10 + 10 + 9 = 49 times.\n\n3. **Hundreds place:**\n   - The digit 8 does not appear in the hundreds place since the book ends at page 488.\n   - Number of occurrences: 0.\n\n**Total number of 8's:** 49 (units) + 49 (tens) + 0 (hundreds) = **98**.\n\n**Difference:**\n- Number of 4's - Number of 8's = 188 - 98 = **90**.\n\n**Answer:** \\boxed{90}"
+  },
+  {
+    "rollout_idx": 33,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " On the other hand, the 8's don't have any in the hundreds place, so the difference is significant. Therefore, I think the calculation is correct, and the answer is 90 more 4's than 8's.\n</think>\n\nThe number of 4's printed is 188, and the number of 8's is 98. The difference is 188 - 98 = 90.\n\n$\\boxed{90}$"
+  },
+  {
+    "rollout_idx": 34,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " Therefore, the difference should indeed be 90.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) separately for both digits.\n\n**Counting the number of 4's:**\n1. **Units place:** 4 appears every 10 numbers (e.g., 4, 14, ..., 484). There are 49 occurrences.\n2. **Tens place:** 4 appears in blocks like 40-49, 140-149, etc., totaling 50 occurrences.\n3. **Hundreds place:** 4 appears from 400-488, which is 89 occurrences.\n**Total 4's:** 49 + 50 + 89 = 188.\n\n**Counting the number of 8's:**\n1. **Units place:** 8 appears every 10 numbers (e.g., 8, 18, ..., 488). There are 49 occurrences.\n2. **Tens place:** 8 appears in blocks like 80-89, 180-189, etc., totaling 49 occurrences.\n3. **Hundreds place:** 8 does not appear since the book ends at 488.\n**Total 8's:** 49 + 49 = 98.\n\n**Difference:** 188 (4's) - 98 (8's) = 90.\n\n$\\boxed{90}$"
+  },
+  {
+    "rollout_idx": 35,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, yeah, I think 90 is the correct difference.\n</think>\n\nTo determine how many more 4's than 8's are printed in the page numbers of a 488-page book, we analyze the occurrence of each digit in the units, tens, and hundreds places.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):**  \n   4 appears in the units place every 10 numbers (e.g., 4, 14, 24, ..., 484).  \n   - Total occurrences: 49.\n\n2. **Tens place:**  \n   4 appears in the tens place in ranges like 40-49, 140-149, etc.  \n   - Total occurrences: 5 sets \u00d7 10 = 50.\n\n3. **Hundreds place:**  \n   4 appears in the hundreds place for pages 400-488.  \n   - Total occurrences: 89.\n\n**Total 4's:** 49 (units) + 50 (tens) + 89 (hundreds) = **188**.\n\n**Counting the number of 8's:**\n\n1. **Units place (ones place):**  \n   8 appears in the units place every 10 numbers (e.g., 8, 18, 28, ..., 488).  \n   - Total occurrences: 49.\n\n2. **Tens place:**  \n   8 appears in the tens place in ranges like 80-89, 180-189, etc., with the last range being 480-488.  \n   - Total occurrences: 4 sets \u00d7 10 + 9 = 49.\n\n3. **Hundreds place:**  \n   8 does not appear in the hundreds place since the book ends at page 488.  \n   - Total occurrences: 0.\n\n**Total 8's:** 49 (units) + 49 (tens) + 0 (hundreds) = **98**.\n\n**Difference:**  \nNumber of 4's - Number of 8's = 188 - 98 = **90**.\n\n**Answer:**  \n\\boxed{90}"
+  },
+  {
+    "rollout_idx": 36,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, I think my calculations are correct, and the answer is 90 more 4's than 8's.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) separately.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):**\n   - 4 appears in 4, 14, 24, ..., 484.\n   - Total: 49 occurrences.\n\n2. **Tens place:**\n   - 4 appears in 40-49, 140-149, 240-249, 340-349, 440-449.\n   - Each block contributes 10 occurrences, totaling 50.\n\n3. **Hundreds place:**\n   - 4 appears in 400-488.\n   - Total: 89 occurrences.\n\n**Total 4's:** 49 (units) + 50 (tens) + 89 (hundreds) = **188**.\n\n**Counting the number of 8's:**\n\n1. **Units place (ones place):**\n   - 8 appears in 8, 18, 28, ..., 488.\n   - Total: 49 occurrences.\n\n2. **Tens place:**\n   - 8 appears in 80-89, 180-189, 280-289, 380-389, 480-488.\n   - Total: 49 occurrences.\n\n3. **Hundreds place:**\n   - 8 does not appear in the hundreds place as the book ends at 488.\n   - Total: 0.\n\n**Total 8's:** 49 (units) + 49 (tens) + 0 (hundreds) = **98**.\n\n**Difference:**\n188 (number of 4's) - 98 (number of 8's) = **90**.\n\n**Answer:** \\boxed{90}"
+  },
+  {
+    "rollout_idx": 37,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, I think my calculations are correct. Therefore, the answer should be 90 more 4's than 8's.\n</think>\n\nThe number of 4's printed is 188, and the number of 8's is 98. Subtracting these gives 188 - 98 = 90. \n\n$\\boxed{90}$"
+  },
+  {
+    "rollout_idx": 38,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, yes, 90 more 4's than 8's.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) for both digits.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):**\n   - 4 appears in 4, 14, 24, ..., 484.\n   - Number of occurrences: (484 - 4)/10 + 1 = 49.\n\n2. **Tens place:**\n   - 4 appears in 40-49, 140-149, 240-249, 340-349, 440-449.\n   - Each set contributes 10 occurrences, totaling 5 sets \u00d7 10 = 50.\n\n3. **Hundreds place:**\n   - 4 appears in 400-488.\n   - Number of occurrences: 488 - 400 + 1 = 89.\n\n**Total 4's:** 49 (units) + 50 (tens) + 89 (hundreds) = 188.\n\n**Counting the number of 8's:**\n\n1. **Units place (ones place):**\n   - 8 appears in 8, 18, 28, ..., 488.\n   - Number of occurrences: (488 - 8)/10 + 1 = 49.\n\n2. **Tens place:**\n   - 8 appears in 80-89, 180-189, 280-289, 380-389, 480-488.\n   - Each set contributes 10 occurrences except the last set, which contributes 9.\n   - Total: 10 + 10 + 10 + 10 + 9 = 49.\n\n3. **Hundreds place:**\n   - No occurrences since the book ends at 488.\n\n**Total 8's:** 49 (units) + 49 (tens) = 98.\n\n**Difference:**\n188 (number of 4's) - 98 (number of 8's) = **90**.\n\n$\\boxed{90}$"
+  },
+  {
+    "rollout_idx": 39,
+    "answer": "90",
+    "is_correct": true,
+    "num_tokens": 857,
+    "hit_max_tokens": false,
+    "text": " So, I think my calculations are correct, and the answer should be 90.\n</think>\n\nTo determine how many more 4's are printed than 8's in the page numbers of a 488-page book, we analyze each digit position (units, tens, hundreds) separately.\n\n**Counting the number of 4's:**\n\n1. **Units place (ones place):**\n   - 4 appears in the units place every 10 numbers: 4, 14, 24, ..., 484.\n   - Total occurrences: 49 (since 484 is the 49th occurrence).\n\n2. **Tens place:**\n   - 4 appears in the tens place in blocks of 100: 40-49, 140-149, 240-249, 340-349, 440-449.\n   - Each block contributes 10 occurrences, and there are 5 such blocks.\n   - Total occurrences: 50.\n\n3. **Hundreds place:**\n   - 4 appears in the hundreds place for pages 400-488.\n   - Total occurrences: 89 (since 488 - 400 + 1 = 89).\n\n**Total 4's:** 49 (units) + 50 (tens) + 89 (hundreds) = 188.\n\n**Counting the number of 8's:**\n\n1. **Units place (ones place):**\n   - 8 appears in the units place every 10 numbers: 8, 18, 28, ..., 488.\n   - Total occurrences: 49.\n\n2. **Tens place:**\n   - 8 appears in the tens place in blocks of 100: 80-89, 180-189, 280-289, 380-389, 480-488.\n   - Each block contributes 10 occurrences, except the last block which contributes 9 (since 488 is the last page).\n   - Total occurrences: 49.\n\n3. **Hundreds place:**\n   - 8 does not appear in the hundreds place as the book ends at page 488.\n   - Total occurrences: 0.\n\n**Total 8's:** 49 (units) + 49 (tens) + 0 (hundreds) = 98.\n\n**Difference:**\n- More 4's than 8's: 188 - 98 = 90.\n\n**Answer:** The number of 4's printed exceeds the number of 8's by 90.\n\n\\boxed{90}"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "position_idx": 131,
+  "chunk_text": "So, a_9 = (59049 - 1)/2 = 59048/2 = 29524",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2355,
+    2387
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 102,
+  "chunk_text": "Assume a solution of the form a_n = A*3^n + B.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1945,
+    1960
+  ]
+}

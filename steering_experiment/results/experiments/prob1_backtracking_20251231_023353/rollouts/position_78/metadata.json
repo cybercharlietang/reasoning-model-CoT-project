@@ -1,0 +1,13 @@
+{
+  "position_idx": 78,
+  "chunk_text": "Wait, but when n = 3183, x = 1/(3183\u03c0) \u2248 0.0001 (since 3183\u03c0 \u2248 10000).",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.05071621707018792,
+  "ci_accuracy": -0.18238805970149258,
+  "steer_range": [
+    1796,
+    1844
+  ]
+}

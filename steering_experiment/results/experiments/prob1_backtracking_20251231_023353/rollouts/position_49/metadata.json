@@ -1,0 +1,13 @@
+{
+  "position_idx": 49,
+  "chunk_text": "So, 1/(n\u03c0) > 0.0001 and 1/(n\u03c0) < 0.001.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.008602253088850625,
+  "ci_accuracy": -0.046666666666666634,
+  "steer_range": [
+    1102,
+    1132
+  ]
+}

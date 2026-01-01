@@ -1,0 +1,13 @@
+{
+  "position_idx": 11,
+  "chunk_text": "I count nine sets of parentheses here, each starting with 1 + 3(...).",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 1.4235766244668864,
+  "ci_accuracy": -0.17637917637917644,
+  "steer_range": [
+    319,
+    336
+  ]
+}

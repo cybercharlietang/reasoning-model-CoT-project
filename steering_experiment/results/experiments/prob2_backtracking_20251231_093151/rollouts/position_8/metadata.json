@@ -1,0 +1,13 @@
+{
+  "position_idx": 8,
+  "chunk_text": "Let me start by counting the number of 4's.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.9104348649902125,
+  "ci_accuracy": -0.1767676767676768,
+  "steer_range": [
+    279,
+    290
+  ]
+}

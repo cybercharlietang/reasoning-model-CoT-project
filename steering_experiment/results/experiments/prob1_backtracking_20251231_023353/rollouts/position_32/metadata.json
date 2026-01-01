@@ -1,0 +1,13 @@
+{
+  "position_idx": 32,
+  "chunk_text": "Now, to find how many integers are in this range, I can subtract the lower bound from the upper bound and add one (since both endpoints are included).",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.013828220178532288,
+  "ci_accuracy": 0.05630775843541802,
+  "steer_range": [
+    768,
+    799
+  ]
+}

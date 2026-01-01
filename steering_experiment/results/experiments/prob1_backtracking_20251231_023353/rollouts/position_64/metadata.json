@@ -1,0 +1,13 @@
+{
+  "position_idx": 64,
+  "chunk_text": "Correct. Another example: n from 1 to 3.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.03285866841373638,
+  "ci_accuracy": 0.08694083694083699,
+  "steer_range": [
+    1399,
+    1411
+  ]
+}

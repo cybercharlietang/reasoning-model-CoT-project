@@ -1,0 +1,13 @@
+{
+  "position_idx": 47,
+  "chunk_text": "But since the book ends at 488, the last set is 480-488.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1211,
+    1234
+  ]
+}

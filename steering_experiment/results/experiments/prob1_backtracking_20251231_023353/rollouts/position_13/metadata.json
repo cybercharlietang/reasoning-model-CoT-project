@@ -1,0 +1,13 @@
+{
+  "position_idx": 13,
+  "chunk_text": "I can rewrite these inequalities to solve for n.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.015418237618450435,
+  "ci_accuracy": -0.004909180166912108,
+  "steer_range": [
+    391,
+    400
+  ]
+}

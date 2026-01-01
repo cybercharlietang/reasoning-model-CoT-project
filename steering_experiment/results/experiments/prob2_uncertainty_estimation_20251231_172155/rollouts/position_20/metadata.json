@@ -1,0 +1,13 @@
+{
+  "position_idx": 20,
+  "chunk_text": "So, units place has 49 fours.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.42328308832910105,
+  "ci_accuracy": -0.019240506329113893,
+  "steer_range": [
+    518,
+    527
+  ]
+}

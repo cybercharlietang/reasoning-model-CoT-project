@@ -1,0 +1,13 @@
+{
+  "position_idx": 31,
+  "chunk_text": "Each of these has a 4 in the hundreds place, so that's 89 fours.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.013436845169973441,
+  "ci_accuracy": -0.043953043953044,
+  "steer_range": [
+    860,
+    879
+  ]
+}

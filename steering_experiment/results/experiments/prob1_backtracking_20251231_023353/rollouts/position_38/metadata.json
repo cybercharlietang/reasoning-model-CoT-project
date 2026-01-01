@@ -1,0 +1,13 @@
+{
+  "position_idx": 38,
+  "chunk_text": "3183 minus 319.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.005825657555685405,
+  "ci_accuracy": -0.05580246913580256,
+  "steer_range": [
+    864,
+    874
+  ]
+}

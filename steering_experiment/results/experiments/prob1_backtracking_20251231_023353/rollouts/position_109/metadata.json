@@ -1,0 +1,13 @@
+{
+  "position_idx": 109,
+  "chunk_text": "Therefore, 1/(3183\u03c0) \u2248 1/9999.68941 \u2248 0.0001000031, which is just a bit over 0.0001, so it is included in the interval (0.0001, 0.001).",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2889,
+    2966
+  ]
+}

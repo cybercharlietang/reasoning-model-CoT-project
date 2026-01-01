@@ -1,0 +1,13 @@
+{
+  "position_idx": 122,
+  "chunk_text": "So, for n=9, since we have 9 layers, a_9 = (3^{10} - 1)/2",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2228,
+    2256
+  ]
+}

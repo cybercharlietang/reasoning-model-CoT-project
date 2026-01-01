@@ -1,0 +1,13 @@
+{
+  "position_idx": 26,
+  "chunk_text": "Dividing both sides by 0.001\u03c0:",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.028037071669775773,
+  "ci_accuracy": 0.07000000000000006,
+  "steer_range": [
+    577,
+    589
+  ]
+}

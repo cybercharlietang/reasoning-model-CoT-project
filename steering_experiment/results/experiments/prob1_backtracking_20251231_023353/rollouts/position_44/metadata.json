@@ -1,0 +1,13 @@
+{
+  "position_idx": 44,
+  "chunk_text": "The formula is (last - first) + 1.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.042371166245878764,
+  "ci_accuracy": 0.07474747474747467,
+  "steer_range": [
+    999,
+    1010
+  ]
+}

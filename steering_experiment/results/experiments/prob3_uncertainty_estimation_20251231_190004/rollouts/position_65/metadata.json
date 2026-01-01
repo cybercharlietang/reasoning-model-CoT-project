@@ -1,0 +1,13 @@
+{
+  "position_idx": 65,
+  "chunk_text": "Next digit: 9 * 3 = 27 + 1 = 28.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1284,
+    1303
+  ]
+}

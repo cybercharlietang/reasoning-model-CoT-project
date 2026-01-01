@@ -1,0 +1,13 @@
+{
+  "position_idx": 10,
+  "chunk_text": "1. **Units place (ones place):** The 4 can appear in the units place every 10 numbers.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 1.2885046800579807,
+  "ci_accuracy": 0.0030864197530864335,
+  "steer_range": [
+    307,
+    332
+  ]
+}

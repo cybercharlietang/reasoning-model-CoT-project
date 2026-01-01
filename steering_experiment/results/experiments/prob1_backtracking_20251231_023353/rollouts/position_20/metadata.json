@@ -1,0 +1,13 @@
+{
+  "position_idx": 20,
+  "chunk_text": "Calculating the right side:",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.4140489340854156,
+  "ci_accuracy": 0.004419191919191934,
+  "steer_range": [
+    484,
+    489
+  ]
+}

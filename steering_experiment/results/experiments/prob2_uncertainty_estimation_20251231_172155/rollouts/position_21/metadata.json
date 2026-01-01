@@ -1,0 +1,13 @@
+{
+  "position_idx": 21,
+  "chunk_text": "2. **Tens place:** Now, the tens place can have 4 in numbers like 40-49, 140-149, 240-249, 340-349, and 440-449.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 1.6239785977818422,
+  "ci_accuracy": -0.11428571428571432,
+  "steer_range": [
+    528,
+    591
+  ]
+}

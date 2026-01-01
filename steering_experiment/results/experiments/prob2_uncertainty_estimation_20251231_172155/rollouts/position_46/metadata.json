@@ -1,0 +1,13 @@
+{
+  "position_idx": 46,
+  "chunk_text": "2. **Tens place:** The tens digit is 8 in numbers like 80-89, 180-189, 280-289, 380-389, and 480-489.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1150,
+    1210
+  ]
+}

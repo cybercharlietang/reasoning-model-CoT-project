@@ -1,0 +1,13 @@
+{
+  "position_idx": 45,
+  "chunk_text": "Wait, actually, that's breaking it down incorrectly.",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1010,
+    1020
+  ]
+}

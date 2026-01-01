@@ -1,0 +1,13 @@
+{
+  "position_idx": 21,
+  "chunk_text": "1 / (0.0001\u03c0) = 10000 / \u03c0 \u2248 10000 / 3.1416 \u2248 3183.098",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.14469636621424742,
+  "ci_accuracy": 0.12121212121212122,
+  "steer_range": [
+    490,
+    537
+  ]
+}

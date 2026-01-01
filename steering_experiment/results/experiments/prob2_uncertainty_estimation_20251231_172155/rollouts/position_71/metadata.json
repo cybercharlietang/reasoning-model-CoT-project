@@ -1,0 +1,13 @@
+{
+  "position_idx": 71,
+  "chunk_text": "488-8=480, 480/10=48, plus 1 is 49.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1767,
+    1796
+  ]
+}

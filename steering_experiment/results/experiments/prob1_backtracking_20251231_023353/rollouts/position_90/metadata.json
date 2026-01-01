@@ -1,0 +1,13 @@
+{
+  "position_idx": 90,
+  "chunk_text": "So, n=3183 is included.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2290,
+    2300
+  ]
+}

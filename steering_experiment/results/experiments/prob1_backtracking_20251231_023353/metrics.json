@@ -1,0 +1,6561 @@
+[
+  {
+    "position_idx": 0,
+    "function_tags": [
+      "problem_setup"
+    ],
+    "chunk_text": "Okay, so I have this problem here: I need to find the number of x-intercepts of the function y = sin(1/x) in the interval (0.0001, 0.001).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.004936068000950172,
+        "js_divergence": 0.0012674810474233404,
+        "baseline_accuracy": 0.8,
+        "steered_accuracy": 0.8387096774193549,
+        "accuracy_delta": 0.03870967741935483,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.875,
+        "steered_extraction_rate": 0.775,
+        "baseline_distribution": {
+          "2865": 0.8,
+          "2864": 0.2
+        },
+        "steered_distribution": {
+          "2865": 0.8387096774193549,
+          "2864": 0.16129032258064516
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.7019184956371022,
+        "js_divergence": 0.043209835165021894,
+        "baseline_accuracy": 0.8,
+        "steered_accuracy": 0.5454545454545454,
+        "accuracy_delta": -0.25454545454545463,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.875,
+        "steered_extraction_rate": 0.825,
+        "baseline_distribution": {
+          "2865": 0.8,
+          "2864": 0.2
+        },
+        "steered_distribution": {
+          "2865": 0.5454545454545454,
+          "2864": 0.42424242424242425,
+          "2866": 0.030303030303030304
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 1,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "Hmm, x-intercepts are where the function crosses the x-axis, which means y = 0.",
+    "ci_kl": 0.1367024513825096,
+    "ci_accuracy": -0.17918482440399897,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.5621637755125949,
+        "js_divergence": 0.010670594035552757,
+        "baseline_accuracy": 0.696969696969697,
+        "steered_accuracy": 0.6666666666666666,
+        "accuracy_delta": -0.030303030303030387,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.825,
+        "steered_extraction_rate": 0.825,
+        "baseline_distribution": {
+          "2864": 0.30303030303030304,
+          "2865": 0.696969696969697
+        },
+        "steered_distribution": {
+          "2865": 0.6666666666666666,
+          "2864": 0.30303030303030304,
+          "2863": 0.030303030303030304
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.013848161163242625,
+        "js_divergence": 0.003560177565656325,
+        "baseline_accuracy": 0.696969696969697,
+        "steered_accuracy": 0.7714285714285715,
+        "accuracy_delta": 0.07445887445887445,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.825,
+        "steered_extraction_rate": 0.875,
+        "baseline_distribution": {
+          "2864": 0.30303030303030304,
+          "2865": 0.696969696969697
+        },
+        "steered_distribution": {
+          "2865": 0.7714285714285715,
+          "2864": 0.22857142857142856
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 10,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Since x is positive and between 0.0001 and 0.001, I can substitute x with 1/(n\u03c0) to find the range of n.",
+    "ci_kl": 0.019183170329399046,
+    "ci_accuracy": -0.010000000000000009,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.040459243637240225,
+        "js_divergence": 0.011179104986830484,
+        "baseline_accuracy": 0.825,
+        "steered_accuracy": 0.9230769230769231,
+        "accuracy_delta": 0.09807692307692317,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.825,
+          "2864": 0.175
+        },
+        "steered_distribution": {
+          "2865": 0.9230769230769231,
+          "2864": 0.07692307692307693
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.004791286504287028,
+        "js_divergence": 0.0012342580452442218,
+        "baseline_accuracy": 0.825,
+        "steered_accuracy": 0.8611111111111112,
+        "accuracy_delta": 0.036111111111111205,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.9,
+        "baseline_distribution": {
+          "2865": 0.825,
+          "2864": 0.175
+        },
+        "steered_distribution": {
+          "2865": 0.8611111111111112,
+          "2864": 0.1388888888888889
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 100,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Wait, perhaps I should compute 1/(3183\u03c0) more accurately.",
+    "ci_kl": 0.2324796982953988,
+    "ci_accuracy": -0.011627906976744207,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 101,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Let me compute 3183 * \u03c0:",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.02531780798429,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.975,
+          "28647": 0.025
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.02531780798429,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.975,
+          "28647": 0.025
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 102,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "3183 * \u03c0 = 3183 * 3.1415926535 \u2248",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 103,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Let me compute 3000 * \u03c0 = 9424.77796",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 104,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "183 * \u03c0 \u2248 183 * 3.1415926535 \u2248",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.4711595077047924,
+        "js_divergence": 0.008969754738473577,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.9743589743589743,
+        "accuracy_delta": -0.02564102564102566,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 0.9743589743589743,
+          "2864": 0.02564102564102564
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 105,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "180 * \u03c0 \u2248 565.48667",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.02531780798429,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.975,
+          "2866": 0.025
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.02531780798429,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 0.975,
+          "2866": 0.025
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 106,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "3 * \u03c0 \u2248 9.424777",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 107,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So, 565.48667 + 9.424777 \u2248 574.91145",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 108,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So total 3183\u03c0 \u2248 9424.77796 + 574.91145 \u2248 9999.68941",
+    "ci_kl": 0.005830919553507869,
+    "ci_accuracy": 0.010101010101010055,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 109,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Therefore, 1/(3183\u03c0) \u2248 1/9999.68941 \u2248 0.0001000031, which is just a bit over 0.0001, so it is included in the interval (0.0001, 0.001).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 11,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So, substituting x = 1/(n\u03c0), the inequalities become:",
+    "ci_kl": 0.20680345992647683,
+    "ci_accuracy": 0.020618556701030855,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.05625780981923765,
+        "js_divergence": 0.018954096227892743,
+        "baseline_accuracy": 0.8717948717948718,
+        "steered_accuracy": 0.8947368421052632,
+        "accuracy_delta": 0.022941970310391357,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 0.8717948717948718,
+          "2863": 0.02564102564102564,
+          "2864": 0.07692307692307693,
+          "2866": 0.02564102564102564
+        },
+        "steered_distribution": {
+          "2865": 0.8947368421052632,
+          "2864": 0.10526315789473684
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.1023358237072951,
+        "js_divergence": 0.028710651486198092,
+        "baseline_accuracy": 0.8717948717948718,
+        "steered_accuracy": 0.8205128205128205,
+        "accuracy_delta": -0.05128205128205132,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.8717948717948718,
+          "2863": 0.02564102564102564,
+          "2864": 0.07692307692307693,
+          "2866": 0.02564102564102564
+        },
+        "steered_distribution": {
+          "2865": 0.8205128205128205,
+          "2864": 0.1794871794871795
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 110,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "Similarly, for n=3183, x \u2248 0.0001000031, which is within the interval.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.925,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 111,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Similarly, n=319: 319\u03c0 \u2248 319 * 3.1415926535 \u2248",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.4587394241109804,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": -0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 0.975,
+          "2866": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 112,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "300\u03c0 \u2248 942.477796",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 113,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "19\u03c0 \u2248 59.6902604",
+    "ci_kl": 0.007067166852233144,
+    "ci_accuracy": 0.010101010101010055,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 114,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So total \u2248 942.477796 + 59.6902604 \u2248 1002.168056",
+    "ci_kl": 0.2036999743333465,
+    "ci_accuracy": -0.010309278350515427,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 115,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "So, 1/(319\u03c0) \u2248 1/1002.168056 \u2248 0.00099784, which is less than 0.001, so it's included.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.925,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 116,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Therefore, the count from n=319 to n=3183 inclusive is correct.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 117,
+    "function_tags": [
+      "final_answer_emission"
+    ],
+    "chunk_text": "So, the number of x-intercepts is 2865.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 118,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "Wait, but let me just make sure that I didn't make any miscalculations in the subtraction.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": true,
+    "target_tags": [
+      "uncertainty_management"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 119,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "3183 - 319 is 2864, then adding 1 gives 2865.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 12,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "0.0001 < 1/(n\u03c0) < 0.001",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.004656736183478095,
+        "js_divergence": 0.001217063948245418,
+        "baseline_accuracy": 0.8947368421052632,
+        "steered_accuracy": 0.9230769230769231,
+        "accuracy_delta": 0.028340080971659964,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.95,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.8947368421052632,
+          "2864": 0.10526315789473684
+        },
+        "steered_distribution": {
+          "2865": 0.9230769230769231,
+          "2864": 0.07692307692307693
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 4.263130001328072e-05,
+        "js_divergence": 1.061599273403718e-05,
+        "baseline_accuracy": 0.8947368421052632,
+        "steered_accuracy": 0.8918918918918919,
+        "accuracy_delta": -0.002844950213371278,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.95,
+        "steered_extraction_rate": 0.925,
+        "baseline_distribution": {
+          "2865": 0.8947368421052632,
+          "2864": 0.10526315789473684
+        },
+        "steered_distribution": {
+          "2865": 0.8918918918918919,
+          "2864": 0.10810810810810811
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 120,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "Yes, that seems correct.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 121,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Alternatively, I can think of it as the number of integers from 319 to 3183 is equal to (3183 - 319) +1.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 122,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So, 3183 - 319 = 2864, plus 1 is 2865.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 123,
+    "function_tags": [
+      "final_answer_emission"
+    ],
+    "chunk_text": "Therefore, the number of x-intercepts is 2865.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 124,
+    "function_tags": [
+      "final_answer_emission"
+    ],
+    "chunk_text": "**Final Answer**\nThe number of x-intercepts is \\boxed{2865}.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 13,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "I can rewrite these inequalities to solve for n.",
+    "ci_kl": 0.015418237618450435,
+    "ci_accuracy": -0.004909180166912108,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 0.875,
+        "steered_accuracy": 0.875,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        },
+        "steered_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.022310998897397502,
+        "js_divergence": 0.005206002949135438,
+        "baseline_accuracy": 0.875,
+        "steered_accuracy": 0.8,
+        "accuracy_delta": -0.07499999999999996,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        },
+        "steered_distribution": {
+          "2864": 0.2,
+          "2865": 0.8
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 14,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Let's take the first inequality:",
+    "ci_kl": 0.205607135396315,
+    "ci_accuracy": -0.03250578581948249,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.010964955669182798,
+        "js_divergence": 0.002917543046394881,
+        "baseline_accuracy": 0.875,
+        "steered_accuracy": 0.9210526315789473,
+        "accuracy_delta": 0.046052631578947345,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        },
+        "steered_distribution": {
+          "2865": 0.9210526315789473,
+          "2864": 0.07894736842105263
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.00019496542026626804,
+        "js_divergence": 4.838393077195532e-05,
+        "baseline_accuracy": 0.875,
+        "steered_accuracy": 0.868421052631579,
+        "accuracy_delta": -0.006578947368421018,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        },
+        "steered_distribution": {
+          "2865": 0.868421052631579,
+          "2864": 0.13157894736842105
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 15,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "0.0001 < 1/(n\u03c0)",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.013090190535750675,
+        "js_divergence": 0.003505661129269661,
+        "baseline_accuracy": 0.875,
+        "steered_accuracy": 0.925,
+        "accuracy_delta": 0.050000000000000044,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        },
+        "steered_distribution": {
+          "2865": 0.925,
+          "2864": 0.075
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 4.662199222377596e-05,
+        "js_divergence": 1.1613324778990213e-05,
+        "baseline_accuracy": 0.875,
+        "steered_accuracy": 0.8717948717948718,
+        "accuracy_delta": -0.0032051282051281937,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        },
+        "steered_distribution": {
+          "2865": 0.8717948717948718,
+          "2864": 0.1282051282051282
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 16,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Multiplying both sides by n\u03c0 (since n is positive, the inequality direction remains the same):",
+    "ci_kl": 0.0002108286037131174,
+    "ci_accuracy": 0.0032294124953421433,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.049342239566337195,
+        "js_divergence": 0.010414342092895927,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.868421052631579,
+        "accuracy_delta": -0.08157894736842097,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 0.95,
+          "2864": 0.05
+        },
+        "steered_distribution": {
+          "2865": 0.868421052631579,
+          "2864": 0.13157894736842105
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.007558080862036645,
+        "js_divergence": 0.001750492249264845,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.9210526315789473,
+        "accuracy_delta": -0.02894736842105261,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 0.95,
+          "2864": 0.05
+        },
+        "steered_distribution": {
+          "2865": 0.9210526315789473,
+          "2864": 0.07894736842105263
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 17,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "0.0001 * n\u03c0 < 1",
+    "ci_kl": 0.06154747529606876,
+    "ci_accuracy": -0.125,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.10536051565782635,
+        "js_divergence": 0.03597375665014844,
+        "baseline_accuracy": 0.9,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.09999999999999998,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.9,
+          "2864": 0.1
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.014072044086628453,
+        "js_divergence": 0.0032924660596022146,
+        "baseline_accuracy": 0.9,
+        "steered_accuracy": 0.8461538461538461,
+        "accuracy_delta": -0.05384615384615388,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.9,
+          "2864": 0.1
+        },
+        "steered_distribution": {
+          "2865": 0.8461538461538461,
+          "2864": 0.15384615384615385
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 18,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Then, dividing both sides by 0.0001\u03c0:",
+    "ci_kl": 0.02023280885378883,
+    "ci_accuracy": 0.015000000000000013,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.00014927806840320593,
+        "js_divergence": 3.760051522448205e-05,
+        "baseline_accuracy": 0.8947368421052632,
+        "steered_accuracy": 0.9,
+        "accuracy_delta": 0.0052631578947368585,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.95,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.8947368421052632,
+          "2864": 0.10526315789473684
+        },
+        "steered_distribution": {
+          "2865": 0.9,
+          "2864": 0.1
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.5400183744146906,
+        "js_divergence": 0.024385408774863615,
+        "baseline_accuracy": 0.8947368421052632,
+        "steered_accuracy": 0.7435897435897436,
+        "accuracy_delta": -0.15114709851551955,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.95,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.8947368421052632,
+          "2864": 0.10526315789473684
+        },
+        "steered_distribution": {
+          "2865": 0.7435897435897436,
+          "2864": 0.23076923076923078,
+          "31097": 0.02564102564102564
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 19,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "n < 1 / (0.0001\u03c0)",
+    "ci_kl": 0.15246853961952486,
+    "ci_accuracy": 0.14141414141414144,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.04228223531037323,
+        "js_divergence": 0.011714709712771412,
+        "baseline_accuracy": 0.825,
+        "steered_accuracy": 0.925,
+        "accuracy_delta": 0.10000000000000009,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.825,
+          "2864": 0.175
+        },
+        "steered_distribution": {
+          "2865": 0.925,
+          "2864": 0.075
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.4897667585272127,
+        "js_divergence": 0.013990233845791086,
+        "baseline_accuracy": 0.825,
+        "steered_accuracy": 0.8717948717948718,
+        "accuracy_delta": 0.04679487179487185,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.825,
+          "2864": 0.175
+        },
+        "steered_distribution": {
+          "2865": 0.8717948717948718,
+          "2863": 0.02564102564102564,
+          "2864": 0.10256410256410256
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 2,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "So, I need to find how many times sin(1/x) equals zero in that interval.",
+    "ci_kl": 0.42437649409532757,
+    "ci_accuracy": -0.06529209621993126,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.07424563976366785,
+        "js_divergence": 0.023081997955056763,
+        "baseline_accuracy": 0.7948717948717948,
+        "steered_accuracy": 0.7567567567567568,
+        "accuracy_delta": -0.038115038115038025,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.925,
+        "baseline_distribution": {
+          "2864": 0.15384615384615385,
+          "2865": 0.7948717948717948,
+          "2863": 0.05128205128205128
+        },
+        "steered_distribution": {
+          "2865": 0.7567567567567568,
+          "2864": 0.24324324324324326
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.05923040444903631,
+        "js_divergence": 0.019661524655120055,
+        "baseline_accuracy": 0.7948717948717948,
+        "steered_accuracy": 0.7941176470588235,
+        "accuracy_delta": -0.0007541478129713397,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.85,
+        "baseline_distribution": {
+          "2864": 0.15384615384615385,
+          "2865": 0.7948717948717948,
+          "2863": 0.05128205128205128
+        },
+        "steered_distribution": {
+          "2864": 0.20588235294117646,
+          "2865": 0.7941176470588235
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 20,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Calculating the right side:",
+    "ci_kl": 0.4140489340854156,
+    "ci_accuracy": 0.004419191919191934,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.5022413004692474,
+        "js_divergence": 0.017767508224272508,
+        "baseline_accuracy": 0.8717948717948718,
+        "steered_accuracy": 0.9230769230769231,
+        "accuracy_delta": 0.05128205128205132,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.8717948717948718,
+          "2864": 0.1282051282051282
+        },
+        "steered_distribution": {
+          "2865": 0.9230769230769231,
+          "2863": 0.02564102564102564,
+          "2864": 0.05128205128205128
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.002789270687801295,
+        "js_divergence": 0.0006792349561679451,
+        "baseline_accuracy": 0.8717948717948718,
+        "steered_accuracy": 0.8461538461538461,
+        "accuracy_delta": -0.02564102564102566,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.8717948717948718,
+          "2864": 0.1282051282051282
+        },
+        "steered_distribution": {
+          "2865": 0.8461538461538461,
+          "2864": 0.15384615384615385
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 21,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "1 / (0.0001\u03c0) = 10000 / \u03c0 \u2248 10000 / 3.1416 \u2248 3183.098",
+    "ci_kl": 0.14469636621424742,
+    "ci_accuracy": 0.12121212121212122,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0032434265684169288,
+        "js_divergence": 0.0007839115254469889,
+        "baseline_accuracy": 0.9,
+        "steered_accuracy": 0.875,
+        "accuracy_delta": -0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.9,
+          "2864": 0.1
+        },
+        "steered_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.04864328725043561,
+        "js_divergence": 0.010874652105840772,
+        "baseline_accuracy": 0.9,
+        "steered_accuracy": 0.7948717948717948,
+        "accuracy_delta": -0.1051282051282052,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.9,
+          "2864": 0.1
+        },
+        "steered_distribution": {
+          "2865": 0.7948717948717948,
+          "2864": 0.20512820512820512
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 22,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Similarly, the second inequality:",
+    "ci_kl": 0.010090552185462065,
+    "ci_accuracy": -0.041212121212121255,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0035791628562623044,
+        "js_divergence": 0.0008682269774890582,
+        "baseline_accuracy": 0.875,
+        "steered_accuracy": 0.8461538461538461,
+        "accuracy_delta": -0.028846153846153855,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2864": 0.125,
+          "2865": 0.875
+        },
+        "steered_distribution": {
+          "2865": 0.8461538461538461,
+          "2864": 0.15384615384615385
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.032311656731415644,
+        "js_divergence": 0.009072554282480126,
+        "baseline_accuracy": 0.875,
+        "steered_accuracy": 0.95,
+        "accuracy_delta": 0.07499999999999996,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2864": 0.125,
+          "2865": 0.875
+        },
+        "steered_distribution": {
+          "2865": 0.95,
+          "2864": 0.05
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 23,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "1/(n\u03c0) < 0.001",
+    "ci_kl": 0.12991212402399388,
+    "ci_accuracy": 0.16161616161616166,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0339989606342877,
+        "js_divergence": 0.011117063063031844,
+        "baseline_accuracy": 0.925,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": 0.04999999999999993,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.925,
+          "2864": 0.05,
+          "2866": 0.025
+        },
+        "steered_distribution": {
+          "2865": 0.975,
+          "2864": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.025317807984289786,
+        "js_divergence": 0.008743455793932313,
+        "baseline_accuracy": 0.925,
+        "steered_accuracy": 0.9487179487179487,
+        "accuracy_delta": 0.023717948717948634,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.925,
+          "2864": 0.05,
+          "2866": 0.025
+        },
+        "steered_distribution": {
+          "2865": 0.9487179487179487,
+          "2864": 0.05128205128205128
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 24,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Multiplying both sides by n\u03c0:",
+    "ci_kl": 0.053527503581850856,
+    "ci_accuracy": -0.04040404040404044,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 0.9230769230769231,
+        "steered_accuracy": 0.9230769230769231,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.9230769230769231,
+          "2864": 0.07692307692307693
+        },
+        "steered_distribution": {
+          "2865": 0.9230769230769231,
+          "2864": 0.07692307692307693
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0034503992608881998,
+        "js_divergence": 0.0008276869704332253,
+        "baseline_accuracy": 0.9230769230769231,
+        "steered_accuracy": 0.9,
+        "accuracy_delta": -0.023076923076923106,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.9230769230769231,
+          "2864": 0.07692307692307693
+        },
+        "steered_distribution": {
+          "2864": 0.1,
+          "2865": 0.9
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 25,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "1 < 0.001 * n\u03c0",
+    "ci_kl": 0.7472588796792139,
+    "ci_accuracy": -0.08666666666666667,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.06417959825533706,
+        "js_divergence": 0.01918040618483966,
+        "baseline_accuracy": 0.875,
+        "steered_accuracy": 0.9743589743589743,
+        "accuracy_delta": 0.09935897435897434,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        },
+        "steered_distribution": {
+          "2865": 0.9743589743589743,
+          "2864": 0.02564102564102564
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.012027415663856449,
+        "js_divergence": 0.0032108003214103478,
+        "baseline_accuracy": 0.875,
+        "steered_accuracy": 0.9230769230769231,
+        "accuracy_delta": 0.04807692307692313,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        },
+        "steered_distribution": {
+          "2865": 0.9230769230769231,
+          "2864": 0.07692307692307693
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 26,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Dividing both sides by 0.001\u03c0:",
+    "ci_kl": 0.028037071669775773,
+    "ci_accuracy": 0.07000000000000006,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.005061579322644994,
+        "js_divergence": 0.0013418053995627368,
+        "baseline_accuracy": 0.925,
+        "steered_accuracy": 0.95,
+        "accuracy_delta": 0.02499999999999991,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.925,
+          "2864": 0.075
+        },
+        "steered_distribution": {
+          "2865": 0.95,
+          "2864": 0.05
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.004953282327591058,
+        "js_divergence": 0.0011782941261152674,
+        "baseline_accuracy": 0.925,
+        "steered_accuracy": 0.8974358974358975,
+        "accuracy_delta": -0.027564102564102577,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.925,
+          "2864": 0.075
+        },
+        "steered_distribution": {
+          "2865": 0.8974358974358975,
+          "2864": 0.10256410256410256
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 27,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "n > 1 / (0.001\u03c0) = 1000 / \u03c0 \u2248 1000 / 3.1416 \u2248 318.309",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.05772779309910912,
+        "js_divergence": 0.015288277356700842,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.925,
+        "accuracy_delta": -0.02499999999999991,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.95,
+          "2864": 0.025,
+          "2866": 0.025
+        },
+        "steered_distribution": {
+          "2865": 0.925,
+          "2864": 0.075
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.6864783574390155,
+        "js_divergence": 0.05218461463103636,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.8,
+        "accuracy_delta": -0.1499999999999999,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.95,
+          "2864": 0.025,
+          "2866": 0.025
+        },
+        "steered_distribution": {
+          "2865": 0.8,
+          "2864": 0.175,
+          "2863": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 28,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "So, n must be greater than approximately 318.309 and less than approximately 3183.098.",
+    "ci_kl": 1.0530699045283602,
+    "ci_accuracy": -0.02164502164502169,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0032434265684169288,
+        "js_divergence": 0.0007839115254469889,
+        "baseline_accuracy": 0.9,
+        "steered_accuracy": 0.875,
+        "accuracy_delta": -0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.9,
+          "2864": 0.1
+        },
+        "steered_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0032434265684169288,
+        "js_divergence": 0.0007839115254469889,
+        "baseline_accuracy": 0.9,
+        "steered_accuracy": 0.875,
+        "accuracy_delta": -0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.9,
+          "2864": 0.1
+        },
+        "steered_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 29,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "But n has to be an integer, so n ranges from the smallest integer greater than 318.309 to the largest integer less than 3183.098.",
+    "ci_kl": 0.1364510898911547,
+    "ci_accuracy": 0.13,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.49818718665728967,
+        "js_divergence": 0.019765173998119952,
+        "baseline_accuracy": 0.825,
+        "steered_accuracy": 0.9,
+        "accuracy_delta": 0.07500000000000007,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.825,
+          "2864": 0.175
+        },
+        "steered_distribution": {
+          "2865": 0.9,
+          "2864": 0.075,
+          "2866": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 1.0082377177998807,
+        "js_divergence": 0.030852937599892265,
+        "baseline_accuracy": 0.825,
+        "steered_accuracy": 0.65,
+        "accuracy_delta": -0.17499999999999993,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.825,
+          "2864": 0.175
+        },
+        "steered_distribution": {
+          "2864": 0.3,
+          "2865": 0.65,
+          "2863": 0.05
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 3,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "Let me start by recalling that sin(\u03b8) is zero when \u03b8 is an integer multiple of \u03c0.",
+    "ci_kl": 0.00170228202928481,
+    "ci_accuracy": -0.040385212799005865,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.09966326551595497,
+        "js_divergence": 0.023684233824857466,
+        "baseline_accuracy": 0.7352941176470589,
+        "steered_accuracy": 0.5263157894736842,
+        "accuracy_delta": -0.2089783281733747,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.85,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 0.7352941176470589,
+          "2864": 0.2647058823529412
+        },
+        "steered_distribution": {
+          "2864": 0.47368421052631576,
+          "2865": 0.5263157894736842
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.04331855967840591,
+        "js_divergence": 0.011581178751927254,
+        "baseline_accuracy": 0.7352941176470589,
+        "steered_accuracy": 0.8571428571428571,
+        "accuracy_delta": 0.12184873949579822,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.85,
+        "steered_extraction_rate": 0.875,
+        "baseline_distribution": {
+          "2865": 0.7352941176470589,
+          "2864": 0.2647058823529412
+        },
+        "steered_distribution": {
+          "2865": 0.8571428571428571,
+          "2864": 0.14285714285714285
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 30,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "The smallest integer greater than 318.309 is 319, and the largest integer less than 3183.098 is 3183.",
+    "ci_kl": 0.011983061356833018,
+    "ci_accuracy": -0.0273469387755102,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0020304255348033186,
+        "js_divergence": 0.0004962687458998742,
+        "baseline_accuracy": 0.8717948717948718,
+        "steered_accuracy": 0.85,
+        "accuracy_delta": -0.02179487179487183,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2864": 0.1282051282051282,
+          "2865": 0.8717948717948718
+        },
+        "steered_distribution": {
+          "2865": 0.85,
+          "2864": 0.15
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.23095849937705307,
+        "js_divergence": 0.0493184294386925,
+        "baseline_accuracy": 0.8717948717948718,
+        "steered_accuracy": 0.6,
+        "accuracy_delta": -0.27179487179487183,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2864": 0.1282051282051282,
+          "2865": 0.8717948717948718
+        },
+        "steered_distribution": {
+          "2865": 0.6,
+          "2864": 0.4
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 31,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "So, n can take integer values from 319 up to 3183.",
+    "ci_kl": 0.0002578083689648786,
+    "ci_accuracy": -0.005555555555555536,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0425780055269189,
+        "js_divergence": 0.009072554282480126,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.875,
+        "accuracy_delta": -0.07499999999999996,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.95,
+          "2864": 0.05
+        },
+        "steered_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 1.3481476810259752,
+        "js_divergence": 0.09055424206279325,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.625,
+        "accuracy_delta": -0.32499999999999996,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.95,
+          "2864": 0.05
+        },
+        "steered_distribution": {
+          "2865": 0.625,
+          "2864": 0.325,
+          "2863": 0.05
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 32,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Now, to find how many integers are in this range, I can subtract the lower bound from the upper bound and add one (since both endpoints are included).",
+    "ci_kl": 0.013828220178532288,
+    "ci_accuracy": 0.05630775843541802,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.026148376872254353,
+        "js_divergence": 0.005994467843540123,
+        "baseline_accuracy": 0.9,
+        "steered_accuracy": 0.825,
+        "accuracy_delta": -0.07500000000000007,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.9,
+          "2864": 0.1
+        },
+        "steered_distribution": {
+          "2864": 0.175,
+          "2865": 0.825
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.47411097899167176,
+        "js_divergence": 0.012997434793130744,
+        "baseline_accuracy": 0.9,
+        "steered_accuracy": 0.925,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.9,
+          "2864": 0.1
+        },
+        "steered_distribution": {
+          "2865": 0.925,
+          "2864": 0.05,
+          "2863": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 33,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So, the number of integers is 3183 - 319 + 1.",
+    "ci_kl": 0.17509384934087252,
+    "ci_accuracy": 0.1717171717171717,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.003336961612319757,
+        "js_divergence": 0.0008066290534345776,
+        "baseline_accuracy": 0.8974358974358975,
+        "steered_accuracy": 0.8717948717948718,
+        "accuracy_delta": -0.02564102564102566,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2864": 0.10256410256410256,
+          "2865": 0.8974358974358975
+        },
+        "steered_distribution": {
+          "2865": 0.8717948717948718,
+          "2864": 0.1282051282051282
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.010862551889670245,
+        "js_divergence": 0.0025625665888558344,
+        "baseline_accuracy": 0.8974358974358975,
+        "steered_accuracy": 0.85,
+        "accuracy_delta": -0.04743589743589749,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2864": 0.10256410256410256,
+          "2865": 0.8974358974358975
+        },
+        "steered_distribution": {
+          "2865": 0.85,
+          "2864": 0.15
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 34,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Calculating that:",
+    "ci_kl": 0.016951377963293907,
+    "ci_accuracy": -0.061717171717171726,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.02533483472805321,
+        "js_divergence": 0.008747675559643998,
+        "baseline_accuracy": 0.925,
+        "steered_accuracy": 0.95,
+        "accuracy_delta": 0.02499999999999991,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.925,
+          "2863": 0.025,
+          "2864": 0.05
+        },
+        "steered_distribution": {
+          "2865": 0.95,
+          "2864": 0.05
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.06591272172380996,
+        "js_divergence": 0.017313395943857866,
+        "baseline_accuracy": 0.925,
+        "steered_accuracy": 0.875,
+        "accuracy_delta": -0.050000000000000044,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.925,
+          "2863": 0.025,
+          "2864": 0.05
+        },
+        "steered_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 35,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "3183 - 319 = 2864",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.45875615834466393,
+        "js_divergence": 0.008747675559643998,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.925,
+        "accuracy_delta": -0.02499999999999991,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.95,
+          "2864": 0.05
+        },
+        "steered_distribution": {
+          "2865": 0.925,
+          "2864": 0.05,
+          "2863": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.18062822396270115,
+        "js_divergence": 0.034559632407383765,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.775,
+        "accuracy_delta": -0.17499999999999993,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.95,
+          "2864": 0.05
+        },
+        "steered_distribution": {
+          "2865": 0.775,
+          "2864": 0.225
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 36,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "2864 + 1 = 2865",
+    "ci_kl": 0.13645109279620685,
+    "ci_accuracy": 0.09999999999999998,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.005061579322644994,
+        "js_divergence": 0.0013418053995627368,
+        "baseline_accuracy": 0.925,
+        "steered_accuracy": 0.95,
+        "accuracy_delta": 0.02499999999999991,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2864": 0.075,
+          "2865": 0.925
+        },
+        "steered_distribution": {
+          "2865": 0.95,
+          "2864": 0.05
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.00410913047587505,
+        "js_divergence": 0.0009815382539504515,
+        "baseline_accuracy": 0.925,
+        "steered_accuracy": 0.9,
+        "accuracy_delta": -0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2864": 0.075,
+          "2865": 0.925
+        },
+        "steered_distribution": {
+          "2865": 0.9,
+          "2864": 0.1
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 37,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "Wait, let me check that subtraction again.",
+    "ci_kl": 0.21330160092498232,
+    "ci_accuracy": 0.051515151515151514,
+    "is_target": true,
+    "target_tags": [
+      "uncertainty_management"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.016706501178764738,
+        "js_divergence": 0.004585354899260008,
+        "baseline_accuracy": 0.9,
+        "steered_accuracy": 0.95,
+        "accuracy_delta": 0.04999999999999993,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.9,
+          "2864": 0.1
+        },
+        "steered_distribution": {
+          "2865": 0.95,
+          "2864": 0.05
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.026148376872254353,
+        "js_divergence": 0.005994467843540123,
+        "baseline_accuracy": 0.9,
+        "steered_accuracy": 0.825,
+        "accuracy_delta": -0.07500000000000007,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.9,
+          "2864": 0.1
+        },
+        "steered_distribution": {
+          "2865": 0.825,
+          "2864": 0.175
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 38,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "3183 minus 319.",
+    "ci_kl": 0.005825657555685405,
+    "ci_accuracy": -0.05580246913580256,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.14890432255622763,
+        "js_divergence": 0.026488064988418034,
+        "baseline_accuracy": 0.9743589743589743,
+        "steered_accuracy": 0.85,
+        "accuracy_delta": -0.12435897435897436,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.9743589743589743,
+          "2864": 0.02564102564102564
+        },
+        "steered_distribution": {
+          "2865": 0.85,
+          "2864": 0.15
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 8.291258889243382e-06,
+        "js_divergence": 2.081314921929242e-06,
+        "baseline_accuracy": 0.9743589743589743,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": 0.0006410256410256387,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.9743589743589743,
+          "2864": 0.02564102564102564
+        },
+        "steered_distribution": {
+          "2865": 0.975,
+          "2864": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 39,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Let me compute 3183 - 300 = 2883, then subtract 19 more: 2883 - 19 = 2864.",
+    "ci_kl": 0.11647498857548887,
+    "ci_accuracy": 0.13,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.5034188385362417,
+        "js_divergence": 0.018355733276187405,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.85,
+        "accuracy_delta": -0.09999999999999998,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.95,
+          "2864": 0.05
+        },
+        "steered_distribution": {
+          "2865": 0.85,
+          "2863": 0.025,
+          "2864": 0.125
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.1905750702678683,
+        "js_divergence": 0.0363013667925335,
+        "baseline_accuracy": 0.95,
+        "steered_accuracy": 0.7692307692307693,
+        "accuracy_delta": -0.18076923076923068,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.95,
+          "2864": 0.05
+        },
+        "steered_distribution": {
+          "2865": 0.7692307692307693,
+          "2864": 0.23076923076923078
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 4,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "So, sin(\u03b8) = 0 when \u03b8 = n\u03c0, where n is any integer.",
+    "ci_kl": 0.029403491718542077,
+    "ci_accuracy": 0.07702020202020199,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0031115040959832432,
+        "js_divergence": 0.0007844758716939199,
+        "baseline_accuracy": 0.6388888888888888,
+        "steered_accuracy": 0.6764705882352942,
+        "accuracy_delta": 0.03758169934640532,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.9,
+        "steered_extraction_rate": 0.85,
+        "baseline_distribution": {
+          "2864": 0.3611111111111111,
+          "2865": 0.6388888888888888
+        },
+        "steered_distribution": {
+          "2865": 0.6764705882352942,
+          "2864": 0.3235294117647059
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.10914261983060974,
+        "js_divergence": 0.02947358250429448,
+        "baseline_accuracy": 0.6388888888888888,
+        "steered_accuracy": 0.8484848484848485,
+        "accuracy_delta": 0.20959595959595967,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.9,
+        "steered_extraction_rate": 0.825,
+        "baseline_distribution": {
+          "2864": 0.3611111111111111,
+          "2865": 0.6388888888888888
+        },
+        "steered_distribution": {
+          "2865": 0.8484848484848485,
+          "2864": 0.15151515151515152
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 40,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "So, yes, 2864, then adding 1 gives 2865.",
+    "ci_kl": 0.00807869316207803,
+    "ci_accuracy": -0.04384615384615387,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.00410913047587505,
+        "js_divergence": 0.0009815382539504515,
+        "baseline_accuracy": 0.925,
+        "steered_accuracy": 0.9,
+        "accuracy_delta": -0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.925,
+          "2864": 0.075
+        },
+        "steered_distribution": {
+          "2865": 0.9,
+          "2864": 0.1
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.015229583210289423,
+        "js_divergence": 0.003505661129269661,
+        "baseline_accuracy": 0.925,
+        "steered_accuracy": 0.875,
+        "accuracy_delta": -0.050000000000000044,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.925,
+          "2864": 0.075
+        },
+        "steered_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 41,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "But wait a second, let me make sure I didn't make a mistake here.",
+    "ci_kl": 0.04116932344342805,
+    "ci_accuracy": 0.10999999999999999,
+    "is_target": true,
+    "target_tags": [
+      "uncertainty_management"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.027160666301411337,
+        "js_divergence": 0.009330229929323558,
+        "baseline_accuracy": 0.7105263157894737,
+        "steered_accuracy": 0.7435897435897436,
+        "accuracy_delta": 0.03306342780026994,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.95,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2864": 0.2631578947368421,
+          "2863": 0.02631578947368421,
+          "2865": 0.7105263157894737
+        },
+        "steered_distribution": {
+          "2865": 0.7435897435897436,
+          "2864": 0.2564102564102564
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.03631904976400495,
+        "js_divergence": 0.011538388972385629,
+        "baseline_accuracy": 0.7105263157894737,
+        "steered_accuracy": 0.6666666666666666,
+        "accuracy_delta": -0.04385964912280704,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.95,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2864": 0.2631578947368421,
+          "2863": 0.02631578947368421,
+          "2865": 0.7105263157894737
+        },
+        "steered_distribution": {
+          "2865": 0.6666666666666666,
+          "2864": 0.3333333333333333
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 42,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "Sometimes when counting integers between two numbers, it's easy to miscalculate.",
+    "ci_kl": 0.0018984643165124299,
+    "ci_accuracy": -0.03138029405310516,
+    "is_target": true,
+    "target_tags": [
+      "uncertainty_management"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.033439997544880966,
+        "js_divergence": 0.01078957204651654,
+        "baseline_accuracy": 0.675,
+        "steered_accuracy": 0.75,
+        "accuracy_delta": 0.07499999999999996,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2864": 0.3,
+          "2865": 0.675,
+          "2863": 0.025
+        },
+        "steered_distribution": {
+          "2865": 0.75,
+          "2864": 0.25
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.01206579012316621,
+        "js_divergence": 0.0030954120662972165,
+        "baseline_accuracy": 0.675,
+        "steered_accuracy": 0.7435897435897436,
+        "accuracy_delta": 0.06858974358974357,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2864": 0.3,
+          "2865": 0.675,
+          "2863": 0.025
+        },
+        "steered_distribution": {
+          "2865": 0.7435897435897436,
+          "2864": 0.23076923076923078,
+          "2863": 0.02564102564102564
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 43,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Let me think: if n starts at 319 and ends at 3183, how many terms are there?",
+    "ci_kl": 0.018749431959976484,
+    "ci_accuracy": 0.11159420289855082,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.00289349281601917,
+        "js_divergence": 0.0007376996634582324,
+        "baseline_accuracy": 0.7948717948717948,
+        "steered_accuracy": 0.825,
+        "accuracy_delta": 0.030128205128205132,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.7948717948717948,
+          "2864": 0.20512820512820512
+        },
+        "steered_distribution": {
+          "2865": 0.825,
+          "2864": 0.175
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.09344367468083153,
+        "js_divergence": 0.021682215315253592,
+        "baseline_accuracy": 0.7948717948717948,
+        "steered_accuracy": 0.6052631578947368,
+        "accuracy_delta": -0.189608636977058,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 0.7948717948717948,
+          "2864": 0.20512820512820512
+        },
+        "steered_distribution": {
+          "2865": 0.6052631578947368,
+          "2864": 0.39473684210526316
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 44,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "The formula is (last - first) + 1.",
+    "ci_kl": 0.042371166245878764,
+    "ci_accuracy": 0.07474747474747467,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.017458564679513247,
+        "js_divergence": 0.004141906804395669,
+        "baseline_accuracy": 0.8461538461538461,
+        "steered_accuracy": 0.775,
+        "accuracy_delta": -0.07115384615384612,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.8461538461538461,
+          "2864": 0.15384615384615385
+        },
+        "steered_distribution": {
+          "2864": 0.225,
+          "2865": 0.775
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.023397743246768563,
+        "js_divergence": 0.00551213105337656,
+        "baseline_accuracy": 0.8461538461538461,
+        "steered_accuracy": 0.7631578947368421,
+        "accuracy_delta": -0.082995951417004,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 0.8461538461538461,
+          "2864": 0.15384615384615385
+        },
+        "steered_distribution": {
+          "2865": 0.7631578947368421,
+          "2864": 0.23684210526315788
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 45,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So, (3183 - 319) + 1 = (2864) + 1 = 2865.",
+    "ci_kl": 0.008219989363385274,
+    "ci_accuracy": -0.002525252525252597,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0004924192192498518,
+        "js_divergence": 0.0001237917677429719,
+        "baseline_accuracy": 0.7297297297297297,
+        "steered_accuracy": 0.7435897435897436,
+        "accuracy_delta": 0.013860013860013898,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.925,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2864": 0.2702702702702703,
+          "2865": 0.7297297297297297
+        },
+        "steered_distribution": {
+          "2865": 0.7435897435897436,
+          "2864": 0.2564102564102564
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.49634126415407004,
+        "js_divergence": 0.018850756026360667,
+        "baseline_accuracy": 0.7297297297297297,
+        "steered_accuracy": 0.825,
+        "accuracy_delta": 0.09527027027027024,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.925,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2864": 0.2702702702702703,
+          "2865": 0.7297297297297297
+        },
+        "steered_distribution": {
+          "2863": 0.025,
+          "2865": 0.825,
+          "2864": 0.15
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 46,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "So, that seems correct.",
+    "ci_kl": 0.051785517174243595,
+    "ci_accuracy": -0.08843537414965985,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.05142841926506911,
+        "js_divergence": 0.014733913658929017,
+        "baseline_accuracy": 0.85,
+        "steered_accuracy": 0.7894736842105263,
+        "accuracy_delta": -0.06052631578947365,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 0.85,
+          "2864": 0.125,
+          "2863": 0.025
+        },
+        "steered_distribution": {
+          "2865": 0.7894736842105263,
+          "2864": 0.21052631578947367
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.13509950197729828,
+        "js_divergence": 0.0326045922677225,
+        "baseline_accuracy": 0.85,
+        "steered_accuracy": 0.6923076923076923,
+        "accuracy_delta": -0.1576923076923077,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.85,
+          "2864": 0.125,
+          "2863": 0.025
+        },
+        "steered_distribution": {
+          "2865": 0.6923076923076923,
+          "2864": 0.3076923076923077
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 47,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "But let me double-check the initial inequalities to make sure I didn't flip anything.",
+    "ci_kl": 0.26083767795768464,
+    "ci_accuracy": -0.1141414141414141,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0016585609854803014,
+        "js_divergence": 0.0004073727819623287,
+        "baseline_accuracy": 0.8461538461538461,
+        "steered_accuracy": 0.825,
+        "accuracy_delta": -0.02115384615384619,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.8461538461538461,
+          "2864": 0.15384615384615385
+        },
+        "steered_distribution": {
+          "2864": 0.175,
+          "2865": 0.825
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.4927673247294736,
+        "js_divergence": 0.016781029493753527,
+        "baseline_accuracy": 0.8461538461538461,
+        "steered_accuracy": 0.725,
+        "accuracy_delta": -0.12115384615384617,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.8461538461538461,
+          "2864": 0.15384615384615385
+        },
+        "steered_distribution": {
+          "2864": 0.25,
+          "2865": 0.725,
+          "2863": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 48,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "So, x must be between 0.0001 and 0.001, which translates to 1/(n\u03c0) being in that interval.",
+    "ci_kl": 0.007799095680318908,
+    "ci_accuracy": 0.026555881394591085,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 5.721069293915682e-05,
+        "js_divergence": 1.4352059181376516e-05,
+        "baseline_accuracy": 0.8461538461538461,
+        "steered_accuracy": 0.85,
+        "accuracy_delta": 0.0038461538461538325,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.8461538461538461,
+          "2864": 0.15384615384615385
+        },
+        "steered_distribution": {
+          "2864": 0.15,
+          "2865": 0.85
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.04769103267454243,
+        "js_divergence": 0.011012356400487127,
+        "baseline_accuracy": 0.8461538461538461,
+        "steered_accuracy": 0.725,
+        "accuracy_delta": -0.12115384615384617,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.8461538461538461,
+          "2864": 0.15384615384615385
+        },
+        "steered_distribution": {
+          "2864": 0.275,
+          "2865": 0.725
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 49,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So, 1/(n\u03c0) > 0.0001 and 1/(n\u03c0) < 0.001.",
+    "ci_kl": 0.008602253088850625,
+    "ci_accuracy": -0.046666666666666634,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0035791628562623044,
+        "js_divergence": 0.0008682269774890582,
+        "baseline_accuracy": 0.875,
+        "steered_accuracy": 0.8461538461538461,
+        "accuracy_delta": -0.028846153846153855,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        },
+        "steered_distribution": {
+          "2865": 0.8461538461538461,
+          "2864": 0.15384615384615385
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.010964955669182798,
+        "js_divergence": 0.002917543046394881,
+        "baseline_accuracy": 0.875,
+        "steered_accuracy": 0.9210526315789473,
+        "accuracy_delta": 0.046052631578947345,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        },
+        "steered_distribution": {
+          "2865": 0.9210526315789473,
+          "2864": 0.07894736842105263
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 5,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Applying that to the function here, sin(1/x) = 0 when 1/x = n\u03c0.",
+    "ci_kl": 0.03826320725464199,
+    "ci_accuracy": 0.1090956544434295,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.06929625431129126,
+        "js_divergence": 0.020355264769248083,
+        "baseline_accuracy": 0.6285714285714286,
+        "steered_accuracy": 0.7777777777777778,
+        "accuracy_delta": 0.14920634920634923,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.875,
+        "steered_extraction_rate": 0.9,
+        "baseline_distribution": {
+          "2865": 0.6285714285714286,
+          "2864": 0.34285714285714286,
+          "2863": 0.02857142857142857
+        },
+        "steered_distribution": {
+          "2865": 0.7777777777777778,
+          "2864": 0.2222222222222222
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.2397420661331241,
+        "js_divergence": 0.069479898677433,
+        "baseline_accuracy": 0.6285714285714286,
+        "steered_accuracy": 0.9230769230769231,
+        "accuracy_delta": 0.29450549450549457,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.875,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.6285714285714286,
+          "2864": 0.34285714285714286,
+          "2863": 0.02857142857142857
+        },
+        "steered_distribution": {
+          "2865": 0.9230769230769231,
+          "2864": 0.07692307692307693
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 50,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Solving for n:",
+    "ci_kl": 0.049283610597633615,
+    "ci_accuracy": 0.11711340206185572,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.10701807340461188,
+        "js_divergence": 0.029317535234358677,
+        "baseline_accuracy": 0.6756756756756757,
+        "steered_accuracy": 0.875,
+        "accuracy_delta": 0.19932432432432434,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.925,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2864": 0.32432432432432434,
+          "2865": 0.6756756756756757
+        },
+        "steered_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.05316516366021949,
+        "js_divergence": 0.014068595504449916,
+        "baseline_accuracy": 0.6756756756756757,
+        "steered_accuracy": 0.8205128205128205,
+        "accuracy_delta": 0.14483714483714483,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.925,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2864": 0.32432432432432434,
+          "2865": 0.6756756756756757
+        },
+        "steered_distribution": {
+          "2865": 0.8205128205128205,
+          "2864": 0.1794871794871795
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 51,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "From 1/(n\u03c0) > 0.0001:",
+    "ci_kl": 0.006535538005249763,
+    "ci_accuracy": 0.007441860465116301,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0011833750383964808,
+        "js_divergence": 0.0002924865736681388,
+        "baseline_accuracy": 0.7948717948717948,
+        "steered_accuracy": 0.775,
+        "accuracy_delta": -0.0198717948717948,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.7948717948717948,
+          "2864": 0.20512820512820512
+        },
+        "steered_distribution": {
+          "2865": 0.775,
+          "2864": 0.225
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.002083040966536158,
+        "js_divergence": 0.0005294219222139081,
+        "baseline_accuracy": 0.7948717948717948,
+        "steered_accuracy": 0.8205128205128205,
+        "accuracy_delta": 0.02564102564102566,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.7948717948717948,
+          "2864": 0.20512820512820512
+        },
+        "steered_distribution": {
+          "2864": 0.1794871794871795,
+          "2865": 0.8205128205128205
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 52,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "n < 1/(0.0001\u03c0) \u2248 3183.098",
+    "ci_kl": 0.005983186631541678,
+    "ci_accuracy": 0.05303030303030298,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.009316038799817725,
+        "js_divergence": 0.0022384891061988915,
+        "baseline_accuracy": 0.8461538461538461,
+        "steered_accuracy": 0.7948717948717948,
+        "accuracy_delta": -0.05128205128205132,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.8461538461538461,
+          "2864": 0.15384615384615385
+        },
+        "steered_distribution": {
+          "2865": 0.7948717948717948,
+          "2864": 0.20512820512820512
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.003377434936532628,
+        "js_divergence": 0.0008682269774890582,
+        "baseline_accuracy": 0.8461538461538461,
+        "steered_accuracy": 0.875,
+        "accuracy_delta": 0.028846153846153855,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.8461538461538461,
+          "2864": 0.15384615384615385
+        },
+        "steered_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 53,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "From 1/(n\u03c0) < 0.001:",
+    "ci_kl": 0.013091724690254707,
+    "ci_accuracy": 0.018037518037518074,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.02760904825544279,
+        "js_divergence": 0.0065323497388709885,
+        "baseline_accuracy": 0.8205128205128205,
+        "steered_accuracy": 0.725,
+        "accuracy_delta": -0.0955128205128205,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.8205128205128205,
+          "2864": 0.1794871794871795
+        },
+        "steered_distribution": {
+          "2864": 0.275,
+          "2865": 0.725
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.05411586862846822,
+        "js_divergence": 0.012590761076323904,
+        "baseline_accuracy": 0.8205128205128205,
+        "steered_accuracy": 0.6842105263157895,
+        "accuracy_delta": -0.136302294197031,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 0.8205128205128205,
+          "2864": 0.1794871794871795
+        },
+        "steered_distribution": {
+          "2865": 0.6842105263157895,
+          "2864": 0.3157894736842105
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 54,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "n > 1/(0.001\u03c0) \u2248 318.309",
+    "ci_kl": 0.2360469190975031,
+    "ci_accuracy": 0.18556701030927836,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.009997922353479939,
+        "js_divergence": 0.0024101483672350436,
+        "baseline_accuracy": 0.825,
+        "steered_accuracy": 0.7692307692307693,
+        "accuracy_delta": -0.05576923076923068,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.825,
+          "2864": 0.175
+        },
+        "steered_distribution": {
+          "2864": 0.23076923076923078,
+          "2865": 0.7692307692307693
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.48305270843132825,
+        "js_divergence": 0.011865601290317041,
+        "baseline_accuracy": 0.825,
+        "steered_accuracy": 0.7435897435897436,
+        "accuracy_delta": -0.08141025641025634,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.825,
+          "2864": 0.175
+        },
+        "steered_distribution": {
+          "2865": 0.7435897435897436,
+          "2864": 0.23076923076923078,
+          "2863": 0.02564102564102564
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 55,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "So, n must be integers greater than 318.309 and less than 3183.098, which as integers is n from 319 to 3183 inclusive.",
+    "ci_kl": 0.012772843308818678,
+    "ci_accuracy": -0.023195876288659822,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0017059966648070857,
+        "js_divergence": 0.000431563011648743,
+        "baseline_accuracy": 0.75,
+        "steered_accuracy": 0.775,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.75,
+          "2864": 0.25
+        },
+        "steered_distribution": {
+          "2865": 0.775,
+          "2864": 0.225
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.006401456997320289,
+        "js_divergence": 0.001569054017339814,
+        "baseline_accuracy": 0.75,
+        "steered_accuracy": 0.7,
+        "accuracy_delta": -0.050000000000000044,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.75,
+          "2864": 0.25
+        },
+        "steered_distribution": {
+          "2865": 0.7,
+          "2864": 0.3
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 56,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Therefore, the number of integers is 3183 - 319 + 1 = 2865.",
+    "ci_kl": 0.06973315707256761,
+    "ci_accuracy": -0.13737373737373737,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.5129196414860723,
+        "js_divergence": 0.02031792867765294,
+        "baseline_accuracy": 0.75,
+        "steered_accuracy": 0.8461538461538461,
+        "accuracy_delta": 0.09615384615384615,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.75,
+          "2864": 0.25
+        },
+        "steered_distribution": {
+          "2865": 0.8461538461538461,
+          "2864": 0.1282051282051282,
+          "2863": 0.02564102564102564
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.48543134166933233,
+        "js_divergence": 0.015874323123248303,
+        "baseline_accuracy": 0.75,
+        "steered_accuracy": 0.825,
+        "accuracy_delta": 0.07499999999999996,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.75,
+          "2864": 0.25
+        },
+        "steered_distribution": {
+          "2865": 0.825,
+          "2864": 0.15,
+          "2863": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 57,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "Wait, but let me think again: when I subtract 3183 - 319, that's 2864, and adding 1 gives 2865.",
+    "ci_kl": 0.0010570834161857008,
+    "ci_accuracy": -0.03040935672514622,
+    "is_target": true,
+    "target_tags": [
+      "uncertainty_management"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 8.115066737448585e-05,
+        "js_divergence": 2.0351289145649964e-05,
+        "baseline_accuracy": 0.7948717948717948,
+        "steered_accuracy": 0.8,
+        "accuracy_delta": 0.005128205128205221,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.7948717948717948,
+          "2864": 0.20512820512820512
+        },
+        "steered_distribution": {
+          "2864": 0.2,
+          "2865": 0.8
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.02000001017488752,
+        "js_divergence": 0.004795597396644303,
+        "baseline_accuracy": 0.7948717948717948,
+        "steered_accuracy": 0.7105263157894737,
+        "accuracy_delta": -0.08434547908232115,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 0.7948717948717948,
+          "2864": 0.20512820512820512
+        },
+        "steered_distribution": {
+          "2865": 0.7105263157894737,
+          "2864": 0.2894736842105263
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 58,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "That seems correct.",
+    "ci_kl": 0.0036124432518411173,
+    "ci_accuracy": 0.004285714285714337,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.07878426822551433,
+        "js_divergence": 0.021406174983850952,
+        "baseline_accuracy": 0.7,
+        "steered_accuracy": 0.868421052631579,
+        "accuracy_delta": 0.16842105263157903,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2864": 0.3,
+          "2865": 0.7
+        },
+        "steered_distribution": {
+          "2865": 0.868421052631579,
+          "2864": 0.13157894736842105
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.08581701523069607,
+        "js_divergence": 0.023432970372938594,
+        "baseline_accuracy": 0.7,
+        "steered_accuracy": 0.875,
+        "accuracy_delta": 0.17500000000000004,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2864": 0.3,
+          "2865": 0.7
+        },
+        "steered_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 59,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "But just to be thorough, let me take a smaller example to see if the formula works.",
+    "ci_kl": 0.003905144665354743,
+    "ci_accuracy": -0.04399092970521534,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0016585609854803014,
+        "js_divergence": 0.0004073727819623287,
+        "baseline_accuracy": 0.8461538461538461,
+        "steered_accuracy": 0.825,
+        "accuracy_delta": -0.02115384615384619,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.8461538461538461,
+          "2864": 0.15384615384615385
+        },
+        "steered_distribution": {
+          "2865": 0.825,
+          "2864": 0.175
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.05220406195487981,
+        "js_divergence": 0.014882618967952503,
+        "baseline_accuracy": 0.8461538461538461,
+        "steered_accuracy": 0.9487179487179487,
+        "accuracy_delta": 0.10256410256410253,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.8461538461538461,
+          "2864": 0.15384615384615385
+        },
+        "steered_distribution": {
+          "2865": 0.9487179487179487,
+          "2864": 0.05128205128205128
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 6,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "That means x = 1/(n\u03c0).",
+    "ci_kl": 0.33116713001959025,
+    "ci_accuracy": 0.26086956521739135,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.4679426335748832,
+        "js_divergence": 0.010993781771889562,
+        "baseline_accuracy": 0.8235294117647058,
+        "steered_accuracy": 0.75,
+        "accuracy_delta": -0.07352941176470584,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.85,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.8235294117647058,
+          "2864": 0.17647058823529413
+        },
+        "steered_distribution": {
+          "2865": 0.75,
+          "2864": 0.225,
+          "2866": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.003807068158796445,
+        "js_divergence": 0.0009299660918081903,
+        "baseline_accuracy": 0.8235294117647058,
+        "steered_accuracy": 0.7894736842105263,
+        "accuracy_delta": -0.034055727554179516,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.85,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 0.8235294117647058,
+          "2864": 0.17647058823529413
+        },
+        "steered_distribution": {
+          "2865": 0.7894736842105263,
+          "2864": 0.21052631578947367
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 60,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Suppose I have n from 2 to 5 inclusive.",
+    "ci_kl": 0.025202241649638808,
+    "ci_accuracy": -0.07777777777777783,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.10833374749156943,
+        "js_divergence": 0.025050920968453648,
+        "baseline_accuracy": 0.7948717948717948,
+        "steered_accuracy": 0.5897435897435898,
+        "accuracy_delta": -0.20512820512820507,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.7948717948717948,
+          "2864": 0.20512820512820512
+        },
+        "steered_distribution": {
+          "2865": 0.5897435897435898,
+          "2864": 0.41025641025641024
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.00587571272701945,
+        "js_divergence": 0.0014336720786256897,
+        "baseline_accuracy": 0.7948717948717948,
+        "steered_accuracy": 0.75,
+        "accuracy_delta": -0.04487179487179482,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.7948717948717948,
+          "2864": 0.20512820512820512
+        },
+        "steered_distribution": {
+          "2864": 0.25,
+          "2865": 0.75
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 61,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "The numbers are 2,3,4,5.",
+    "ci_kl": 0.022379712631608074,
+    "ci_accuracy": -0.002272727272727315,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.6028457205440895,
+        "js_divergence": 0.05025746124620327,
+        "baseline_accuracy": 0.7027027027027027,
+        "steered_accuracy": 0.9,
+        "accuracy_delta": 0.19729729729729728,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.925,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.7027027027027027,
+          "2864": 0.2972972972972973
+        },
+        "steered_distribution": {
+          "2864": 0.075,
+          "2865": 0.9,
+          "2863": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.11375852775360523,
+        "js_divergence": 0.031703406736163814,
+        "baseline_accuracy": 0.7027027027027027,
+        "steered_accuracy": 0.9,
+        "accuracy_delta": 0.19729729729729728,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.925,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.7027027027027027,
+          "2864": 0.2972972972972973
+        },
+        "steered_distribution": {
+          "2865": 0.9,
+          "2864": 0.1
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 62,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "That's 4 numbers.",
+    "ci_kl": 0.006612184246031635,
+    "ci_accuracy": 0.012957317073170715,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.026817201919018867,
+        "js_divergence": 0.00911614548762298,
+        "baseline_accuracy": 0.65,
+        "steered_accuracy": 0.6923076923076923,
+        "accuracy_delta": 0.04230769230769227,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2864": 0.325,
+          "2865": 0.65,
+          "2863": 0.025
+        },
+        "steered_distribution": {
+          "2865": 0.6923076923076923,
+          "2864": 0.3076923076923077
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.06553699091044318,
+        "js_divergence": 0.01913715185945765,
+        "baseline_accuracy": 0.65,
+        "steered_accuracy": 0.7948717948717948,
+        "accuracy_delta": 0.1448717948717948,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2864": 0.325,
+          "2865": 0.65,
+          "2863": 0.025
+        },
+        "steered_distribution": {
+          "2865": 0.7948717948717948,
+          "2864": 0.20512820512820512
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 63,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Using the formula: (5 - 2) +1 = 4.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.46005629318637153,
+        "js_divergence": 0.00908131561564817,
+        "baseline_accuracy": 0.8,
+        "steered_accuracy": 0.8,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.8,
+          "2864": 0.2
+        },
+        "steered_distribution": {
+          "2864": 0.175,
+          "2865": 0.8,
+          "2863": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.007096584940499792,
+        "js_divergence": 0.0018328642304542668,
+        "baseline_accuracy": 0.8,
+        "steered_accuracy": 0.8461538461538461,
+        "accuracy_delta": 0.0461538461538461,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.8,
+          "2864": 0.2
+        },
+        "steered_distribution": {
+          "2865": 0.8461538461538461,
+          "2864": 0.15384615384615385
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 64,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Correct. Another example: n from 1 to 3.",
+    "ci_kl": 0.03285866841373638,
+    "ci_accuracy": 0.08694083694083699,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.044112555842837034,
+        "js_divergence": 0.01183516353013941,
+        "baseline_accuracy": 0.7435897435897436,
+        "steered_accuracy": 0.8648648648648649,
+        "accuracy_delta": 0.1212751212751213,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.925,
+        "baseline_distribution": {
+          "2865": 0.7435897435897436,
+          "2864": 0.2564102564102564
+        },
+        "steered_distribution": {
+          "2865": 0.8648648648648649,
+          "2864": 0.13513513513513514
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.4603857996892806,
+        "js_divergence": 0.009156051356403225,
+        "baseline_accuracy": 0.7435897435897436,
+        "steered_accuracy": 0.7,
+        "accuracy_delta": -0.04358974358974366,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.7435897435897436,
+          "2864": 0.2564102564102564
+        },
+        "steered_distribution": {
+          "2865": 0.7,
+          "2864": 0.275,
+          "2863": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 65,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Numbers:1,2,3.",
+    "ci_kl": 0.36772476005132476,
+    "ci_accuracy": 0.29591836734693877,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0026189489165371407,
+        "js_divergence": 0.0006473372346138193,
+        "baseline_accuracy": 0.725,
+        "steered_accuracy": 0.6923076923076923,
+        "accuracy_delta": -0.03269230769230769,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2864": 0.275,
+          "2865": 0.725
+        },
+        "steered_distribution": {
+          "2865": 0.6923076923076923,
+          "2864": 0.3076923076923077
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 0.725,
+        "steered_accuracy": 0.725,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2864": 0.275,
+          "2865": 0.725
+        },
+        "steered_distribution": {
+          "2865": 0.725,
+          "2864": 0.275
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 66,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "Count is 3.",
+    "ci_kl": 0.0002674098718579137,
+    "ci_accuracy": 0.021489361702127674,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.010957419305180793,
+        "js_divergence": 0.002671549162029576,
+        "baseline_accuracy": 0.75,
+        "steered_accuracy": 0.6842105263157895,
+        "accuracy_delta": -0.06578947368421051,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2864": 0.25,
+          "2865": 0.75
+        },
+        "steered_distribution": {
+          "2864": 0.3157894736842105,
+          "2865": 0.6842105263157895
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.4955037159235937,
+        "js_divergence": 0.015457023298184698,
+        "baseline_accuracy": 0.75,
+        "steered_accuracy": 0.8205128205128205,
+        "accuracy_delta": 0.07051282051282048,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2864": 0.25,
+          "2865": 0.75
+        },
+        "steered_distribution": {
+          "2865": 0.8205128205128205,
+          "2864": 0.15384615384615385,
+          "2863": 0.02564102564102564
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 67,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Formula: (3 -1) +1 = 3.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.12700658234766612,
+        "js_divergence": 0.03464681875141419,
+        "baseline_accuracy": 0.6410256410256411,
+        "steered_accuracy": 0.8648648648648649,
+        "accuracy_delta": 0.22383922383922383,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.925,
+        "baseline_distribution": {
+          "2865": 0.6410256410256411,
+          "2864": 0.358974358974359
+        },
+        "steered_distribution": {
+          "2865": 0.8648648648648649,
+          "2864": 0.13513513513513514
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.038285947007879115,
+        "js_divergence": 0.009941395022162354,
+        "baseline_accuracy": 0.6410256410256411,
+        "steered_accuracy": 0.7692307692307693,
+        "accuracy_delta": 0.1282051282051282,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.6410256410256411,
+          "2864": 0.358974358974359
+        },
+        "steered_distribution": {
+          "2865": 0.7692307692307693,
+          "2864": 0.23076923076923078
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 68,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "Correct. So, applying the same logic, 3183 - 319 +1 = 2865.",
+    "ci_kl": 0.01170285670518937,
+    "ci_accuracy": -0.0709183673469388,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.030617403706336282,
+        "js_divergence": 0.007216232150498179,
+        "baseline_accuracy": 0.825,
+        "steered_accuracy": 0.725,
+        "accuracy_delta": -0.09999999999999998,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.825,
+          "2864": 0.175
+        },
+        "steered_distribution": {
+          "2865": 0.725,
+          "2864": 0.275
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0727235284896989,
+        "js_divergence": 0.016746265284599958,
+        "baseline_accuracy": 0.825,
+        "steered_accuracy": 0.6666666666666666,
+        "accuracy_delta": -0.15833333333333333,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.9,
+        "baseline_distribution": {
+          "2865": 0.825,
+          "2864": 0.175
+        },
+        "steered_distribution": {
+          "2865": 0.6666666666666666,
+          "2864": 0.3333333333333333
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 69,
+    "function_tags": [
+      "final_answer_emission"
+    ],
+    "chunk_text": "So, the number of x-intercepts is 2865.",
+    "ci_kl": 0.004266948452088033,
+    "ci_accuracy": 0.05249999999999999,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.2840878041979503,
+        "js_divergence": 0.08727571582437538,
+        "baseline_accuracy": 0.6842105263157895,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": 0.2907894736842105,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.95,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.6842105263157895,
+          "2864": 0.2894736842105263,
+          "\\infty": 0.02631578947368421
+        },
+        "steered_distribution": {
+          "2865": 0.975,
+          "2864": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0662984032995379,
+        "js_divergence": 0.019535051482483495,
+        "baseline_accuracy": 0.6842105263157895,
+        "steered_accuracy": 0.825,
+        "accuracy_delta": 0.14078947368421046,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.95,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.6842105263157895,
+          "2864": 0.2894736842105263,
+          "\\infty": 0.02631578947368421
+        },
+        "steered_distribution": {
+          "2864": 0.175,
+          "2865": 0.825
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 7,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "So, each x-intercept occurs at x = 1/(n\u03c0) for some integer n.",
+    "ci_kl": 0.002586204827706568,
+    "ci_accuracy": -0.03535353535353536,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 4.5871495631513355,
+        "js_divergence": 0.08397899631420469,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.7777777777777778,
+        "accuracy_delta": -0.2222222222222222,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.9,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 0.7777777777777778,
+          "2864": 0.2222222222222222
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 3.387080612790438,
+        "js_divergence": 0.06155537862300825,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.8333333333333334,
+        "accuracy_delta": -0.16666666666666663,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.9,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2864": 0.16666666666666666,
+          "2865": 0.8333333333333334
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 70,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "Wait, but let me make sure that each n corresponds to exactly one x-intercept in that interval.",
+    "ci_kl": 0.02963455357398717,
+    "ci_accuracy": -0.07976314872866597,
+    "is_target": true,
+    "target_tags": [
+      "uncertainty_management"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.532579462999816,
+        "js_divergence": 0.022399053671330237,
+        "baseline_accuracy": 0.925,
+        "steered_accuracy": 0.7948717948717948,
+        "accuracy_delta": -0.13012820512820522,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.925,
+          "2864": 0.075
+        },
+        "steered_distribution": {
+          "2865": 0.7948717948717948,
+          "2864": 0.1794871794871795,
+          "2863": 0.02564102564102564
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.00410913047587505,
+        "js_divergence": 0.0009815382539504515,
+        "baseline_accuracy": 0.925,
+        "steered_accuracy": 0.9,
+        "accuracy_delta": -0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.925,
+          "2864": 0.075
+        },
+        "steered_distribution": {
+          "2865": 0.9,
+          "2864": 0.1
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 71,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Since x = 1/(n\u03c0), each n gives a unique x, and since n is an integer, each x is distinct and lies within the interval (0.0001, 0.001).",
+    "ci_kl": 0.496628543030873,
+    "ci_accuracy": -0.09343434343434343,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.4842510428466869,
+        "js_divergence": 0.009208079536467313,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.9736842105263158,
+        "accuracy_delta": -0.02631578947368418,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 0.9736842105263158,
+          "2864": 0.02631578947368421
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 11.42710741164256,
+        "js_divergence": 0.23045337833054097,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.47368421052631576,
+        "accuracy_delta": -0.5263157894736843,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 0.47368421052631576,
+          "2864": 0.5263157894736842
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 72,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "Wait, but let me check the endpoints.",
+    "ci_kl": 0.3259270364696918,
+    "ci_accuracy": 0.3737373737373737,
+    "is_target": true,
+    "target_tags": [
+      "uncertainty_management"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.02214624286422219,
+        "js_divergence": 0.005325219560983186,
+        "baseline_accuracy": 0.5,
+        "steered_accuracy": 0.5641025641025641,
+        "accuracy_delta": 0.0641025641025641,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.95,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.5,
+          "2864": 0.47368421052631576,
+          "2863": 0.02631578947368421
+        },
+        "steered_distribution": {
+          "2865": 0.5641025641025641,
+          "2864": 0.38461538461538464,
+          "2863": 0.05128205128205128
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.09254147891276548,
+        "js_divergence": 0.025791841086917247,
+        "baseline_accuracy": 0.5,
+        "steered_accuracy": 0.6923076923076923,
+        "accuracy_delta": 0.1923076923076923,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.95,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.5,
+          "2864": 0.47368421052631576,
+          "2863": 0.02631578947368421
+        },
+        "steered_distribution": {
+          "2865": 0.6923076923076923,
+          "2864": 0.3076923076923077
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 73,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "When n = 319, x = 1/(319\u03c0) \u2248 1/(1003.5) \u2248 0.0009965, which is greater than 0.0001 and less than 0.001, right?",
+    "ci_kl": 0.812206500699054,
+    "ci_accuracy": -0.5714285714285714,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.5032651529281007,
+        "js_divergence": 0.019890401431086543,
+        "baseline_accuracy": 0.6111111111111112,
+        "steered_accuracy": 0.45,
+        "accuracy_delta": -0.16111111111111115,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.9,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.6111111111111112,
+          "2864": 0.3888888888888889
+        },
+        "steered_distribution": {
+          "2865": 0.45,
+          "2864": 0.525,
+          "2863": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.010899327729631703,
+        "js_divergence": 0.0027020284070251345,
+        "baseline_accuracy": 0.6111111111111112,
+        "steered_accuracy": 0.5384615384615384,
+        "accuracy_delta": -0.07264957264957272,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.9,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.6111111111111112,
+          "2864": 0.3888888888888889
+        },
+        "steered_distribution": {
+          "2864": 0.46153846153846156,
+          "2865": 0.5384615384615384
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 74,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Similarly, when n = 3183, x = 1/(3183\u03c0) \u2248 1/(10000.0) \u2248 0.0001, but since our interval is open, (0.0001, 0.001), we don't include the endpoints.",
+    "ci_kl": 0.033750823462141005,
+    "ci_accuracy": 0.12118885720552752,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.027458617853595033,
+        "js_divergence": 0.0069396717847263305,
+        "baseline_accuracy": 0.475,
+        "steered_accuracy": 0.358974358974359,
+        "accuracy_delta": -0.116025641025641,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2864": 0.525,
+          "2865": 0.475
+        },
+        "steered_distribution": {
+          "2865": 0.358974358974359,
+          "2864": 0.6410256410256411
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.005004172927849118,
+        "js_divergence": 0.0012505213548653048,
+        "baseline_accuracy": 0.475,
+        "steered_accuracy": 0.525,
+        "accuracy_delta": 0.050000000000000044,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2864": 0.525,
+          "2865": 0.475
+        },
+        "steered_distribution": {
+          "2865": 0.525,
+          "2864": 0.475
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 75,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "Wait, does that affect our count?",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": true,
+    "target_tags": [
+      "uncertainty_management"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0053765974229395,
+        "js_divergence": 0.0013375347545197865,
+        "baseline_accuracy": 0.41025641025641024,
+        "steered_accuracy": 0.46153846153846156,
+        "accuracy_delta": 0.05128205128205132,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2864": 0.5897435897435898,
+          "2865": 0.41025641025641024
+        },
+        "steered_distribution": {
+          "2865": 0.46153846153846156,
+          "2864": 0.5384615384615384
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0021183416815485218,
+        "js_divergence": 0.0005319776885275842,
+        "baseline_accuracy": 0.41025641025641024,
+        "steered_accuracy": 0.3783783783783784,
+        "accuracy_delta": -0.03187803187803184,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.925,
+        "baseline_distribution": {
+          "2864": 0.5897435897435898,
+          "2865": 0.41025641025641024
+        },
+        "steered_distribution": {
+          "2865": 0.3783783783783784,
+          "2864": 0.6216216216216216
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 76,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "Wait, hold on, the interval is (0.0001, 0.001), which is open, so x cannot be exactly 0.0001 or 0.001.",
+    "ci_kl": 0.0212609028188473,
+    "ci_accuracy": -0.010829948974278858,
+    "is_target": true,
+    "target_tags": [
+      "uncertainty_management"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.13174170840542163,
+        "js_divergence": 0.03497982988345653,
+        "baseline_accuracy": 0.3783783783783784,
+        "steered_accuracy": 0.6153846153846154,
+        "accuracy_delta": 0.23700623700623702,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.925,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.3783783783783784,
+          "2864": 0.5945945945945946,
+          "2863": 0.02702702702702703
+        },
+        "steered_distribution": {
+          "2865": 0.6153846153846154,
+          "2864": 0.38461538461538464
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.05272084059749184,
+        "js_divergence": 0.0156366511092551,
+        "baseline_accuracy": 0.3783783783783784,
+        "steered_accuracy": 0.5,
+        "accuracy_delta": 0.1216216216216216,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.925,
+        "steered_extraction_rate": 0.9,
+        "baseline_distribution": {
+          "2865": 0.3783783783783784,
+          "2864": 0.5945945945945946,
+          "2863": 0.02702702702702703
+        },
+        "steered_distribution": {
+          "2864": 0.5,
+          "2865": 0.5
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 77,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So, when n approaches 3183, x approaches 0.0001 from above, and when n approaches 319, x approaches 0.001 from below.",
+    "ci_kl": 0.41205629719688325,
+    "ci_accuracy": 0.0010632642211589882,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.02659003647008723,
+        "js_divergence": 0.006818752752905492,
+        "baseline_accuracy": 0.6153846153846154,
+        "steered_accuracy": 0.725,
+        "accuracy_delta": 0.10961538461538456,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.6153846153846154,
+          "2864": 0.38461538461538464
+        },
+        "steered_distribution": {
+          "2865": 0.725,
+          "2864": 0.275
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.5624381059318851,
+        "js_divergence": 0.022189122718265897,
+        "baseline_accuracy": 0.6153846153846154,
+        "steered_accuracy": 0.4444444444444444,
+        "accuracy_delta": -0.170940170940171,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.9,
+        "baseline_distribution": {
+          "2865": 0.6153846153846154,
+          "2864": 0.38461538461538464
+        },
+        "steered_distribution": {
+          "2865": 0.4444444444444444,
+          "2864": 0.5277777777777778,
+          "2863": 0.027777777777777776
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 78,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Wait, but when n = 3183, x = 1/(3183\u03c0) \u2248 0.0001 (since 3183\u03c0 \u2248 10000).",
+    "ci_kl": 0.05071621707018792,
+    "ci_accuracy": -0.18238805970149258,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.005575665870534152,
+        "js_divergence": 0.0013934049930035951,
+        "baseline_accuracy": 0.475,
+        "steered_accuracy": 0.5277777777777778,
+        "accuracy_delta": 0.05277777777777781,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.9,
+        "baseline_distribution": {
+          "2865": 0.475,
+          "2864": 0.525
+        },
+        "steered_distribution": {
+          "2865": 0.5277777777777778,
+          "2864": 0.4722222222222222
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.5527331241306112,
+        "js_divergence": 0.032941345672881935,
+        "baseline_accuracy": 0.475,
+        "steered_accuracy": 0.675,
+        "accuracy_delta": 0.20000000000000007,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.475,
+          "2864": 0.525
+        },
+        "steered_distribution": {
+          "2864": 0.3,
+          "2865": 0.675,
+          "2863": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 79,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So, 1/(3183\u03c0) \u2248 0.0001, but since 3183\u03c0 is approximately 10000, 1/(3183\u03c0) is exactly 0.0001.",
+    "ci_kl": 0.027485572200704328,
+    "ci_accuracy": 0.22448979591836732,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.00019317407467834766,
+        "js_divergence": 4.820308628754322e-05,
+        "baseline_accuracy": 0.358974358974359,
+        "steered_accuracy": 0.3684210526315789,
+        "accuracy_delta": 0.009446693657219951,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2864": 0.6410256410256411,
+          "2865": 0.358974358974359
+        },
+        "steered_distribution": {
+          "2865": 0.3684210526315789,
+          "2864": 0.631578947368421
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0667101042249949,
+        "js_divergence": 0.01637248753031484,
+        "baseline_accuracy": 0.358974358974359,
+        "steered_accuracy": 0.5384615384615384,
+        "accuracy_delta": 0.17948717948717946,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2864": 0.6410256410256411,
+          "2865": 0.358974358974359
+        },
+        "steered_distribution": {
+          "2865": 0.5384615384615384,
+          "2864": 0.46153846153846156
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 8,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Now, I need to find all such x in the interval (0.0001, 0.001).",
+    "ci_kl": 0.2207454369767782,
+    "ci_accuracy": -0.25128865979381443,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 6.236966363536469,
+        "js_divergence": 0.11607941020492209,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.7027027027027027,
+        "accuracy_delta": -0.29729729729729726,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.925,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 0.7027027027027027,
+          "2864": 0.2972972972972973
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.9785398664046385,
+        "js_divergence": 0.018110425497526814,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.9487179487179487,
+        "accuracy_delta": -0.05128205128205132,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 0.9487179487179487,
+          "2864": 0.05128205128205128
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 80,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "But since the interval is open, we don't include x = 0.0001.",
+    "ci_kl": 0.022293754979077554,
+    "ci_accuracy": -0.16304937601736297,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.03832444340989252,
+        "js_divergence": 0.009650972293697685,
+        "baseline_accuracy": 0.5128205128205128,
+        "steered_accuracy": 0.375,
+        "accuracy_delta": -0.13782051282051277,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.5128205128205128,
+          "2864": 0.48717948717948717
+        },
+        "steered_distribution": {
+          "2864": 0.625,
+          "2865": 0.375
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.47951846441141716,
+        "js_divergence": 0.011088759841945217,
+        "baseline_accuracy": 0.5128205128205128,
+        "steered_accuracy": 0.4358974358974359,
+        "accuracy_delta": -0.07692307692307687,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.5128205128205128,
+          "2864": 0.48717948717948717
+        },
+        "steered_distribution": {
+          "2864": 0.5384615384615384,
+          "2865": 0.4358974358974359,
+          "2863": 0.02564102564102564
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 81,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "So, does n = 3183 give x = 0.0001 exactly?",
+    "ci_kl": 0.0025111072747123833,
+    "ci_accuracy": -0.007575757575757569,
+    "is_target": true,
+    "target_tags": [
+      "uncertainty_management"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.1446215275432874,
+        "js_divergence": 0.036160391661783364,
+        "baseline_accuracy": 0.6,
+        "steered_accuracy": 0.3333333333333333,
+        "accuracy_delta": -0.26666666666666666,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.6,
+          "2864": 0.4
+        },
+        "steered_distribution": {
+          "2864": 0.6666666666666666,
+          "2865": 0.3333333333333333
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.009466491507232666,
+        "js_divergence": 0.002394843845305885,
+        "baseline_accuracy": 0.6,
+        "steered_accuracy": 0.6666666666666666,
+        "accuracy_delta": 0.06666666666666665,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.6,
+          "2864": 0.4
+        },
+        "steered_distribution": {
+          "2865": 0.6666666666666666,
+          "2864": 0.3333333333333333
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 82,
+    "function_tags": [
+      "plan_generation"
+    ],
+    "chunk_text": "Let's check:",
+    "ci_kl": 0.01271425594451312,
+    "ci_accuracy": 0.039675101530771695,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.016195445256117935,
+        "js_divergence": 0.004065343730405187,
+        "baseline_accuracy": 0.5,
+        "steered_accuracy": 0.5897435897435898,
+        "accuracy_delta": 0.08974358974358976,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.5,
+          "2864": 0.5
+        },
+        "steered_distribution": {
+          "2865": 0.5897435897435898,
+          "2864": 0.41025641025641024
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.06256615217393063,
+        "js_divergence": 0.015891445091319137,
+        "baseline_accuracy": 0.5,
+        "steered_accuracy": 0.675,
+        "accuracy_delta": 0.17500000000000004,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.5,
+          "2864": 0.5
+        },
+        "steered_distribution": {
+          "2865": 0.675,
+          "2864": 0.325
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 83,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "n = 3183: x = 1/(3183\u03c0).",
+    "ci_kl": 0.20425807124025847,
+    "ci_accuracy": -0.025142015569114218,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.06763735109164443,
+        "js_divergence": 0.01737107085458864,
+        "baseline_accuracy": 0.5384615384615384,
+        "steered_accuracy": 0.717948717948718,
+        "accuracy_delta": 0.17948717948717952,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.5384615384615384,
+          "2864": 0.46153846153846156
+        },
+        "steered_distribution": {
+          "2865": 0.717948717948718,
+          "2864": 0.28205128205128205
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.02554530731113143,
+        "js_divergence": 0.006465498808652076,
+        "baseline_accuracy": 0.5384615384615384,
+        "steered_accuracy": 0.65,
+        "accuracy_delta": 0.11153846153846159,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.5384615384615384,
+          "2864": 0.46153846153846156
+        },
+        "steered_distribution": {
+          "2865": 0.65,
+          "2864": 0.35
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 84,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Let's compute 3183 * \u03c0 \u2248 3183 * 3.1416 \u2248 3183 * 3 = 9549, 3183 * 0.1416 \u2248 3183 * 0.1 = 318.3, 3183 * 0.04 = 127.32, 3183 * 0.0016 \u2248 5.0928.",
+    "ci_kl": 0.07982900163317984,
+    "ci_accuracy": 0.03896103896103886,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.5213145324099339,
+        "js_divergence": 0.02762905261871728,
+        "baseline_accuracy": 0.875,
+        "steered_accuracy": 0.95,
+        "accuracy_delta": 0.07499999999999996,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        },
+        "steered_distribution": {
+          "2865": 0.95,
+          "2864": 0.025,
+          "2863": 0.025
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.46593313011700654,
+        "js_divergence": 0.09679505922449812,
+        "baseline_accuracy": 0.875,
+        "steered_accuracy": 0.47368421052631576,
+        "accuracy_delta": -0.40131578947368424,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 0.875,
+          "2864": 0.125
+        },
+        "steered_distribution": {
+          "2864": 0.5263157894736842,
+          "2865": 0.47368421052631576
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 85,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Adding those up: 318.3 + 127.32 = 445.62 + 5.0928 \u2248 450.7128.",
+    "ci_kl": 0.31527000954973305,
+    "ci_accuracy": 0.3535353535353535,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.005867875604684304,
+        "js_divergence": 0.0014893991847907875,
+        "baseline_accuracy": 0.675,
+        "steered_accuracy": 0.725,
+        "accuracy_delta": 0.04999999999999993,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.675,
+          "2864": 0.325
+        },
+        "steered_distribution": {
+          "2864": 0.275,
+          "2865": 0.725
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.011181072363964081,
+        "js_divergence": 0.002857037518302092,
+        "baseline_accuracy": 0.675,
+        "steered_accuracy": 0.7435897435897436,
+        "accuracy_delta": 0.06858974358974357,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 0.675,
+          "2864": 0.325
+        },
+        "steered_distribution": {
+          "2865": 0.7435897435897436,
+          "2864": 0.2564102564102564
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 86,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So total is 9549 + 450.7128 \u2248 9999.7128.",
+    "ci_kl": 0.20009514787381805,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 5.743940228379436,
+        "js_divergence": 0.10631478577187409,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 0.725,
+        "accuracy_delta": -0.275,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 0.725,
+          "2864": 0.275
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 87,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So, 1/(3183\u03c0) \u2248 1/9999.7128 \u2248 0.0001000028, which is just slightly above 0.0001.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 88,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So, since our interval is (0.0001, 0.001), which is open, does x = 0.0001000028 lie within the interval?",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.02531780798429,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.975,
+          "2866": 0.025
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.483424286895663,
+        "js_divergence": 0.01732867951399863,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 0.975,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.975,
+          "2866": 0.025
+        },
+        "steered_distribution": {
+          "2865": 0.975,
+          "2864": 0.025
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 89,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "Yes, because 0.0001000028 is greater than 0.0001.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 9,
+    "function_tags": [
+      "problem_setup"
+    ],
+    "chunk_text": "Let's write that as 0.0001 < x < 0.001.",
+    "ci_kl": 0.06436961352483134,
+    "ci_accuracy": 0.13131313131313138,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.5236795342482513,
+        "js_divergence": 0.020881325622197876,
+        "baseline_accuracy": 0.9,
+        "steered_accuracy": 0.9473684210526315,
+        "accuracy_delta": 0.047368421052631504,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.95,
+        "baseline_distribution": {
+          "2865": 0.9,
+          "2864": 0.1
+        },
+        "steered_distribution": {
+          "2865": 0.9473684210526315,
+          "2863": 0.02631578947368421,
+          "2864": 0.02631578947368421
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0037678956901223935,
+        "js_divergence": 0.0009815382539504515,
+        "baseline_accuracy": 0.9,
+        "steered_accuracy": 0.925,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.9,
+          "2864": 0.1
+        },
+        "steered_distribution": {
+          "2865": 0.925,
+          "2864": 0.075
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 90,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "So, n=3183 is included.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 91,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "Similarly, for n=319: x = 1/(319\u03c0) \u2248 1/(1003.5) \u2248 0.0009965, which is less than 0.001, so it's within the interval.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 92,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "Wait, but let me check if n=3183 gives x just above 0.0001, so it's included in the open interval (0.0001, 0.001).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": true,
+    "target_tags": [
+      "uncertainty_management"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 93,
+    "function_tags": [
+      "self_checking"
+    ],
+    "chunk_text": "Similarly, n=319 gives x just below 0.001, so it's included as well.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 94,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "Wait, but hold on, when n increases, x decreases, right?",
+    "ci_kl": 0.010050335643973571,
+    "ci_accuracy": 0.010000000000000009,
+    "is_target": true,
+    "target_tags": [
+      "uncertainty_management"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.02531780798429,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.975,
+          "2864": 0.025
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.02531780798429,
+        "js_divergence": 0.008743455793932257,
+        "baseline_accuracy": 0.975,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.025000000000000022,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 0.975,
+          "2864": 0.025
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 95,
+    "function_tags": [
+      "fact_retrieval"
+    ],
+    "chunk_text": "Because x = 1/(n\u03c0), so as n increases, x gets smaller.",
+    "ci_kl": 0.005449603567571907,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 96,
+    "function_tags": [
+      "active_computation"
+    ],
+    "chunk_text": "So, n=319 gives the largest x in the interval, which is just below 0.001, and n=3183 gives the smallest x in the interval, just above 0.0001.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 97,
+    "function_tags": [
+      "result_consolidation"
+    ],
+    "chunk_text": "Therefore, all n from 319 to 3183 inclusive will give x values within (0.0001, 0.001).",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 0.975,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 98,
+    "function_tags": [
+      "final_answer_emission"
+    ],
+    "chunk_text": "So, the number of x-intercepts is 3183 - 319 +1 = 2865.",
+    "ci_kl": 0.0,
+    "ci_accuracy": 0.0,
+    "is_target": false,
+    "target_tags": [],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  },
+  {
+    "position_idx": 99,
+    "function_tags": [
+      "uncertainty_management"
+    ],
+    "chunk_text": "Wait, but let me make sure that 3183\u03c0 is just over 10000, so 1/(3183\u03c0) is just under 0.0001, but wait, earlier calculation showed it's approximately 0.0001000028, which is just above 0.0001, so it's included.",
+    "ci_kl": 0.00947874373160932,
+    "ci_accuracy": 0.010101010101010055,
+    "is_target": true,
+    "target_tags": [
+      "uncertainty_management"
+    ],
+    "alpha_metrics": {
+      "-1.0": {
+        "alpha": -1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 1.0,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      },
+      "1.0": {
+        "alpha": 1.0,
+        "kl_divergence": 0.0,
+        "js_divergence": 0.0,
+        "baseline_accuracy": 1.0,
+        "steered_accuracy": 1.0,
+        "accuracy_delta": 0.0,
+        "n_baseline": 40,
+        "n_steered": 40,
+        "baseline_extraction_rate": 1.0,
+        "steered_extraction_rate": 0.975,
+        "baseline_distribution": {
+          "2865": 1.0
+        },
+        "steered_distribution": {
+          "2865": 1.0
+        }
+      }
+    }
+  }
+]

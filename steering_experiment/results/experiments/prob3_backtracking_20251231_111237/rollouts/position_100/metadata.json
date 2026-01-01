@@ -1,0 +1,13 @@
+{
+  "position_idx": 100,
+  "chunk_text": "Let's plug in the recurrence:",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1924,
+    1930
+  ]
+}

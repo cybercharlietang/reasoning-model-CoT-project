@@ -1,0 +1,13 @@
+{
+  "position_idx": 1,
+  "chunk_text": "Hmm, x-intercepts are where the function crosses the x-axis, which means y = 0.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.1367024513825096,
+  "ci_accuracy": -0.17918482440399897,
+  "steer_range": [
+    127,
+    147
+  ]
+}

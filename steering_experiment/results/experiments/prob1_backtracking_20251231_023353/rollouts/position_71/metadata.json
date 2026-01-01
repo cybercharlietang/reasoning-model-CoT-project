@@ -1,0 +1,13 @@
+{
+  "position_idx": 71,
+  "chunk_text": "Since x = 1/(n\u03c0), each n gives a unique x, and since n is an integer, each x is distinct and lies within the interval (0.0001, 0.001).",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.496628543030873,
+  "ci_accuracy": -0.09343434343434343,
+  "steer_range": [
+    1502,
+    1548
+  ]
+}

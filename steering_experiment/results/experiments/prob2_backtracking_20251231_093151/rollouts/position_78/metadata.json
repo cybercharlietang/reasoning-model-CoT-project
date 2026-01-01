@@ -1,0 +1,13 @@
+{
+  "position_idx": 78,
+  "chunk_text": "Wait, but I'm a bit confused because I remember in some problems, the hundreds place for 4 might not go all the way to 488, but in this case, it does because the book is 488 pages.",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1946,
+    1995
+  ]
+}

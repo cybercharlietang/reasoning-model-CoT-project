@@ -1,0 +1,13 @@
+{
+  "position_idx": 91,
+  "chunk_text": "Similarly, for n=319: x = 1/(319\u03c0) \u2248 1/(1003.5) \u2248 0.0009965, which is less than 0.001, so it's within the interval.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2301,
+    2362
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 65,
+  "chunk_text": "That's 5 sets, each with 10, so 50.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1675,
+    1691
+  ]
+}

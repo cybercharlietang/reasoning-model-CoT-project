@@ -1,0 +1,13 @@
+{
+  "position_idx": 13,
+  "chunk_text": "The first occurrence is at 4, and the last occurrence in the units place is at 484.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.2535552361875733,
+  "ci_accuracy": -0.14234042553191495,
+  "steer_range": [
+    362,
+    384
+  ]
+}

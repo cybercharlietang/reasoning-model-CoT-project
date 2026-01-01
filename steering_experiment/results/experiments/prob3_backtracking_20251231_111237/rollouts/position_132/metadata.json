@@ -1,0 +1,13 @@
+{
+  "position_idx": 132,
+  "chunk_text": "Which matches the earlier computation.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2388,
+    2393
+  ]
+}

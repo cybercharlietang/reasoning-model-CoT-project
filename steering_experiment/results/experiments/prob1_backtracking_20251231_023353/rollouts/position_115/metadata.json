@@ -1,0 +1,13 @@
+{
+  "position_idx": 115,
+  "chunk_text": "So, 1/(319\u03c0) \u2248 1/1002.168056 \u2248 0.00099784, which is less than 0.001, so it's included.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    3111,
+    3166
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 2,
+  "chunk_text": "So, I need to find how many times sin(1/x) equals zero in that interval.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.42437649409532757,
+  "ci_accuracy": -0.06529209621993126,
+  "steer_range": [
+    148,
+    167
+  ]
+}

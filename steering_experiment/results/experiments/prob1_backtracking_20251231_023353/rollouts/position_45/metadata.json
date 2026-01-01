@@ -1,0 +1,13 @@
+{
+  "position_idx": 45,
+  "chunk_text": "So, (3183 - 319) + 1 = (2864) + 1 = 2865.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.008219989363385274,
+  "ci_accuracy": -0.002525252525252597,
+  "steer_range": [
+    1011,
+    1043
+  ]
+}

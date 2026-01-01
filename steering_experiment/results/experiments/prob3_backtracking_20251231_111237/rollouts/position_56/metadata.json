@@ -1,0 +1,13 @@
+{
+  "position_idx": 56,
+  "chunk_text": "Wait, perhaps I should do it digit by digit:",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.20171827221084637,
+  "ci_accuracy": -0.010204081632653073,
+  "steer_range": [
+    1185,
+    1195
+  ]
+}

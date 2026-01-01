@@ -1,0 +1,13 @@
+{
+  "position_idx": 14,
+  "chunk_text": "Let's take the first inequality:",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.205607135396315,
+  "ci_accuracy": -0.03250578581948249,
+  "steer_range": [
+    401,
+    407
+  ]
+}

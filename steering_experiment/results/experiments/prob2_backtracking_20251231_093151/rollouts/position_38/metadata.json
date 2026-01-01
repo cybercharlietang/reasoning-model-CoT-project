@@ -1,0 +1,13 @@
+{
+  "position_idx": 38,
+  "chunk_text": "Now, let's count the number of 8's in the page numbers.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.009661910695708079,
+  "ci_accuracy": 0.010000000000000009,
+  "steer_range": [
+    992,
+    1007
+  ]
+}

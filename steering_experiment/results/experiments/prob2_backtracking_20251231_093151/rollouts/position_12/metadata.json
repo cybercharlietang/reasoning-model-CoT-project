@@ -1,0 +1,13 @@
+{
+  "position_idx": 12,
+  "chunk_text": "How many such numbers are there?",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.03485520090528852,
+  "ci_accuracy": 0.11468085106382975,
+  "steer_range": [
+    355,
+    361
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 4,
+  "chunk_text": "So, sin(\u03b8) = 0 when \u03b8 = n\u03c0, where n is any integer.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.029403491718542077,
+  "ci_accuracy": 0.07702020202020199,
+  "steer_range": [
+    190,
+    211
+  ]
+}

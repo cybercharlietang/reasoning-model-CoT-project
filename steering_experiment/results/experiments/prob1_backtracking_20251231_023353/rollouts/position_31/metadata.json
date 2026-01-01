@@ -1,0 +1,13 @@
+{
+  "position_idx": 31,
+  "chunk_text": "So, n can take integer values from 319 up to 3183.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.0002578083689648786,
+  "ci_accuracy": -0.005555555555555536,
+  "steer_range": [
+    748,
+    767
+  ]
+}

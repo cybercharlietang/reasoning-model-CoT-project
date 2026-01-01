@@ -1,0 +1,13 @@
+{
+  "position_idx": 11,
+  "chunk_text": "So, substituting x = 1/(n\u03c0), the inequalities become:",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.20680345992647683,
+  "ci_accuracy": 0.020618556701030855,
+  "steer_range": [
+    354,
+    369
+  ]
+}

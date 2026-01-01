@@ -1,0 +1,13 @@
+{
+  "position_idx": 15,
+  "chunk_text": "I'll number them from the innermost to the outermost:",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.2014136501378922,
+  "ci_accuracy": -0.010204081632653073,
+  "steer_range": [
+    376,
+    388
+  ]
+}

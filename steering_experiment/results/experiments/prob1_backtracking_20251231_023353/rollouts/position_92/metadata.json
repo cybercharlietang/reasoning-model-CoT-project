@@ -1,0 +1,13 @@
+{
+  "position_idx": 92,
+  "chunk_text": "Wait, but let me check if n=3183 gives x just above 0.0001, so it's included in the open interval (0.0001, 0.001).",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2363,
+    2410
+  ]
+}

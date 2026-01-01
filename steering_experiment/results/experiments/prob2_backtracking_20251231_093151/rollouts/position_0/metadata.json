@@ -1,0 +1,13 @@
+{
+  "position_idx": 0,
+  "chunk_text": "Okay, so I have this problem where I need to figure out how many more 4's are printed in the page numbers of a 488-page book compared to the number of 8's.",
+  "function_tags": [
+    "problem_setup"
+  ],
+  "ci_kl": 0.10874272020562578,
+  "ci_accuracy": -0.11857142857142855,
+  "steer_range": [
+    86,
+    127
+  ]
+}

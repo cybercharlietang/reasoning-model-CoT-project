@@ -1,0 +1,13 @@
+{
+  "position_idx": 72,
+  "chunk_text": "Correct. - Tens place: 80-89 (10), 180-189 (10), 280-289 (10), 380-389 (10), 480-488 (9).",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1797,
+    1860
+  ]
+}

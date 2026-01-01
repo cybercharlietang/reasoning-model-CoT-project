@@ -1,0 +1,13 @@
+{
+  "position_idx": 34,
+  "chunk_text": "Wait, let me double-check that.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.21378815443784707,
+  "ci_accuracy": 0.020404040404040424,
+  "steer_range": [
+    940,
+    947
+  ]
+}

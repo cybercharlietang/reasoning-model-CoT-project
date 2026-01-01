@@ -1,0 +1,13 @@
+{
+  "position_idx": 97,
+  "chunk_text": "Therefore, all n from 319 to 3183 inclusive will give x values within (0.0001, 0.001).",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2520,
+    2555
+  ]
+}

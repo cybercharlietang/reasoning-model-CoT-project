@@ -1,0 +1,13 @@
+{
+  "position_idx": 48,
+  "chunk_text": "So, x must be between 0.0001 and 0.001, which translates to 1/(n\u03c0) being in that interval.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.007799095680318908,
+  "ci_accuracy": 0.026555881394591085,
+  "steer_range": [
+    1067,
+    1101
+  ]
+}

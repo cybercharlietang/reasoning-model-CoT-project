@@ -1,0 +1,13 @@
+{
+  "position_idx": 3,
+  "chunk_text": "Let me start by recalling that sin(\u03b8) is zero when \u03b8 is an integer multiple of \u03c0.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.00170228202928481,
+  "ci_accuracy": -0.040385212799005865,
+  "steer_range": [
+    168,
+    189
+  ]
+}

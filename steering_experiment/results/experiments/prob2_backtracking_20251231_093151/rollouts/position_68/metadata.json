@@ -1,0 +1,13 @@
+{
+  "position_idx": 68,
+  "chunk_text": "Correct. Total 4's: 49 +50 +89=188.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1723,
+    1743
+  ]
+}

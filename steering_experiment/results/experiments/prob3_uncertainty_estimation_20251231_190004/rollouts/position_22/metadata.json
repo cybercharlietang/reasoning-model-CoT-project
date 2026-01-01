@@ -1,0 +1,13 @@
+{
+  "position_idx": 22,
+  "chunk_text": "Layer 1: 1 + 3 = 4",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    499,
+    510
+  ]
+}

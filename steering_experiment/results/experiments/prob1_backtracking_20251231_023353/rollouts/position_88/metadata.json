@@ -1,0 +1,13 @@
+{
+  "position_idx": 88,
+  "chunk_text": "So, since our interval is (0.0001, 0.001), which is open, does x = 0.0001000028 lie within the interval?",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2217,
+    2262
+  ]
+}

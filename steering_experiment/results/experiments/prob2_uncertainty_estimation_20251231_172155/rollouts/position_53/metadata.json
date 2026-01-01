@@ -1,0 +1,13 @@
+{
+  "position_idx": 53,
+  "chunk_text": "Adding up all the eights: units (49) + tens (49) + hundreds (0) = 98.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1410,
+    1437
+  ]
+}

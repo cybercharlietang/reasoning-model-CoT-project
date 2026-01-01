@@ -1,0 +1,13 @@
+{
+  "position_idx": 16,
+  "chunk_text": "But wait, does 484 count as the 49th occurrence?",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.6965100899855827,
+  "ci_accuracy": -0.18555555555555558,
+  "steer_range": [
+    436,
+    452
+  ]
+}

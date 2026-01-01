@@ -1,0 +1,13 @@
+{
+  "position_idx": 120,
+  "chunk_text": "a_n = (3/2)*3^n - 1/2 = (3^{n+1})/2 - 1/2",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2180,
+    2209
+  ]
+}

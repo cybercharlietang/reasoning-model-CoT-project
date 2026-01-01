@@ -1,0 +1,13 @@
+{
+  "position_idx": 41,
+  "chunk_text": "Let's see how many times that is.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.006584414949025537,
+  "ci_accuracy": 0.019010989010989077,
+  "steer_range": [
+    1058,
+    1066
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 84,
+  "chunk_text": "Layer 4: 1 + 3*40 = 1 + 120 = 121",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1569,
+    1593
+  ]
+}

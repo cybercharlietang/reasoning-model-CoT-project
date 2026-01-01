@@ -1,0 +1,13 @@
+{
+  "position_idx": 19,
+  "chunk_text": "So, maybe the innermost part is just 1 + 3, and each subsequent layer wraps around that.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.009389740122056262,
+  "ci_accuracy": 0.010101010101010055,
+  "steer_range": [
+    458,
+    480
+  ]
+}

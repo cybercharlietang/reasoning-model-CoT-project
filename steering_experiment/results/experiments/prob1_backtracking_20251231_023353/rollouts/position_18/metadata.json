@@ -1,0 +1,13 @@
+{
+  "position_idx": 18,
+  "chunk_text": "Then, dividing both sides by 0.0001\u03c0:",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.02023280885378883,
+  "ci_accuracy": 0.015000000000000013,
+  "steer_range": [
+    455,
+    469
+  ]
+}

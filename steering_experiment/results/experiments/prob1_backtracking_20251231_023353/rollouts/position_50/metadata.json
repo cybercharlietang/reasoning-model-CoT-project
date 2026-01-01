@@ -1,0 +1,13 @@
+{
+  "position_idx": 50,
+  "chunk_text": "Solving for n:",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.049283610597633615,
+  "ci_accuracy": 0.11711340206185572,
+  "steer_range": [
+    1133,
+    1137
+  ]
+}

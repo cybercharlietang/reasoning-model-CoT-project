@@ -1,0 +1,13 @@
+{
+  "position_idx": 76,
+  "chunk_text": "So, 188-98=90.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1917,
+    1929
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 40,
+  "chunk_text": "So, yes, 2864, then adding 1 gives 2865.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.00807869316207803,
+  "ci_accuracy": -0.04384615384615387,
+  "steer_range": [
+    918,
+    938
+  ]
+}

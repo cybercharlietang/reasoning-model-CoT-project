@@ -1,0 +1,13 @@
+{
+  "position_idx": 25,
+  "chunk_text": "Next, Layer 3:",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    557,
+    562
+  ]
+}

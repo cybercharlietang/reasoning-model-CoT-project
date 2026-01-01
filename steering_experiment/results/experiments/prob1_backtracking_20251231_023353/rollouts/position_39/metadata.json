@@ -1,0 +1,13 @@
+{
+  "position_idx": 39,
+  "chunk_text": "Let me compute 3183 - 300 = 2883, then subtract 19 more: 2883 - 19 = 2864.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.11647498857548887,
+  "ci_accuracy": 0.13,
+  "steer_range": [
+    875,
+    917
+  ]
+}

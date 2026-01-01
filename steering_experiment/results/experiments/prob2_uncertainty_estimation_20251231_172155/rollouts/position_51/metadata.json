@@ -1,0 +1,13 @@
+{
+  "position_idx": 51,
+  "chunk_text": "3. **Hundreds place:** The hundreds digit is 8 only in numbers from 800-899, but our book only goes up to 488, so there are no numbers with 8 in the hundreds place.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1351,
+    1401
+  ]
+}

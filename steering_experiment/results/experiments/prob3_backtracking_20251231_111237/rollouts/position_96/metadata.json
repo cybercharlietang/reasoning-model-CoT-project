@@ -1,0 +1,13 @@
+{
+  "position_idx": 96,
+  "chunk_text": "Let me write it as:",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1849,
+    1854
+  ]
+}

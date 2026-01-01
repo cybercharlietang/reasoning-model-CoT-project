@@ -1,0 +1,13 @@
+{
+  "position_idx": 6,
+  "chunk_text": "First, I notice that the expression is a nested set of terms where each term is 1 plus 3 times another similar expression.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 1.1939933447203601,
+  "ci_accuracy": -0.09941520467836251,
+  "steer_range": [
+    182,
+    208
+  ]
+}

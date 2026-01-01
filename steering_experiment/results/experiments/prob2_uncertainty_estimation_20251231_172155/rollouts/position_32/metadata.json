@@ -1,0 +1,13 @@
+{
+  "position_idx": 32,
+  "chunk_text": "Now, adding up all the fours: units (49) + tens (50) + hundreds (89) = 49 + 50 = 99, plus 89 is 188.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.015831462763723037,
+  "ci_accuracy": 0.020000000000000018,
+  "steer_range": [
+    880,
+    927
+  ]
+}

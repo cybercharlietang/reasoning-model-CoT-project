@@ -1,0 +1,13 @@
+{
+  "position_idx": 0,
+  "chunk_text": "Okay, so I've got this math problem here that I need to solve.",
+  "function_tags": [
+    "problem_setup"
+  ],
+  "ci_kl": 1.3408385993061906,
+  "ci_accuracy": -0.13261480787253987,
+  "steer_range": [
+    71,
+    86
+  ]
+}

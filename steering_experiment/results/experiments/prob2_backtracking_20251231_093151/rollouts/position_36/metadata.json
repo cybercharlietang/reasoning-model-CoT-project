@@ -1,0 +1,13 @@
+{
+  "position_idx": 36,
+  "chunk_text": "49+50=99, 99+89=188.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    965,
+    985
+  ]
+}

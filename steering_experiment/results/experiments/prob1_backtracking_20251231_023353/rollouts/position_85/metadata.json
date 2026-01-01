@@ -1,0 +1,13 @@
+{
+  "position_idx": 85,
+  "chunk_text": "Adding those up: 318.3 + 127.32 = 445.62 + 5.0928 \u2248 450.7128.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.31527000954973305,
+  "ci_accuracy": 0.3535353535353535,
+  "steer_range": [
+    2086,
+    2131
+  ]
+}

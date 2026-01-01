@@ -1,0 +1,13 @@
+{
+  "position_idx": 5,
+  "chunk_text": "So, the first few pages are single-digit (1-9), then two-digit (10-99), and then three-digit (100-488).",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.4734460148181592,
+  "ci_accuracy": -0.002873563218390829,
+  "steer_range": [
+    192,
+    228
+  ]
+}

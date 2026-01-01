@@ -1,0 +1,13 @@
+{
+  "position_idx": 92,
+  "chunk_text": "Alternatively, I could think of this as a geometric series or find a pattern, but given that it's only 9 layers, computing each step is manageable.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1760,
+    1791
+  ]
+}

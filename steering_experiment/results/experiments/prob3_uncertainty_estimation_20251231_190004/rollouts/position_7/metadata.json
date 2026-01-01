@@ -1,0 +1,13 @@
+{
+  "position_idx": 7,
+  "chunk_text": "It seems like there's a repeating pattern here, which might mean that I can solve it by working from the innermost parentheses outward.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.04509419253533205,
+  "ci_accuracy": 0.0845164152617569,
+  "steer_range": [
+    209,
+    235
+  ]
+}

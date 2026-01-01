@@ -1,0 +1,13 @@
+{
+  "position_idx": 69,
+  "chunk_text": "So, the number of x-intercepts is 2865.",
+  "function_tags": [
+    "final_answer_emission"
+  ],
+  "ci_kl": 0.004266948452088033,
+  "ci_accuracy": 0.05249999999999999,
+  "steer_range": [
+    1466,
+    1480
+  ]
+}

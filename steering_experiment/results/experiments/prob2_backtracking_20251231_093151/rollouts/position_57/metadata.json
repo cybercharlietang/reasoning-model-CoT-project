@@ -1,0 +1,13 @@
+{
+  "position_idx": 57,
+  "chunk_text": "Now, the problem asks how many more 4's are printed than 8's.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1473,
+    1490
+  ]
+}

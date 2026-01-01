@@ -1,0 +1,13 @@
+{
+  "position_idx": 99,
+  "chunk_text": "The general solution for such a recurrence is a_n = A*3^n + B, where A and B are constants determined by initial conditions.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1895,
+    1923
+  ]
+}

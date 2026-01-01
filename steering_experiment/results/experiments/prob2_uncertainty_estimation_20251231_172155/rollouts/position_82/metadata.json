@@ -1,0 +1,13 @@
+{
+  "position_idx": 82,
+  "chunk_text": "Wait, but let me think again about the tens place for 8's.",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2074,
+    2089
+  ]
+}

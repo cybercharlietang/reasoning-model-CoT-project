@@ -1,0 +1,13 @@
+{
+  "position_idx": 135,
+  "chunk_text": "Alternatively, if I had noticed the pattern earlier, I could have used the closed-form expression to compute a_9 directly without computing each layer.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2434,
+    2462
+  ]
+}

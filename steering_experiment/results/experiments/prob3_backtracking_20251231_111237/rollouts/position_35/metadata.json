@@ -1,0 +1,13 @@
+{
+  "position_idx": 35,
+  "chunk_text": "So after computing Layer 9 as 29524, I need to multiply that by 3.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    883,
+    905
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 79,
+  "chunk_text": "So, from 400 to 488 inclusive, that's 89 numbers, each contributing a 4 in the hundreds place.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1996,
+    2026
+  ]
+}

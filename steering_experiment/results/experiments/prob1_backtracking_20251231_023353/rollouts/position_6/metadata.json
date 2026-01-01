@@ -1,0 +1,13 @@
+{
+  "position_idx": 6,
+  "chunk_text": "That means x = 1/(n\u03c0).",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.33116713001959025,
+  "ci_accuracy": 0.26086956521739135,
+  "steer_range": [
+    235,
+    244
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 43,
+  "chunk_text": "Let me think: if n starts at 319 and ends at 3183, how many terms are there?",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.018749431959976484,
+  "ci_accuracy": 0.11159420289855082,
+  "steer_range": [
+    972,
+    998
+  ]
+}

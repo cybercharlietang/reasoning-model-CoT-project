@@ -1,0 +1,13 @@
+{
+  "position_idx": 118,
+  "chunk_text": "Wait, but let me just make sure that I didn't make any miscalculations in the subtraction.",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    3203,
+    3224
+  ]
+}

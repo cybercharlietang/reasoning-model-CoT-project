@@ -1,0 +1,13 @@
+{
+  "position_idx": 18,
+  "chunk_text": "That's 49 numbers because from 0 to 484, every 10 numbers have a 4 in the units place.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.033475094466570196,
+  "ci_accuracy": 0.05918367346938769,
+  "steer_range": [
+    474,
+    503
+  ]
+}

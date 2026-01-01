@@ -1,0 +1,13 @@
+{
+  "position_idx": 136,
+  "chunk_text": "But since the number of layers isn't too large, computing step by step is feasible.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2463,
+    2480
+  ]
+}

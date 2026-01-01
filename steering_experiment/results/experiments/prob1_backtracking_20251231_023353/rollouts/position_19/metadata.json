@@ -1,0 +1,13 @@
+{
+  "position_idx": 19,
+  "chunk_text": "n < 1 / (0.0001\u03c0)",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.15246853961952486,
+  "ci_accuracy": 0.14141414141414144,
+  "steer_range": [
+    470,
+    483
+  ]
+}

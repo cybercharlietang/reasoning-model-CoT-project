@@ -1,0 +1,13 @@
+{
+  "position_idx": 82,
+  "chunk_text": "Let's check:",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.01271425594451312,
+  "ci_accuracy": 0.039675101530771695,
+  "steer_range": [
+    1945,
+    1948
+  ]
+}

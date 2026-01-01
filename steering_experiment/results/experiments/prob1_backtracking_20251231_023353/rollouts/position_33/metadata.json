@@ -1,0 +1,13 @@
+{
+  "position_idx": 33,
+  "chunk_text": "So, the number of integers is 3183 - 319 + 1.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.17509384934087252,
+  "ci_accuracy": 0.1717171717171717,
+  "steer_range": [
+    800,
+    820
+  ]
+}

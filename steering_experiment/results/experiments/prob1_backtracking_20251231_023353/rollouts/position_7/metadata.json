@@ -1,0 +1,13 @@
+{
+  "position_idx": 7,
+  "chunk_text": "So, each x-intercept occurs at x = 1/(n\u03c0) for some integer n.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.002586204827706568,
+  "ci_accuracy": -0.03535353535353536,
+  "steer_range": [
+    245,
+    265
+  ]
+}

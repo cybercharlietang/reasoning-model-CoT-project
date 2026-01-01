@@ -1,0 +1,13 @@
+{
+  "position_idx": 84,
+  "chunk_text": "So, 9 eights in the tens place for that set.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2120,
+    2133
+  ]
+}

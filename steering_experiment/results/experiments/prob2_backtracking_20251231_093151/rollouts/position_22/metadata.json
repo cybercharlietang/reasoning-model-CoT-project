@@ -1,0 +1,13 @@
+{
+  "position_idx": 22,
+  "chunk_text": "Wait, but the book only goes up to 488, so the last set would be 440-449, right?",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.08243653207617363,
+  "ci_accuracy": -0.07714285714285707,
+  "steer_range": [
+    592,
+    622
+  ]
+}

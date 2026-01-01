@@ -1,0 +1,13 @@
+{
+  "position_idx": 99,
+  "chunk_text": "Wait, but let me make sure that 3183\u03c0 is just over 10000, so 1/(3183\u03c0) is just under 0.0001, but wait, earlier calculation showed it's approximately 0.0001000028, which is just above 0.0001, so it's included.",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.00947874373160932,
+  "ci_accuracy": 0.010101010101010055,
+  "steer_range": [
+    2584,
+    2668
+  ]
+}

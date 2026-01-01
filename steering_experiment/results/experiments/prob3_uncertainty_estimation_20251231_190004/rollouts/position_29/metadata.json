@@ -1,0 +1,13 @@
+{
+  "position_idx": 29,
+  "chunk_text": "Layer 6: Layer 6: 1 + 3*(Layer 5) = 1 + 3*364 = 1 + 1092 = 1093",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    678,
+    720
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 81,
+  "chunk_text": "Another way to check is to consider that in the hundreds place, the 4's appear 89 times, which is a significant number, contributing a lot to the total count of 4's.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2033,
+    2073
+  ]
+}

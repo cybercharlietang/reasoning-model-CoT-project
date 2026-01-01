@@ -1,0 +1,13 @@
+{
+  "position_idx": 63,
+  "chunk_text": "Using the formula: (5 - 2) +1 = 4.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1383,
+    1398
+  ]
+}

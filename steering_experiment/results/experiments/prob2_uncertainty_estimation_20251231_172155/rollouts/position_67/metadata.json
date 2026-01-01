@@ -1,0 +1,13 @@
+{
+  "position_idx": 67,
+  "chunk_text": "488 - 400 +1 = 89.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1707,
+    1722
+  ]
+}

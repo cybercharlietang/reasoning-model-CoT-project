@@ -1,0 +1,13 @@
+{
+  "position_idx": 2,
+  "chunk_text": "The problem is:",
+  "function_tags": [
+    "problem_setup"
+  ],
+  "ci_kl": 0.2466139615415829,
+  "ci_accuracy": 0.15039929015084297,
+  "steer_range": [
+    113,
+    116
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 34,
+  "chunk_text": "Calculating that:",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.016951377963293907,
+  "ci_accuracy": -0.061717171717171726,
+  "steer_range": [
+    821,
+    824
+  ]
+}

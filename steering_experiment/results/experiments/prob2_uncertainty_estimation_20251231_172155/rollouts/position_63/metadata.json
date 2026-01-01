@@ -1,0 +1,13 @@
+{
+  "position_idx": 63,
+  "chunk_text": "So, from 0 to 484, every 10 numbers, so 484 /10 =48.4, but since we include 4, it's 49 times.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1565,
+    1609
+  ]
+}

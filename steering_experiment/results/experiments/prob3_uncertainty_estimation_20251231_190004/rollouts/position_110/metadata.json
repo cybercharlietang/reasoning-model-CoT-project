@@ -1,0 +1,13 @@
+{
+  "position_idx": 110,
+  "chunk_text": "A*3^n + B = 1 + A*3^n + 3B",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2050,
+    2067
+  ]
+}

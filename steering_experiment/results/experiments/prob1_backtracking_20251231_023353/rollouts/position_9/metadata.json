@@ -1,0 +1,13 @@
+{
+  "position_idx": 9,
+  "chunk_text": "Let's write that as 0.0001 < x < 0.001.",
+  "function_tags": [
+    "problem_setup"
+  ],
+  "ci_kl": 0.06436961352483134,
+  "ci_accuracy": 0.13131313131313138,
+  "steer_range": [
+    293,
+    314
+  ]
+}

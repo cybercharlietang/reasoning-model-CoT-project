@@ -1,0 +1,13 @@
+{
+  "position_idx": 73,
+  "chunk_text": "When n = 319, x = 1/(319\u03c0) \u2248 1/(1003.5) \u2248 0.0009965, which is greater than 0.0001 and less than 0.001, right?",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.812206500699054,
+  "ci_accuracy": -0.5714285714285714,
+  "steer_range": [
+    1558,
+    1623
+  ]
+}

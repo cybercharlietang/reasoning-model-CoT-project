@@ -1,0 +1,13 @@
+{
+  "position_idx": 98,
+  "chunk_text": "This is a linear recurrence, and we can solve it to find a closed-form expression.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1877,
+    1894
+  ]
+}

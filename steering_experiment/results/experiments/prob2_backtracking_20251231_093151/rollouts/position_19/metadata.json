@@ -1,0 +1,13 @@
+{
+  "position_idx": 19,
+  "chunk_text": "So, 484 is the 49th occurrence.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.026300918037857685,
+  "ci_accuracy": 0.06857142857142862,
+  "steer_range": [
+    504,
+    517
+  ]
+}

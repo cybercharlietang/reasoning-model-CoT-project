@@ -1,0 +1,13 @@
+{
+  "position_idx": 85,
+  "chunk_text": "So, 10+10+10+10+9=49.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2134,
+    2153
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 24,
+  "chunk_text": "Each block of 100 numbers (e.g., 1-100, 101-200, etc.) has 10 numbers where the tens digit is 4.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.025446614923592903,
+  "ci_accuracy": 0.050000000000000044,
+  "steer_range": [
+    637,
+    679
+  ]
+}

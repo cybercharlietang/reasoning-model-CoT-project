@@ -1,0 +1,13 @@
+{
+  "position_idx": 35,
+  "chunk_text": "Units place: 49, tens:50, hundreds:89.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.039441730867683183,
+  "ci_accuracy": 0.030000000000000027,
+  "steer_range": [
+    948,
+    964
+  ]
+}

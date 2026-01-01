@@ -1,0 +1,13 @@
+{
+  "position_idx": 17,
+  "chunk_text": "And so on, up to Layer 9, which is the outermost one.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    428,
+    444
+  ]
+}

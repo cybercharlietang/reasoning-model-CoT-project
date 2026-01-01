@@ -1,0 +1,13 @@
+{
+  "position_idx": 75,
+  "chunk_text": "9*3=27 +1=28, write 8, carry 2.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1427,
+    1447
+  ]
+}

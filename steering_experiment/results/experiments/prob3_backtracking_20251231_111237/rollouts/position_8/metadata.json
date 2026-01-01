@@ -1,0 +1,13 @@
+{
+  "position_idx": 8,
+  "chunk_text": "That makes sense because each opening parenthesis must be closed eventually, so starting from the inside would be logical.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.7246951458423414,
+  "ci_accuracy": 0.027856986181180043,
+  "steer_range": [
+    236,
+    256
+  ]
+}

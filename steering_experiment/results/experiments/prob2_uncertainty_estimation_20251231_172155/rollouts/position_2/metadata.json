@@ -1,0 +1,13 @@
+{
+  "position_idx": 2,
+  "chunk_text": "First, I think I should consider how page numbers are structured.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.5739488098443316,
+  "ci_accuracy": 0.002545500827287772,
+  "steer_range": [
+    139,
+    151
+  ]
+}

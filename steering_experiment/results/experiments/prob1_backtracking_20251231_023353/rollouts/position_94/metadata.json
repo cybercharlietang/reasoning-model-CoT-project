@@ -1,0 +1,13 @@
+{
+  "position_idx": 94,
+  "chunk_text": "Wait, but hold on, when n increases, x decreases, right?",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.010050335643973571,
+  "ci_accuracy": 0.010000000000000009,
+  "steer_range": [
+    2436,
+    2450
+  ]
+}

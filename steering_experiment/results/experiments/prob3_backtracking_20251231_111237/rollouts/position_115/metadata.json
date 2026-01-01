@@ -1,0 +1,13 @@
+{
+  "position_idx": 115,
+  "chunk_text": "Now, using the initial condition a_1 = 4.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2103,
+    2115
+  ]
+}

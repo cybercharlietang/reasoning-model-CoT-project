@@ -1,0 +1,13 @@
+{
+  "position_idx": 86,
+  "chunk_text": "Correct. So, I think my calculations are correct, and the difference is 90.",
+  "function_tags": [
+    "final_answer_emission"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2154,
+    2172
+  ]
+}

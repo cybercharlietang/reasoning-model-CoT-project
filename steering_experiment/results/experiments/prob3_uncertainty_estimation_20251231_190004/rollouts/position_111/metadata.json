@@ -1,0 +1,13 @@
+{
+  "position_idx": 111,
+  "chunk_text": "Subtract A*3^n from both sides:",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2068,
+    2076
+  ]
+}

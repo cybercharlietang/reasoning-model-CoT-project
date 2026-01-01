@@ -1,0 +1,13 @@
+{
+  "position_idx": 121,
+  "chunk_text": "Simplify: a_n = (3^{n+1} - 1)/2",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2210,
+    2227
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 95,
+  "chunk_text": "Because x = 1/(n\u03c0), so as n increases, x gets smaller.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.005449603567571907,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2451,
+    2468
+  ]
+}

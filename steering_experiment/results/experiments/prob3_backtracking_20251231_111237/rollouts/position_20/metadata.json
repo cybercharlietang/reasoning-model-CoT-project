@@ -1,0 +1,13 @@
+{
+  "position_idx": 20,
+  "chunk_text": "Let me try to compute each layer step by step.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.7416969486360135,
+  "ci_accuracy": -0.03448275862068961,
+  "steer_range": [
+    481,
+    491
+  ]
+}

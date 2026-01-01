@@ -1,0 +1,13 @@
+{
+  "position_idx": 4,
+  "chunk_text": "Since the book has 488 pages, the page numbers go from 1 to 488.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    169,
+    191
+  ]
+}

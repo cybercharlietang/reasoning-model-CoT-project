@@ -1,0 +1,13 @@
+{
+  "position_idx": 110,
+  "chunk_text": "Similarly, for n=3183, x \u2248 0.0001000031, which is within the interval.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2967,
+    2999
+  ]
+}

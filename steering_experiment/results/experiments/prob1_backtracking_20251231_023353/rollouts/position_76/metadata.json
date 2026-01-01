@@ -1,0 +1,13 @@
+{
+  "position_idx": 76,
+  "chunk_text": "Wait, hold on, the interval is (0.0001, 0.001), which is open, so x cannot be exactly 0.0001 or 0.001.",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.0212609028188473,
+  "ci_accuracy": -0.010829948974278858,
+  "steer_range": [
+    1706,
+    1752
+  ]
+}

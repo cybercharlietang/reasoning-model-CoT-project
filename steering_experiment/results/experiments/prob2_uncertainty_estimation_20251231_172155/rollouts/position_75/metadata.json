@@ -1,0 +1,13 @@
+{
+  "position_idx": 75,
+  "chunk_text": "Total 8's:49+49=98.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1903,
+    1916
+  ]
+}

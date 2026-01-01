@@ -1,0 +1,13 @@
+{
+  "position_idx": 83,
+  "chunk_text": "From 480-488, that's 9 numbers: 480,481,...,488.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2090,
+    2119
+  ]
+}

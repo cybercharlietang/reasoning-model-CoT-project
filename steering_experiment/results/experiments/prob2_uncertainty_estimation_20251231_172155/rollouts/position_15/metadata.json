@@ -1,0 +1,13 @@
+{
+  "position_idx": 15,
+  "chunk_text": "Since we can't have a fraction of a number, we take the integer part, which is 48.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.07524065798056095,
+  "ci_accuracy": -0.032371569317382054,
+  "steer_range": [
+    413,
+    435
+  ]
+}

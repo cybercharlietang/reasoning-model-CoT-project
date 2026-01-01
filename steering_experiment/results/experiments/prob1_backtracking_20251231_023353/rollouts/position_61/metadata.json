@@ -1,0 +1,13 @@
+{
+  "position_idx": 61,
+  "chunk_text": "The numbers are 2,3,4,5.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.022379712631608074,
+  "ci_accuracy": -0.002272727272727315,
+  "steer_range": [
+    1365,
+    1376
+  ]
+}

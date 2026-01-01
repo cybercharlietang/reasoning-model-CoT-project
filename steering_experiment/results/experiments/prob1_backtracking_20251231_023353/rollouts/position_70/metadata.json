@@ -1,0 +1,13 @@
+{
+  "position_idx": 70,
+  "chunk_text": "Wait, but let me make sure that each n corresponds to exactly one x-intercept in that interval.",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.02963455357398717,
+  "ci_accuracy": -0.07976314872866597,
+  "steer_range": [
+    1481,
+    1501
+  ]
+}

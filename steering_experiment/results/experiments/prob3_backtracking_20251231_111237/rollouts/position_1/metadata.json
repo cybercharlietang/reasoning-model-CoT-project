@@ -1,0 +1,13 @@
+{
+  "position_idx": 1,
+  "chunk_text": "It looks a bit complicated at first glance, but maybe if I break it down step by step, it'll make more sense.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.4948866556898441,
+  "ci_accuracy": -0.03737373737373739,
+  "steer_range": [
+    87,
+    112
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 6,
+  "chunk_text": "I need to count how many times the digit 4 appears in all these page numbers and how many times the digit 8 appears.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.061617632409328243,
+  "ci_accuracy": 0.07608695652173914,
+  "steer_range": [
+    229,
+    255
+  ]
+}

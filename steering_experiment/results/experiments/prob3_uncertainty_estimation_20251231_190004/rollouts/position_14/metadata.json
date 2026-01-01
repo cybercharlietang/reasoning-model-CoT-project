@@ -1,0 +1,13 @@
+{
+  "position_idx": 14,
+  "chunk_text": "Let's start by labeling each layer for clarity.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 1.643989121357653,
+  "ci_accuracy": -0.08413554100885634,
+  "steer_range": [
+    366,
+    375
+  ]
+}

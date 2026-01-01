@@ -1,0 +1,13 @@
+{
+  "position_idx": 96,
+  "chunk_text": "So, n=319 gives the largest x in the interval, which is just below 0.001, and n=3183 gives the smallest x in the interval, just above 0.0001.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2469,
+    2519
+  ]
+}

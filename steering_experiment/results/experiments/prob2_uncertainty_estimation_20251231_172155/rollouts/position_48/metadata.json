@@ -1,0 +1,13 @@
+{
+  "position_idx": 48,
+  "chunk_text": "Let's count each set.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1235,
+    1240
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 45,
+  "chunk_text": "So, 49 eights in the units place.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1138,
+    1149
+  ]
+}

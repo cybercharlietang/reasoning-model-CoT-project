@@ -1,0 +1,13 @@
+{
+  "position_idx": 53,
+  "chunk_text": "9 * 3 = 27, write down 7, carry over 2.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1122,
+    1141
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 122,
+  "chunk_text": "So, 3183 - 319 = 2864, plus 1 is 2865.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    3299,
+    3327
+  ]
+}

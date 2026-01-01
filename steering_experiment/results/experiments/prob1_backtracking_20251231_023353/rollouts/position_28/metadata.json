@@ -1,0 +1,13 @@
+{
+  "position_idx": 28,
+  "chunk_text": "So, n must be greater than approximately 318.309 and less than approximately 3183.098.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 1.0530699045283602,
+  "ci_accuracy": -0.02164502164502169,
+  "steer_range": [
+    636,
+    665
+  ]
+}

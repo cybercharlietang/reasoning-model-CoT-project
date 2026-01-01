@@ -1,0 +1,13 @@
+{
+  "position_idx": 74,
+  "chunk_text": "5*3=15, write 5, carry 1.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1411,
+    1426
+  ]
+}

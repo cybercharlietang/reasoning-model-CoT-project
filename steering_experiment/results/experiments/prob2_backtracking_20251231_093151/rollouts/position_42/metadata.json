@@ -1,0 +1,13 @@
+{
+  "position_idx": 42,
+  "chunk_text": "The first occurrence is 8, and the last is 488.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.05918886976549061,
+  "ci_accuracy": 0.06999999999999995,
+  "steer_range": [
+    1067,
+    1082
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 100,
+  "chunk_text": "Wait, perhaps I should compute 1/(3183\u03c0) more accurately.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.2324796982953988,
+  "ci_accuracy": -0.011627906976744207,
+  "steer_range": [
+    2669,
+    2686
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 79,
+  "chunk_text": "So, 1/(3183\u03c0) \u2248 0.0001, but since 3183\u03c0 is approximately 10000, 1/(3183\u03c0) is exactly 0.0001.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.027485572200704328,
+  "ci_accuracy": 0.22448979591836732,
+  "steer_range": [
+    1845,
+    1901
+  ]
+}

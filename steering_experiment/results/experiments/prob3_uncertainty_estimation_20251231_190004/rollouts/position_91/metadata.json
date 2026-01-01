@@ -1,0 +1,13 @@
+{
+  "position_idx": 91,
+  "chunk_text": "Yes, that seems correct.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1754,
+    1759
+  ]
+}

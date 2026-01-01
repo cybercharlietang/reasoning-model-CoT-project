@@ -1,0 +1,13 @@
+{
+  "position_idx": 11,
+  "chunk_text": "For example, 4, 14, 24, ..., up to 484.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.3866014504003662,
+  "ci_accuracy": 0.0832786885245902,
+  "steer_range": [
+    333,
+    354
+  ]
+}

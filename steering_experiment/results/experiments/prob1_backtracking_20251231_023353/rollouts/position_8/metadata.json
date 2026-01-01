@@ -1,0 +1,13 @@
+{
+  "position_idx": 8,
+  "chunk_text": "Now, I need to find all such x in the interval (0.0001, 0.001).",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.2207454369767782,
+  "ci_accuracy": -0.25128865979381443,
+  "steer_range": [
+    266,
+    292
+  ]
+}

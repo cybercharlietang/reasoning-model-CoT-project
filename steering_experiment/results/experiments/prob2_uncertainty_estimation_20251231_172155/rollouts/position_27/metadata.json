@@ -1,0 +1,13 @@
+{
+  "position_idx": 27,
+  "chunk_text": "So that's 5 sets of 10, which is 50 fours in the tens place.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.012422519452578563,
+  "ci_accuracy": 0.020000000000000018,
+  "steer_range": [
+    768,
+    789
+  ]
+}

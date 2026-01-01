@@ -1,0 +1,13 @@
+{
+  "position_idx": 40,
+  "chunk_text": "1. **Units place (ones place):** The 8 appears every 10 numbers, like 8, 18, 28, ..., up to 488.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1017,
+    1057
+  ]
+}

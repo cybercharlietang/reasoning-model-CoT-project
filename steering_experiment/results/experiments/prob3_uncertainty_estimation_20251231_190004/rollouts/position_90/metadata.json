@@ -1,0 +1,13 @@
+{
+  "position_idx": 90,
+  "chunk_text": "Then 3 * 29524 = 88572",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1737,
+    1753
+  ]
+}

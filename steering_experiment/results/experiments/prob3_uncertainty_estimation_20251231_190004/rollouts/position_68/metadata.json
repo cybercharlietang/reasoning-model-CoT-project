@@ -1,0 +1,13 @@
+{
+  "position_idx": 68,
+  "chunk_text": "Write down 8.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.48777769363124474,
+  "ci_accuracy": -0.02352941176470591,
+  "steer_range": [
+    1332,
+    1336
+  ]
+}

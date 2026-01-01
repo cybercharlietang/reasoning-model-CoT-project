@@ -1,0 +1,13 @@
+{
+  "position_idx": 74,
+  "chunk_text": "Similarly, when n = 3183, x = 1/(3183\u03c0) \u2248 1/(10000.0) \u2248 0.0001, but since our interval is open, (0.0001, 0.001), we don't include the endpoints.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.033750823462141005,
+  "ci_accuracy": 0.12118885720552752,
+  "steer_range": [
+    1624,
+    1697
+  ]
+}

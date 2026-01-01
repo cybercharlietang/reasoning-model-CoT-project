@@ -1,0 +1,13 @@
+{
+  "position_idx": 93,
+  "chunk_text": "Similarly, n=319 gives x just below 0.001, so it's included as well.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2411,
+    2435
+  ]
+}

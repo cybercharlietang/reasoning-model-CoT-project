@@ -1,0 +1,13 @@
+{
+  "position_idx": 108,
+  "chunk_text": "So total 3183\u03c0 \u2248 9424.77796 + 574.91145 \u2248 9999.68941",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.005830919553507869,
+  "ci_accuracy": 0.010101010101010055,
+  "steer_range": [
+    2844,
+    2888
+  ]
+}

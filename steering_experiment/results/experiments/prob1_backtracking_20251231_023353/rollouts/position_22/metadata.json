@@ -1,0 +1,13 @@
+{
+  "position_idx": 22,
+  "chunk_text": "Similarly, the second inequality:",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.010090552185462065,
+  "ci_accuracy": -0.041212121212121255,
+  "steer_range": [
+    538,
+    543
+  ]
+}

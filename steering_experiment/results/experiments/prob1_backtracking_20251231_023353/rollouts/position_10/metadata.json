@@ -1,0 +1,13 @@
+{
+  "position_idx": 10,
+  "chunk_text": "Since x is positive and between 0.0001 and 0.001, I can substitute x with 1/(n\u03c0) to find the range of n.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.019183170329399046,
+  "ci_accuracy": -0.010000000000000009,
+  "steer_range": [
+    315,
+    353
+  ]
+}

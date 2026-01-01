@@ -1,0 +1,13 @@
+{
+  "position_idx": 24,
+  "chunk_text": "Multiplying both sides by n\u03c0:",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.053527503581850856,
+  "ci_accuracy": -0.04040404040404044,
+  "steer_range": [
+    557,
+    564
+  ]
+}

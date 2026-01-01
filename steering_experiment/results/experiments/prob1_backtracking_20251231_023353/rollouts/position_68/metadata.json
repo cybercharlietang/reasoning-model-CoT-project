@@ -1,0 +1,13 @@
+{
+  "position_idx": 68,
+  "chunk_text": "Correct. So, applying the same logic, 3183 - 319 +1 = 2865.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.01170285670518937,
+  "ci_accuracy": -0.0709183673469388,
+  "steer_range": [
+    1438,
+    1465
+  ]
+}

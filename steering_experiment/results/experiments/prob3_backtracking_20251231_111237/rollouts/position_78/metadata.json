@@ -1,0 +1,13 @@
+{
+  "position_idx": 78,
+  "chunk_text": "Therefore, the final answer is 88572.",
+  "function_tags": [
+    "final_answer_emission"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1473,
+    1485
+  ]
+}

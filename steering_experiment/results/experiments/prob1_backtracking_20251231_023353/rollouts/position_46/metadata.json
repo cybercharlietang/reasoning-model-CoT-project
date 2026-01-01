@@ -1,0 +1,13 @@
+{
+  "position_idx": 46,
+  "chunk_text": "So, that seems correct.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.051785517174243595,
+  "ci_accuracy": -0.08843537414965985,
+  "steer_range": [
+    1044,
+    1049
+  ]
+}

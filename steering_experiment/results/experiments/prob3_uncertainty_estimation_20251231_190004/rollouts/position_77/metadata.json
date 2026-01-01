@@ -1,0 +1,13 @@
+{
+  "position_idx": 77,
+  "chunk_text": "So yes, 88572.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1463,
+    1472
+  ]
+}

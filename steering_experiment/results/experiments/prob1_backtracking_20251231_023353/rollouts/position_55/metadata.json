@@ -1,0 +1,13 @@
+{
+  "position_idx": 55,
+  "chunk_text": "So, n must be integers greater than 318.309 and less than 3183.098, which as integers is n from 319 to 3183 inclusive.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.012772843308818678,
+  "ci_accuracy": -0.023195876288659822,
+  "steer_range": [
+    1215,
+    1261
+  ]
+}

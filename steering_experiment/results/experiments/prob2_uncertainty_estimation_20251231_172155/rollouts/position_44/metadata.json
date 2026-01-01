@@ -1,0 +1,13 @@
+{
+  "position_idx": 44,
+  "chunk_text": "The number of terms is (488 - 8)/10 + 1 = (480)/10 +1 = 48 +1 =49.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.028560874213514397,
+  "ci_accuracy": -0.022258064516128995,
+  "steer_range": [
+    1100,
+    1137
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 101,
+  "chunk_text": "a_n = 1 + 3*a_{n-1}",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1931,
+    1944
+  ]
+}

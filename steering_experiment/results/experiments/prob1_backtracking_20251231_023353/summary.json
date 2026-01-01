@@ -1,0 +1,39 @@
+{
+  "problem": {
+    "idx": "problem_6998",
+    "type": "Precalculus",
+    "gt_answer": "2865",
+    "num_chunks": 125
+  },
+  "positions_tested": 125,
+  "target_positions": [
+    41,
+    57,
+    81
+  ],
+  "control_positions": [
+    1,
+    9,
+    17,
+    25,
+    33,
+    49,
+    65,
+    73,
+    89,
+    97,
+    105,
+    113,
+    121
+  ],
+  "generation_stats": {
+    "total_generations": 15000,
+    "hit_max_tokens": 6600,
+    "extraction_failures": 314,
+    "steering_warnings": 0
+  },
+  "elapsed_time_seconds": 25060.481364011765,
+  "timestamp": "2025-12-31T09:31:49.332909",
+  "merged_from_gpus": 8,
+  "merge_timestamp": "2025-12-31T09:31:50.440932"
+}

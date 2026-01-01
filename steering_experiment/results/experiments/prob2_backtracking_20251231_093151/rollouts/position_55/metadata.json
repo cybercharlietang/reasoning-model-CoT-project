@@ -1,0 +1,13 @@
+{
+  "position_idx": 55,
+  "chunk_text": "Units:49, tens:49, so 49+49=98.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1446,
+    1466
+  ]
+}

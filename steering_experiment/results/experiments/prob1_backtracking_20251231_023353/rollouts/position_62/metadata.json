@@ -1,0 +1,13 @@
+{
+  "position_idx": 62,
+  "chunk_text": "That's 4 numbers.",
+  "function_tags": [
+    "result_consolidation"
+  ],
+  "ci_kl": 0.006612184246031635,
+  "ci_accuracy": 0.012957317073170715,
+  "steer_range": [
+    1377,
+    1382
+  ]
+}

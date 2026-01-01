@@ -1,0 +1,13 @@
+{
+  "position_idx": 49,
+  "chunk_text": "- 80-89: 10 numbers\n   - 180-189:10\n   - 280-289:10\n   - 380-389:10\n   - 480-488:9 numbers (since 488 is the last page)",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1241,
+    1319
+  ]
+}

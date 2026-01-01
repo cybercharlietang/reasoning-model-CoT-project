@@ -1,0 +1,13 @@
+{
+  "position_idx": 112,
+  "chunk_text": "B = 1 + 3B",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2077,
+    2084
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 12,
+  "chunk_text": "So, each layer adds another 3 times some expression.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.4750944609233453,
+  "ci_accuracy": -0.051948051948051965,
+  "steer_range": [
+    337,
+    348
+  ]
+}

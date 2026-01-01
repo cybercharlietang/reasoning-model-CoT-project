@@ -1,0 +1,13 @@
+{
+  "position_idx": 33,
+  "chunk_text": "Wait a second, but the original expression is 3 times Layer 9, right?",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    855,
+    872
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 106,
+  "chunk_text": "1 + 3*A*3^{n-1} + 3*B = 1 + A*3^n + 3B",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1994,
+    2022
+  ]
+}

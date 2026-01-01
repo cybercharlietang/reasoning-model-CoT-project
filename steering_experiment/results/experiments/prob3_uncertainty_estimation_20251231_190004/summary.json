@@ -1,0 +1,41 @@
+{
+  "problem": {
+    "idx": "problem_330",
+    "type": "Algebra",
+    "gt_answer": "88572",
+    "num_chunks": 139
+  },
+  "positions_tested": 139,
+  "target_positions": [
+    33
+  ],
+  "control_positions": [
+    1,
+    9,
+    17,
+    25,
+    41,
+    49,
+    57,
+    65,
+    73,
+    81,
+    89,
+    97,
+    105,
+    113,
+    121,
+    129,
+    137
+  ],
+  "generation_stats": {
+    "total_generations": 16680,
+    "hit_max_tokens": 1720,
+    "extraction_failures": 111,
+    "steering_warnings": 0
+  },
+  "elapsed_time_seconds": 13129.026048660278,
+  "timestamp": "2025-12-31T22:39:07.903078",
+  "merged_from_gpus": 8,
+  "merge_timestamp": "2025-12-31T22:39:09.021566"
+}

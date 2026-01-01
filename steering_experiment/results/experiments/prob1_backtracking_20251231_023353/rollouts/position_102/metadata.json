@@ -1,0 +1,13 @@
+{
+  "position_idx": 102,
+  "chunk_text": "3183 * \u03c0 = 3183 * 3.1415926535 \u2248",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2698,
+    2726
+  ]
+}

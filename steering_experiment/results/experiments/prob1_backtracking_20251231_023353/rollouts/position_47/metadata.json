@@ -1,0 +1,13 @@
+{
+  "position_idx": 47,
+  "chunk_text": "But let me double-check the initial inequalities to make sure I didn't flip anything.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.26083767795768464,
+  "ci_accuracy": -0.1141414141414141,
+  "steer_range": [
+    1050,
+    1066
+  ]
+}

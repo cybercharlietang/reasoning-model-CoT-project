@@ -1,0 +1,13 @@
+{
+  "position_idx": 42,
+  "chunk_text": "Sometimes when counting integers between two numbers, it's easy to miscalculate.",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.0018984643165124299,
+  "ci_accuracy": -0.03138029405310516,
+  "steer_range": [
+    956,
+    971
+  ]
+}

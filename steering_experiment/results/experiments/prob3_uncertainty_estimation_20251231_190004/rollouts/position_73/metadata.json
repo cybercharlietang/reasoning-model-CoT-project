@@ -1,0 +1,13 @@
+{
+  "position_idx": 73,
+  "chunk_text": "2*3=6 +1=7, write 7.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1396,
+    1410
+  ]
+}

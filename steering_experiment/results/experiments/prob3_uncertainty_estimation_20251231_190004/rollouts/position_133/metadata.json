@@ -1,0 +1,13 @@
+{
+  "position_idx": 133,
+  "chunk_text": "Then, the entire expression is 3*a_9 = 3*29524 = 88572",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2394,
+    2420
+  ]
+}

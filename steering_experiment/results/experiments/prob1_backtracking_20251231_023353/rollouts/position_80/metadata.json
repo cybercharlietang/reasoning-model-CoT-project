@@ -1,0 +1,13 @@
+{
+  "position_idx": 80,
+  "chunk_text": "But since the interval is open, we don't include x = 0.0001.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.022293754979077554,
+  "ci_accuracy": -0.16304937601736297,
+  "steer_range": [
+    1902,
+    1922
+  ]
+}

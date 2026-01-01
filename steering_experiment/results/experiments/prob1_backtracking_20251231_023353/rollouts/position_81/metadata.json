@@ -1,0 +1,13 @@
+{
+  "position_idx": 81,
+  "chunk_text": "So, does n = 3183 give x = 0.0001 exactly?",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.0025111072747123833,
+  "ci_accuracy": -0.007575757575757569,
+  "steer_range": [
+    1923,
+    1944
+  ]
+}

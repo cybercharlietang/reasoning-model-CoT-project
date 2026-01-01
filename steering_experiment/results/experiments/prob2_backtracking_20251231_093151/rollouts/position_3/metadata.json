@@ -1,0 +1,13 @@
+{
+  "position_idx": 3,
+  "chunk_text": "Each page number can be a one-digit, two-digit, or three-digit number.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.2998455344127869,
+  "ci_accuracy": 0.27,
+  "steer_range": [
+    152,
+    168
+  ]
+}

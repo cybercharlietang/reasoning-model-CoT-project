@@ -1,0 +1,13 @@
+{
+  "position_idx": 43,
+  "chunk_text": "So, from 8 to 488, stepping by 10.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.5362658133826254,
+  "ci_accuracy": -0.07035876001393249,
+  "steer_range": [
+    1083,
+    1099
+  ]
+}

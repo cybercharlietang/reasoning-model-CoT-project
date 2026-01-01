@@ -1,0 +1,13 @@
+{
+  "position_idx": 27,
+  "chunk_text": "n > 1 / (0.001\u03c0) = 1000 / \u03c0 \u2248 1000 / 3.1416 \u2248 318.309",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    590,
+    635
+  ]
+}

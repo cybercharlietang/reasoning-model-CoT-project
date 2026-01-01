@@ -1,0 +1,13 @@
+{
+  "position_idx": 28,
+  "chunk_text": "3. **Hundreds place:** The hundreds digit is 4 in numbers from 400-488.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.02090668442836662,
+  "ci_accuracy": 0.010000000000000009,
+  "steer_range": [
+    790,
+    814
+  ]
+}

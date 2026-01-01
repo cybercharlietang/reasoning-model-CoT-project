@@ -1,0 +1,13 @@
+{
+  "position_idx": 125,
+  "chunk_text": "3^3 = 27 3^4 = 81",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2278,
+    2293
+  ]
+}

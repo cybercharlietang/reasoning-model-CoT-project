@@ -1,0 +1,13 @@
+{
+  "position_idx": 85,
+  "chunk_text": "Layer 5: 1 + 3*121 = 1 + 363 = 364",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1594,
+    1619
+  ]
+}

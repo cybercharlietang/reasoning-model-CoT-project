@@ -1,0 +1,13 @@
+{
+  "position_idx": 87,
+  "chunk_text": "Layer 7: 1 + 3*1093 = 1 + 3279 = 3280",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1648,
+    1676
+  ]
+}

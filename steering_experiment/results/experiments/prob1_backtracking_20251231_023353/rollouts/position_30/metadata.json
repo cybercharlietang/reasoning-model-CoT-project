@@ -1,0 +1,13 @@
+{
+  "position_idx": 30,
+  "chunk_text": "The smallest integer greater than 318.309 is 319, and the largest integer less than 3183.098 is 3183.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.011983061356833018,
+  "ci_accuracy": -0.0273469387755102,
+  "steer_range": [
+    707,
+    747
+  ]
+}

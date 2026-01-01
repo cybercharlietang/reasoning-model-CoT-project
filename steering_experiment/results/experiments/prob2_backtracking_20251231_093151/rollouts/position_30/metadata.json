@@ -1,0 +1,13 @@
+{
+  "position_idx": 30,
+  "chunk_text": "From 400 to 488 inclusive, that's 89 numbers (since 488 - 400 + 1 = 89).",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.03617965007547006,
+  "ci_accuracy": 0.050000000000000044,
+  "steer_range": [
+    823,
+    859
+  ]
+}

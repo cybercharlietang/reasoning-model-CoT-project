@@ -1,0 +1,13 @@
+{
+  "position_idx": 61,
+  "chunk_text": "Let me recount the 4's:",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1542,
+    1549
+  ]
+}

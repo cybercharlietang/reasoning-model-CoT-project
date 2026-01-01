@@ -1,0 +1,13 @@
+{
+  "position_idx": 134,
+  "chunk_text": "So, both methods give the same result, which is reassuring.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2421,
+    2433
+  ]
+}

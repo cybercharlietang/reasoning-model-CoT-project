@@ -1,0 +1,13 @@
+{
+  "position_idx": 103,
+  "chunk_text": "Let me compute 3000 * \u03c0 = 9424.77796",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2727,
+    2748
+  ]
+}

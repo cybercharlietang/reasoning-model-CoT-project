@@ -1,0 +1,13 @@
+{
+  "position_idx": 34,
+  "chunk_text": "Because the entire expression is 3*(...).",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    873,
+    882
+  ]
+}

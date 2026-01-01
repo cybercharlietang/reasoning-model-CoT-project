@@ -1,0 +1,13 @@
+{
+  "position_idx": 57,
+  "chunk_text": "Wait, but let me think again: when I subtract 3183 - 319, that's 2864, and adding 1 gives 2865.",
+  "function_tags": [
+    "uncertainty_management"
+  ],
+  "ci_kl": 0.0010570834161857008,
+  "ci_accuracy": -0.03040935672514622,
+  "steer_range": [
+    1289,
+    1329
+  ]
+}

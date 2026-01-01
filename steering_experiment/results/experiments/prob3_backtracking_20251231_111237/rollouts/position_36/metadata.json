@@ -1,0 +1,13 @@
+{
+  "position_idx": 36,
+  "chunk_text": "So, the final step would be:",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    906,
+    913
+  ]
+}

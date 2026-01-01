@@ -1,0 +1,13 @@
+{
+  "position_idx": 77,
+  "chunk_text": "So, there are 90 more 4's than 8's.",
+  "function_tags": [
+    "final_answer_emission"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1930,
+    1945
+  ]
+}

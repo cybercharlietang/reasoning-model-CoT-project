@@ -1,0 +1,13 @@
+{
+  "position_idx": 23,
+  "chunk_text": "Let's count how many times 4 appears in the tens place.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.7013134609875248,
+  "ci_accuracy": -0.033333333333333326,
+  "steer_range": [
+    623,
+    636
+  ]
+}

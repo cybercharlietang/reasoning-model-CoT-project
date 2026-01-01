@@ -1,0 +1,13 @@
+{
+  "position_idx": 55,
+  "chunk_text": "Wait, but 29524 has digits: 2,9,5,2,4.",
+  "function_tags": [
+    "fact_retrieval"
+  ],
+  "ci_kl": 0.010050335646067225,
+  "ci_accuracy": 0.010000000000000009,
+  "steer_range": [
+    1162,
+    1184
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 16,
+  "chunk_text": "Multiplying both sides by n\u03c0 (since n is positive, the inequality direction remains the same):",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0002108286037131174,
+  "ci_accuracy": 0.0032294124953421433,
+  "steer_range": [
+    422,
+    441
+  ]
+}

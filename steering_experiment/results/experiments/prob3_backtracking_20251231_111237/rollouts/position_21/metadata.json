@@ -1,0 +1,13 @@
+{
+  "position_idx": 21,
+  "chunk_text": "Starting with the innermost parentheses:",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    492,
+    498
+  ]
+}

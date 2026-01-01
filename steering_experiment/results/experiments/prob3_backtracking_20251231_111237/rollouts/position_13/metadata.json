@@ -1,0 +1,13 @@
+{
+  "position_idx": 13,
+  "chunk_text": "Maybe I can compute each layer one by one, starting from the innermost part.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 1.0918779995320496,
+  "ci_accuracy": -0.039999999999999925,
+  "steer_range": [
+    349,
+    365
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "position_idx": 77,
+  "chunk_text": "So, when n approaches 3183, x approaches 0.0001 from above, and when n approaches 319, x approaches 0.001 from below.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.41205629719688325,
+  "ci_accuracy": 0.0010632642211589882,
+  "steer_range": [
+    1753,
+    1795
+  ]
+}

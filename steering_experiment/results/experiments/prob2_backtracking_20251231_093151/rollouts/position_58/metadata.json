@@ -1,0 +1,13 @@
+{
+  "position_idx": 58,
+  "chunk_text": "So, subtract the number of 8's from the number of 4's: 188 - 98 = 90.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    1491,
+    1520
+  ]
+}

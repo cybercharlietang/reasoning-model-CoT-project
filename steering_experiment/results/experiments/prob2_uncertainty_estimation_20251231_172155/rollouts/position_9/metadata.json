@@ -1,0 +1,13 @@
+{
+  "position_idx": 9,
+  "chunk_text": "I'll go through each digit position separately: units, tens, and hundreds.",
+  "function_tags": [
+    "plan_generation"
+  ],
+  "ci_kl": 0.12220458928926067,
+  "ci_accuracy": 0.15444444444444438,
+  "steer_range": [
+    291,
+    306
+  ]
+}

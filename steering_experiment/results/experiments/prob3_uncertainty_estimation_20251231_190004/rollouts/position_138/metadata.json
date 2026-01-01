@@ -1,0 +1,13 @@
+{
+  "position_idx": 138,
+  "chunk_text": "**Final Answer**\nThe value of the expression is \\boxed{88572}.",
+  "function_tags": [
+    "final_answer_emission"
+  ],
+  "ci_kl": 0.0,
+  "ci_accuracy": 0.0,
+  "steer_range": [
+    2510,
+    2528
+  ]
+}

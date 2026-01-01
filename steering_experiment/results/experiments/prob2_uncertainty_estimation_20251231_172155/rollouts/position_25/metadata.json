@@ -1,0 +1,13 @@
+{
+  "position_idx": 25,
+  "chunk_text": "So, from 40-49: 10 numbers, 140-149: 10, 240-249:10, 340-349:10, and 440-449:10.",
+  "function_tags": [
+    "active_computation"
+  ],
+  "ci_kl": 0.6102430521373539,
+  "ci_accuracy": -0.040000000000000036,
+  "steer_range": [
+    680,
+    744
+  ]
+}

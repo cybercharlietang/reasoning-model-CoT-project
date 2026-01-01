@@ -1,0 +1,13 @@
+{
+  "position_idx": 17,
+  "chunk_text": "Let me check: 4, 14, 24, ..., 484.",
+  "function_tags": [
+    "self_checking"
+  ],
+  "ci_kl": 0.08085702221855746,
+  "ci_accuracy": -0.09516129032258058,
+  "steer_range": [
+    453,
+    473
+  ]
+}
